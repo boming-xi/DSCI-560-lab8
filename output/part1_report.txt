@@ -1,0 +1,26 @@
+Lab 8 Part 1 Report
+
+Data Source:
+- Input: data/clean.json
+- Documents: 200
+
+Doc2Vec Configurations:
+- d2v_vs50: vector_size=50, min_count=2, epochs=40, window=8, dm=1
+- d2v_vs100: vector_size=100, min_count=2, epochs=40, window=8, dm=1
+- d2v_vs200: vector_size=200, min_count=2, epochs=40, window=8, dm=1
+
+Clustering:
+- KMeans on L2-normalized vectors (equivalent to cosine distance).
+- K selected by silhouette score (cosine) within the configured range.
+
+Quantitative Comparison:
+d2v_vs200 | vector_size=200 | k=2 | silhouette=0.9811 | avg_intra=0.9751
+d2v_vs100 | vector_size=100 | k=2 | silhouette=0.9688 | avg_intra=0.9666
+d2v_vs50 | vector_size=50 | k=2 | silhouette=0.9585 | avg_intra=0.9508
+
+Best Config (quantitative):
+d2v_vs200 with vector_size=200 (silhouette=0.9811, avg_intra=0.9751)
+
+Conclusion:
+- Best quantitative config: d2v_vs200 (vector_size=200).
+- Review the cluster reports for qualitative coherence and note representative topics.

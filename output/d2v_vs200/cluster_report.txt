@@ -1,0 +1,31 @@
+Doc2Vec Config
+Name = d2v_vs200
+Vector Size = 200
+Min Count = 2
+Epochs = 40
+Window = 8
+DM = 1
+
+K = 2
+Documents = 200
+Silhouette Score (cosine) = 0.9811
+
+Cluster 0 (size=198)
+Keywords: new, ai, scientists, cells, cancer, breakthrough, human, brain
+Avg Intra Similarity: 0.9849
+Samples:
+- 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+  New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+- 1o0i23l: New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.
+  New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis
+- 1oym5mb: Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.
+  Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...
+
+Cluster 1 (size=2)
+Keywords: wound, drug, film, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 0.009
+Samples:
+- 1ond2wz: Designing better, longer-lasting medicines
+  Designing better longer lasting medicines
+- 1oaotd7: Sake to the stars: Japan’s lunar brewing experiment set for takeoff
+  Sake to the stars Japan s lunar brewing experiment set for takeoff

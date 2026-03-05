@@ -1,0 +1,33 @@
+Doc2Vec Config
+Name = d2v_vs100
+Vector Size = 100
+Min Count = 2
+Epochs = 40
+Window = 8
+DM = 1
+
+K = 2
+Documents = 200
+Silhouette Score (cosine) = 0.9688
+
+Cluster 0 (size=3)
+Keywords: new, wound, fight, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 0.0423
+Samples:
+- 1ond2wz: Designing better, longer-lasting medicines
+  Designing better longer lasting medicines
+- 1oaotd7: Sake to the stars: Japan’s lunar brewing experiment set for takeoff
+  Sake to the stars Japan s lunar brewing experiment set for takeoff
+- 1ql87uu: New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’
+  New filtration technology could be gamechanger in removal of Pfas forever chemicals
+
+Cluster 1 (size=197)
+Keywords: new, ai, scientists, cells, cancer, breakthrough, human, brain
+Avg Intra Similarity: 0.9807
+Samples:
+- 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+  New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+- 1o0i23l: New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.
+  New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis
+- 1owvj8c: Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help
+  Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help

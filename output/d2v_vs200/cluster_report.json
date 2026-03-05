@@ -1,0 +1,90 @@
+{
+  "config": {
+    "name": "d2v_vs200",
+    "vector_size": 200,
+    "min_count": 2,
+    "epochs": 40,
+    "window": 8,
+    "dm": 1
+  },
+  "k": 2,
+  "num_docs": 200,
+  "silhouette_score": 0.9811,
+  "k_scores": {
+    "2": 0.9811,
+    "3": 0.9667,
+    "4": 0.9654,
+    "5": 0.8798,
+    "6": 0.8261,
+    "7": 0.673,
+    "8": 0.6581,
+    "9": 0.609,
+    "10": 0.3047
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 198,
+      "avg_intra_similarity": 0.9849,
+      "keywords": [
+        "new",
+        "ai",
+        "scientists",
+        "cells",
+        "cancer",
+        "breakthrough",
+        "human",
+        "brain"
+      ],
+      "samples": [
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.9997
+        },
+        {
+          "id": "1o0i23l",
+          "title": "New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.",
+          "preview": "New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis",
+          "score": 0.9996
+        },
+        {
+          "id": "1oym5mb",
+          "title": "Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.",
+          "preview": "Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...",
+          "score": 0.9996
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 2,
+      "avg_intra_similarity": 0.009,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ond2wz",
+          "title": "Designing better, longer-lasting medicines",
+          "preview": "Designing better longer lasting medicines",
+          "score": 0.7103
+        },
+        {
+          "id": "1oaotd7",
+          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
+          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
+          "score": 0.7103
+        }
+      ]
+    }
+  ]
+}

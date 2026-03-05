@@ -1,0 +1,8 @@
+Doc2Vec Config Comparison (higher is better)
+
+d2v_vs200 | vector_size=200 | k=2 | silhouette=0.9811 | avg_intra=0.9751
+d2v_vs100 | vector_size=100 | k=2 | silhouette=0.9688 | avg_intra=0.9666
+d2v_vs50 | vector_size=50 | k=2 | silhouette=0.9585 | avg_intra=0.9508
+
+Best Config (quantitative):
+d2v_vs200 with vector_size=200 (silhouette=0.9811, avg_intra=0.9751)

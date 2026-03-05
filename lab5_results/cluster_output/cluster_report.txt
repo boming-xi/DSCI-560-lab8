@@ -1,0 +1,43 @@
+K = 4
+Documents = 100
+Silhouette Score = 0.0489
+
+Cluster 0 (size=19)
+Keywords: plants, graphene, battery, batteries, cells, 3d, lithium, ion
+Samples:
+- 1qpcts9: A new chemical trick could extend lithium-ion battery life without redesigning cells
+  A new chemical trick could extend lithium ion battery life without redesigning cells
+- 1qz9ri2: 3D-printed batteries aim to reshape energy storage in small devices
+  3D printed batteries aim to reshape energy storage in small devices
+- 1poa0sn: ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30%
+  ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30
+
+Cluster 1 (size=38)
+Keywords: scientists, new, blood, switch, cells, stops, dna, uses
+Samples:
+- 1pfqaa8: First-ever drug to repair DNA and regenerate damaged tissue is here
+  First ever drug to repair DNA and regenerate damaged tissue is here
+- 1qlvhas: Scientists May Have Found a Blueprint to Revive Old Cells
+  Scientists May Have Found a Blueprint to Revive Old Cells
+- 1q0dhrx: Injectable antibodies in nanoparticles could replace hour-long infusions
+  Injectable antibodies in nanoparticles could replace hour long infusions
+
+Cluster 2 (size=28)
+Keywords: ai, implant, models, robotic, underwater, robots, robot, controlled
+Samples:
+- 1pgjktv: MIT researchers “speak objects into existence” using AI and robotics
+  MIT researchers speak objects into existence using AI and robotics
+- 1qoi3w1: Models that improve on their own are AI's next big thing
+  Models that improve on their own are AI s next big thing
+- 1pvdysj: World's smallest autonomous robots could one day save your life
+  World s smallest autonomous robots could one day save your life
+
+Cluster 3 (size=15)
+Keywords: quantum, engineers, heat, world, speed, fusion, efficient, laser
+Samples:
+- 1qi5qap: Magnets produced at room temperature using lasers could produce faster non-silicon processors
+  Magnets produced at room temperature using lasers could produce faster non silicon processors
+- 1qkk54s: Billion-times more efficient fusion unlocked with low-frequency laser
+  Billion times more efficient fusion unlocked with low frequency laser
+- 1qtwjfo: Engineers just found a way to cool quantum systems using microwave noise
+  Engineers just found a way to cool quantum systems using microwave noise

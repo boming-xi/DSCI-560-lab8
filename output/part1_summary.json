@@ -1,0 +1,29 @@
+[
+  {
+    "name": "d2v_vs200",
+    "vector_size": 200,
+    "min_count": 2,
+    "epochs": 40,
+    "k": 2,
+    "silhouette_score": 0.9811,
+    "avg_intra_similarity": 0.9751
+  },
+  {
+    "name": "d2v_vs100",
+    "vector_size": 100,
+    "min_count": 2,
+    "epochs": 40,
+    "k": 2,
+    "silhouette_score": 0.9688,
+    "avg_intra_similarity": 0.9666
+  },
+  {
+    "name": "d2v_vs50",
+    "vector_size": 50,
+    "min_count": 2,
+    "epochs": 40,
+    "k": 2,
+    "silhouette_score": 0.9585,
+    "avg_intra_similarity": 0.9508
+  }
+]
