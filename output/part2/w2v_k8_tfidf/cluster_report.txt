@@ -1,0 +1,77 @@
+Config       : w2v_k8
+Word Bins K  : 8
+Weighting    : tfidf
+Doc Clusters : 7
+Documents    : 200
+Silhouette   : 0.2937
+Davies-Bouldin: 1.4913
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: alternative, identify, computers, chips, sensor, found, as, lasers
+  Bin   1: weight, chronic, and, thing, drugs, damage, light, treating
+  Bin   2: the, patch, to, on, autonomous, off, interstellar, loss
+  Bin   3: robotic, therapy, from, in, low, researchers, mice, printed
+  Bin   4: fusion, human, such, dyes, heal, safe, plastic, film
+
+Cluster 0 (size=19, avg_sim=0.7126)
+Samples:
+  - 1nxscj6: A groundbreaking study has revealed that your mom and dad’s DNA don’t just pass on telomere length, they actively reshape it in the first days of life, influencing how we age and our risk of developing diseases such as cancer.
+    A groundbreaking study has revealed that your mom and dad s DNA don t just pass on telomere length they actively reshape it in the first days of life influencing how we age and our risk of...
+  - 1q5jrtz: First US at-home depression kit on its way after trial shows relief in weeks
+    First US at home depression kit on its way after trial shows relief in weeks
+  - 1phd3lf: Underwater arms race: How robot subs will outwit next-gen sonar
+    Underwater arms race How robot subs will outwit next gen sonar
+
+Cluster 1 (size=28, avg_sim=0.7378)
+Samples:
+  - 1pd5ufz: DragonFire laser weapon takes down high-speed drones
+    DragonFire laser weapon takes down high speed drones
+  - 1nwzuea: NASA moon rover project pushes extreme battery tech to its limits
+    NASA moon rover project pushes extreme battery tech to its limits
+  - 1qyf0di: This fusion energy startup thinks it can cut lasers out of the equation
+    This fusion energy startup thinks it can cut lasers out of the equation
+
+Cluster 2 (size=40, avg_sim=0.7494)
+Samples:
+  - 1qfejyt: Scientists create a spray-on powder that seals life-threatening wounds in seconds
+    Scientists create a spray on powder that seals life threatening wounds in seconds
+  - 1qg9dem: Chemists determine the structure of the fuzzy coat that surrounds Tau proteins
+    Chemists determine the structure of the fuzzy coat that surrounds Tau proteins
+  - 1ow04l6: Interstellar-inspired TARS3D may be first such robot that both walks and rolls | Scientists have created a real-life functional version of the TARS robot from the movie Interstellar
+    Interstellar inspired TARS3D may be first such robot that both walks and rolls Scientists have created a real life functional version of the TARS robot from the movie Interstellar
+
+Cluster 3 (size=32, avg_sim=0.7529)
+Samples:
+  - 1nzfpoi: How Wi-Fi Signals Can Be Used to Detect Your Heartbeat | Contactless pulse monitoring opens up new wearable possibilities
+    How Wi Fi Signals Can Be Used to Detect Your Heartbeat Contactless pulse monitoring opens up new wearable possibilities
+  - 1oym5mb: Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.
+    Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...
+  - 1pqmdwz: Scientists find a way to 'reboot' vision in adults with lazy eye
+    Scientists find a way to reboot vision in adults with lazy eye
+
+Cluster 4 (size=29, avg_sim=0.671)
+Samples:
+  - 1nvzkbv: Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.
+    Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...
+  - 1oozy3b: A New Light-Based Cancer Treatment Kills Tumor Cells and Spares Healthy Ones
+    A New Light Based Cancer Treatment Kills Tumor Cells and Spares Healthy Ones
+  - 1qpyl7w: Scientists Identify an Epigenetic Switch That Can Slow Production of Fat Cells
+    Scientists Identify an Epigenetic Switch That Can Slow Production of Fat Cells
+
+Cluster 5 (size=36, avg_sim=0.7351)
+Samples:
+  - 1nv6bxv: Oak Ridge's new 3D printer can mix and match materials at massive scale | Scientists unveil multiplexed nozzle for next-generation 3D printing
+    Oak Ridge s new 3D printer can mix and match materials at massive scale Scientists unveil multiplexed nozzle for next generation 3D printing
+  - 1osjysu: Giving buildings an “MRI” to make them more energy-efficient and resilient | Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.
+    Giving buildings an MRI to make them more energy efficient and resilient Lamarr AI uses drones thermal imaging and AI to help property owners make targeted investments in their buildings
+  - 1pajpr5: Stretchy battery inspired by lemons improves voltage and cell life
+    Stretchy battery inspired by lemons improves voltage and cell life
+
+Cluster 6 (size=16, avg_sim=0.702)
+Samples:
+  - 1op363o: Simple saliva test catches heart failure before you know you have it
+    Simple saliva test catches heart failure before you know you have it
+  - 1qj3ubg: MIT’s new ‘recursive’ framework lets LLMs process 10 million tokens without context rot
+    MIT s new recursive framework lets LLMs process 10 million tokens without context rot
+  - 1o6eogc: Two-pronged approach cuts sleep apnea events by 68%
+    Two pronged approach cuts sleep apnea events by 68

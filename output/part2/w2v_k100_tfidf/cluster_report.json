@@ -1,0 +1,247 @@
+{
+  "bin_config": "w2v_k100",
+  "k_word_bins": 100,
+  "weighting": "tfidf",
+  "doc_clusters_k": 9,
+  "num_docs": 200,
+  "silhouette_cosine": 0.0514,
+  "davies_bouldin": 3.8512,
+  "k_scores": {
+    "2": 0.0383,
+    "3": 0.0354,
+    "4": 0.0353,
+    "5": 0.0409,
+    "6": 0.0433,
+    "7": 0.0443,
+    "8": 0.0437,
+    "9": 0.0514,
+    "10": 0.048
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 39,
+      "avg_intra_similarity": 0.1725,
+      "samples": [
+        {
+          "id": "1nw0fgn",
+          "title": "Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.",
+          "preview": "Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures",
+          "score": 0.6824
+        },
+        {
+          "id": "1osl0gs",
+          "title": "New therapeutic brain implants could defy the need for surgery",
+          "preview": "New therapeutic brain implants could defy the need for surgery",
+          "score": 0.6477
+        },
+        {
+          "id": "1ov3lkv",
+          "title": "MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders",
+          "preview": "MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...",
+          "score": 0.5808
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 17,
+      "avg_intra_similarity": 0.2717,
+      "samples": [
+        {
+          "id": "1qcnwbl",
+          "title": "Scientists develop nanophotonic material that changes color, texture, and shape on demand",
+          "preview": "Scientists develop nanophotonic material that changes color texture and shape on demand",
+          "score": 0.7581
+        },
+        {
+          "id": "1qfejyt",
+          "title": "Scientists create a spray-on powder that seals life-threatening wounds in seconds",
+          "preview": "Scientists create a spray on powder that seals life threatening wounds in seconds",
+          "score": 0.6974
+        },
+        {
+          "id": "1ql2wxh",
+          "title": "Why Apple and OpenAI are reportedly betting on AI hardware in 2026",
+          "preview": "Why Apple and OpenAI are reportedly betting on AI hardware in 2026",
+          "score": 0.6958
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 16,
+      "avg_intra_similarity": 0.1793,
+      "samples": [
+        {
+          "id": "1qr22va",
+          "title": "Days numbered for 'risky' lithium-ion batteries, scientists say, after fast-charging breakthrough in sodium-ion alternative",
+          "preview": "Days numbered for risky lithium ion batteries scientists say after fast charging breakthrough in sodium ion alternative",
+          "score": 0.7094
+        },
+        {
+          "id": "1qeftaw",
+          "title": "AI models are starting to crack high-level math problems",
+          "preview": "AI models are starting to crack high level math problems",
+          "score": 0.5983
+        },
+        {
+          "id": "1q7f4wz",
+          "title": "AI Models Are Starting to Learn by Asking Themselves Questions",
+          "preview": "AI Models Are Starting to Learn by Asking Themselves Questions",
+          "score": 0.5666
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 32,
+      "avg_intra_similarity": 0.1497,
+      "samples": [
+        {
+          "id": "1ou7znr",
+          "title": "One-off lipid-lowering gene therapy a success in world-first human trial | A new gene therapy lowered two heart disease-related lipids in a human clinical trial",
+          "preview": "One off lipid lowering gene therapy a success in world first human trial A new gene therapy lowered two heart disease related lipids in a human clinical trial",
+          "score": 0.7691
+        },
+        {
+          "id": "1ovyj9z",
+          "title": "Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients",
+          "preview": "Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients",
+          "score": 0.6353
+        },
+        {
+          "id": "1o24xx8",
+          "title": "New daily pill shows strong results in ulcerative colitis clinical trial",
+          "preview": "New daily pill shows strong results in ulcerative colitis clinical trial",
+          "score": 0.6115
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 12,
+      "avg_intra_similarity": 0.2757,
+      "samples": [
+        {
+          "id": "1p78c7n",
+          "title": "3D-printable concrete alternative hardens in three days, not four weeks",
+          "preview": "3D printable concrete alternative hardens in three days not four weeks",
+          "score": 0.7351
+        },
+        {
+          "id": "1nw5nqm",
+          "title": "MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.",
+          "preview": "MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times",
+          "score": 0.6805
+        },
+        {
+          "id": "1pajpr5",
+          "title": "Stretchy battery inspired by lemons improves voltage and cell life",
+          "preview": "Stretchy battery inspired by lemons improves voltage and cell life",
+          "score": 0.6304
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 28,
+      "avg_intra_similarity": 0.14,
+      "samples": [
+        {
+          "id": "1nuwsa7",
+          "title": "Study finds key role for non-neural brain cells in processing vision | MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing by maintaining ambient levels of the neurotransmitter chemical GABA.",
+          "preview": "Study finds key role for non neural brain cells in processing vision MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing...",
+          "score": 0.7585
+        },
+        {
+          "id": "1nxscj6",
+          "title": "A groundbreaking study has revealed that your mom and dad’s DNA don’t just pass on telomere length, they actively reshape it in the first days of life, influencing how we age and our risk of developing diseases such as cancer.",
+          "preview": "A groundbreaking study has revealed that your mom and dad s DNA don t just pass on telomere length they actively reshape it in the first days of life influencing how we age and our risk of...",
+          "score": 0.6288
+        },
+        {
+          "id": "1qavcqn",
+          "title": "These paper batteries made from plants want to replace AA and AAA cells",
+          "preview": "These paper batteries made from plants want to replace AA and AAA cells",
+          "score": 0.5434
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 30,
+      "avg_intra_similarity": 0.1422,
+      "samples": [
+        {
+          "id": "1odbuvo",
+          "title": "App that translates speech to sign language in real-time wins top innovation prize",
+          "preview": "App that translates speech to sign language in real time wins top innovation prize",
+          "score": 0.6149
+        },
+        {
+          "id": "1nzfaht",
+          "title": "'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.",
+          "preview": "Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...",
+          "score": 0.5958
+        },
+        {
+          "id": "1qszrap",
+          "title": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "preview": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "score": 0.5539
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 8,
+      "avg_intra_similarity": 0.331,
+      "samples": [
+        {
+          "id": "1opviil",
+          "title": "‘Mind-captioning’ AI decodes brain activity to turn thoughts into text",
+          "preview": "Mind captioning AI decodes brain activity to turn thoughts into text",
+          "score": 0.7523
+        },
+        {
+          "id": "1qxil2p",
+          "title": "Wood scraps turn 'useless' desert sand into concrete",
+          "preview": "Wood scraps turn useless desert sand into concrete",
+          "score": 0.7393
+        },
+        {
+          "id": "1qj3ubg",
+          "title": "MIT’s new ‘recursive’ framework lets LLMs process 10 million tokens without context rot",
+          "preview": "MIT s new recursive framework lets LLMs process 10 million tokens without context rot",
+          "score": 0.7014
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 18,
+      "avg_intra_similarity": 0.1871,
+      "samples": [
+        {
+          "id": "1p8vofc",
+          "title": "Lining pipes with lab-grown diamonds can keep them squeaky clean",
+          "preview": "Lining pipes with lab grown diamonds can keep them squeaky clean",
+          "score": 0.7257
+        },
+        {
+          "id": "1pjydlg",
+          "title": "Soft robots can now see with a self-focusing squishy eye",
+          "preview": "Soft robots can now see with a self focusing squishy eye",
+          "score": 0.6464
+        },
+        {
+          "id": "1pqmdwz",
+          "title": "Scientists find a way to 'reboot' vision in adults with lazy eye",
+          "preview": "Scientists find a way to reboot vision in adults with lazy eye",
+          "score": 0.6066
+        }
+      ]
+    }
+  ]
+}

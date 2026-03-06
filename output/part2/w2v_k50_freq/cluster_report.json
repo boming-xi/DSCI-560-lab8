@@ -1,0 +1,122 @@
+{
+  "bin_config": "w2v_k50",
+  "k_word_bins": 50,
+  "weighting": "freq",
+  "doc_clusters_k": 4,
+  "num_docs": 200,
+  "silhouette_cosine": 0.1088,
+  "davies_bouldin": 3.3969,
+  "k_scores": {
+    "2": 0.1037,
+    "3": 0.1046,
+    "4": 0.1088,
+    "5": 0.1033,
+    "6": 0.0679,
+    "7": 0.0973,
+    "8": 0.0832,
+    "9": 0.0879,
+    "10": 0.0821
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 42,
+      "avg_intra_similarity": 0.2478,
+      "samples": [
+        {
+          "id": "1nzfgso",
+          "title": "Chemists create red fluorescent dyes that may enable clearer biomedical imaging | The new dyes are based on boron-containing molecules that were previously too unstable for practical use.",
+          "preview": "Chemists create red fluorescent dyes that may enable clearer biomedical imaging The new dyes are based on boron containing molecules that were previously too unstable for practical use",
+          "score": 0.7699
+        },
+        {
+          "id": "1p4nev6",
+          "title": "AI trained on bacterial genomes produces never-before-seen proteins",
+          "preview": "AI trained on bacterial genomes produces never before seen proteins",
+          "score": 0.6943
+        },
+        {
+          "id": "1qiyvmy",
+          "title": "Battlefield wound spray stops bleeding in just one second",
+          "preview": "Battlefield wound spray stops bleeding in just one second",
+          "score": 0.6879
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 38,
+      "avg_intra_similarity": 0.2504,
+      "samples": [
+        {
+          "id": "1orqtni",
+          "title": "MIT study finds targets for a new tuberculosis vaccine",
+          "preview": "MIT study finds targets for a new tuberculosis vaccine",
+          "score": 0.7074
+        },
+        {
+          "id": "1nuwsa7",
+          "title": "Study finds key role for non-neural brain cells in processing vision | MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing by maintaining ambient levels of the neurotransmitter chemical GABA.",
+          "preview": "Study finds key role for non neural brain cells in processing vision MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing...",
+          "score": 0.7049
+        },
+        {
+          "id": "1q0dhrx",
+          "title": "Injectable antibodies in nanoparticles could replace hour-long infusions",
+          "preview": "Injectable antibodies in nanoparticles could replace hour long infusions",
+          "score": 0.7036
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 55,
+      "avg_intra_similarity": 0.2397,
+      "samples": [
+        {
+          "id": "1nzmd2l",
+          "title": "Ocean CO2 becomes sustainable plastic, thanks to modified microbes | Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean",
+          "preview": "Ocean CO2 becomes sustainable plastic thanks to modified microbes Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean",
+          "score": 0.7224
+        },
+        {
+          "id": "1nvjz4n",
+          "title": "Edible sensor warns of flu by tasting like thyme | The molecular sensor contains a phenolic compound called thymol, which is found in thyme",
+          "preview": "Edible sensor warns of flu by tasting like thyme The molecular sensor contains a phenolic compound called thymol which is found in thyme",
+          "score": 0.7151
+        },
+        {
+          "id": "1nw5nqm",
+          "title": "MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.",
+          "preview": "MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times",
+          "score": 0.71
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 65,
+      "avg_intra_similarity": 0.3608,
+      "samples": [
+        {
+          "id": "1ow04l6",
+          "title": "Interstellar-inspired TARS3D may be first such robot that both walks and rolls | Scientists have created a real-life functional version of the TARS robot from the movie Interstellar",
+          "preview": "Interstellar inspired TARS3D may be first such robot that both walks and rolls Scientists have created a real life functional version of the TARS robot from the movie Interstellar",
+          "score": 0.8443
+        },
+        {
+          "id": "1ofezo6",
+          "title": "Miami Has a New Cop on the Beat: A Drone-Launching Police Car That Can Drive Itself",
+          "preview": "Miami Has a New Cop on the Beat A Drone Launching Police Car That Can Drive Itself",
+          "score": 0.8291
+        },
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.8214
+        }
+      ]
+    }
+  ]
+}

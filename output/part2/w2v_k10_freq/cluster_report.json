@@ -1,0 +1,197 @@
+{
+  "bin_config": "w2v_k10",
+  "k_word_bins": 10,
+  "weighting": "freq",
+  "doc_clusters_k": 7,
+  "num_docs": 200,
+  "silhouette_cosine": 0.2465,
+  "davies_bouldin": 1.6447,
+  "k_scores": {
+    "2": 0.1972,
+    "3": 0.2008,
+    "4": 0.207,
+    "5": 0.2324,
+    "6": 0.2423,
+    "7": 0.2465,
+    "8": 0.2366,
+    "9": 0.2239,
+    "10": 0.229
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 19,
+      "avg_intra_similarity": 0.7187,
+      "samples": [
+        {
+          "id": "1nzfgso",
+          "title": "Chemists create red fluorescent dyes that may enable clearer biomedical imaging | The new dyes are based on boron-containing molecules that were previously too unstable for practical use.",
+          "preview": "Chemists create red fluorescent dyes that may enable clearer biomedical imaging The new dyes are based on boron containing molecules that were previously too unstable for practical use",
+          "score": 0.9574
+        },
+        {
+          "id": "1nvjz4n",
+          "title": "Edible sensor warns of flu by tasting like thyme | The molecular sensor contains a phenolic compound called thymol, which is found in thyme",
+          "preview": "Edible sensor warns of flu by tasting like thyme The molecular sensor contains a phenolic compound called thymol which is found in thyme",
+          "score": 0.9371
+        },
+        {
+          "id": "1pj47oh",
+          "title": "Watch: Glowing tool seeks out DNA damage in real time",
+          "preview": "Watch Glowing tool seeks out DNA damage in real time",
+          "score": 0.9351
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 43,
+      "avg_intra_similarity": 0.7353,
+      "samples": [
+        {
+          "id": "1qjwq10",
+          "title": "Forestry-waste pine bark could be used to pull antibiotics out of wastewater",
+          "preview": "Forestry waste pine bark could be used to pull antibiotics out of wastewater",
+          "score": 0.9673
+        },
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.9565
+        },
+        {
+          "id": "1pn89ot",
+          "title": "A new way to deliver antibodies could make treatment much easier for patients",
+          "preview": "A new way to deliver antibodies could make treatment much easier for patients",
+          "score": 0.9502
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 28,
+      "avg_intra_similarity": 0.7159,
+      "samples": [
+        {
+          "id": "1nzfaht",
+          "title": "'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.",
+          "preview": "Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...",
+          "score": 0.9578
+        },
+        {
+          "id": "1ppre9i",
+          "title": "Helical rover wheel balloons from 9 to 20 inches &amp; survives fire",
+          "preview": "Helical rover wheel balloons from 9 to 20 inches survives fire",
+          "score": 0.9341
+        },
+        {
+          "id": "1osl0gs",
+          "title": "New therapeutic brain implants could defy the need for surgery",
+          "preview": "New therapeutic brain implants could defy the need for surgery",
+          "score": 0.929
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 25,
+      "avg_intra_similarity": 0.6015,
+      "samples": [
+        {
+          "id": "1oe4r3q",
+          "title": "A new autonomous fighter jet just broke cover. It's powered by the same AI brain that flew an F-16 through a dogfight.",
+          "preview": "A new autonomous fighter jet just broke cover It s powered by the same AI brain that flew an F 16 through a dogfight",
+          "score": 0.9092
+        },
+        {
+          "id": "1qr22va",
+          "title": "Days numbered for 'risky' lithium-ion batteries, scientists say, after fast-charging breakthrough in sodium-ion alternative",
+          "preview": "Days numbered for risky lithium ion batteries scientists say after fast charging breakthrough in sodium ion alternative",
+          "score": 0.9062
+        },
+        {
+          "id": "1qnk0ut",
+          "title": "China reveals 200-strong AI drone swarm that can be controlled by a single soldier — ‘intelligent algorithm’ allows individual units to cooperate autonomously even after losing communication with operator",
+          "preview": "China reveals 200 strong AI drone swarm that can be controlled by a single soldier intelligent algorithm allows individual units to cooperate autonomously even after losing communication with operator",
+          "score": 0.8909
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 27,
+      "avg_intra_similarity": 0.7012,
+      "samples": [
+        {
+          "id": "1qmkylh",
+          "title": "UCLA engineers discover the most heat-conductive metal ever measured",
+          "preview": "UCLA engineers discover the most heat conductive metal ever measured",
+          "score": 0.9317
+        },
+        {
+          "id": "1qh5bqq",
+          "title": "A protein found in the GI tract can neutralize many bacteria",
+          "preview": "A protein found in the GI tract can neutralize many bacteria",
+          "score": 0.9317
+        },
+        {
+          "id": "1ote4b3",
+          "title": "A new patch could help to heal the heart",
+          "preview": "A new patch could help to heal the heart",
+          "score": 0.9171
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 22,
+      "avg_intra_similarity": 0.6698,
+      "samples": [
+        {
+          "id": "1nw5nqm",
+          "title": "MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.",
+          "preview": "MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times",
+          "score": 0.9428
+        },
+        {
+          "id": "1qa1gn0",
+          "title": "Spray-on armor for plants offers a new tool for global food security",
+          "preview": "Spray on armor for plants offers a new tool for global food security",
+          "score": 0.9197
+        },
+        {
+          "id": "1pe22mw",
+          "title": "Noninvasive imaging could replace finger pricks for people with diabetes",
+          "preview": "Noninvasive imaging could replace finger pricks for people with diabetes",
+          "score": 0.9064
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 36,
+      "avg_intra_similarity": 0.7102,
+      "samples": [
+        {
+          "id": "1nvzkbv",
+          "title": "Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.",
+          "preview": "Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...",
+          "score": 0.9462
+        },
+        {
+          "id": "1oym5mb",
+          "title": "Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.",
+          "preview": "Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...",
+          "score": 0.9369
+        },
+        {
+          "id": "1nuce6u",
+          "title": "Spider-like construction robot promises to build a home per day | Being autonomously capable of building a 2,150-sq-ft home in a single day – operating at roughly the speed of 100 bricklayers.",
+          "preview": "Spider like construction robot promises to build a home per day Being autonomously capable of building a 2 150 sq ft home in a single day operating at roughly the speed of 100 bricklayers",
+          "score": 0.9285
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+Config       : w2v_k50
+Word Bins K  : 50
+Weighting    : tfidf
+Doc Clusters : 10
+Documents    : 200
+Silhouette   : 0.0942
+Davies-Bouldin: 3.0554
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: electronics, turn
+  Bin   1: tech, robots, speech, trial, natural, design, restoring, autonomously
+  Bin   2: fusion, new, hour, study, work, such, machine, patient
+  Bin   3: early, human, have, weapon, build, storage, on
+  Bin   4: cells, lasers, feel, model, editing, alternative, powerful, light
+
+Cluster 0 (size=19, avg_sim=0.2639)
+Samples:
+  - 1qpok5x: Scientists achieve pancreatic tumour regression in breakthrough study
+    Scientists achieve pancreatic tumour regression in breakthrough study
+  - 1qr22va: Days numbered for 'risky' lithium-ion batteries, scientists say, after fast-charging breakthrough in sodium-ion alternative
+    Days numbered for risky lithium ion batteries scientists say after fast charging breakthrough in sodium ion alternative
+  - 1q14jnt: How battery charging led to a breakthrough in lithium recycling
+    How battery charging led to a breakthrough in lithium recycling
+
+Cluster 1 (size=21, avg_sim=0.1799)
+Samples:
+  - 1qyf0di: This fusion energy startup thinks it can cut lasers out of the equation
+    This fusion energy startup thinks it can cut lasers out of the equation
+  - 1qavcqn: These paper batteries made from plants want to replace AA and AAA cells
+    These paper batteries made from plants want to replace AA and AAA cells
+  - 1nvzkbv: Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.
+    Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...
+
+Cluster 2 (size=19, avg_sim=0.2585)
+Samples:
+  - 1pfqaa8: First-ever drug to repair DNA and regenerate damaged tissue is here
+    First ever drug to repair DNA and regenerate damaged tissue is here
+  - 1nw5nqm: MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.
+    MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times
+  - 1p0da7j: Small, inexpensive hydrophone boosts undersea signals
+    Small inexpensive hydrophone boosts undersea signals
+
+Cluster 3 (size=31, avg_sim=0.2956)
+Samples:
+  - 1ofezo6: Miami Has a New Cop on the Beat: A Drone-Launching Police Car That Can Drive Itself
+    Miami Has a New Cop on the Beat A Drone Launching Police Car That Can Drive Itself
+  - 1ow04l6: Interstellar-inspired TARS3D may be first such robot that both walks and rolls | Scientists have created a real-life functional version of the TARS robot from the movie Interstellar
+    Interstellar inspired TARS3D may be first such robot that both walks and rolls Scientists have created a real life functional version of the TARS robot from the movie Interstellar
+  - 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+    New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+
+Cluster 4 (size=25, avg_sim=0.2578)
+Samples:
+  - 1ov3lkv: MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders
+    MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...
+  - 1nzfgso: Chemists create red fluorescent dyes that may enable clearer biomedical imaging | The new dyes are based on boron-containing molecules that were previously too unstable for practical use.
+    Chemists create red fluorescent dyes that may enable clearer biomedical imaging The new dyes are based on boron containing molecules that were previously too unstable for practical use
+  - 1osl0gs: New therapeutic brain implants could defy the need for surgery
+    New therapeutic brain implants could defy the need for surgery
+
+Cluster 5 (size=16, avg_sim=0.3382)
+Samples:
+  - 1osjysu: Giving buildings an “MRI” to make them more energy-efficient and resilient | Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.
+    Giving buildings an MRI to make them more energy efficient and resilient Lamarr AI uses drones thermal imaging and AI to help property owners make targeted investments in their buildings
+  - 1qszrap: New ultrasound pad aims to make prenatal visits less unpleasant
+    New ultrasound pad aims to make prenatal visits less unpleasant
+  - 1q6g4an: AI co-pilot uses machine learning to reduce deadly sea collisions
+    AI co pilot uses machine learning to reduce deadly sea collisions
+
+Cluster 6 (size=16, avg_sim=0.4024)
+Samples:
+  - 1qsf709: 48 hours without lungs: artificial organ kept man alive until transplant
+    48 hours without lungs artificial organ kept man alive until transplant
+  - 1nsnjy0: UV light is a fast, effective way to deactivate indoor airborne allergens | UV222 light is a passive, quick way to inactivate indoor airborne allergens like cat dander
+    UV light is a fast effective way to deactivate indoor airborne allergens UV222 light is a passive quick way to inactivate indoor airborne allergens like cat dander
+  - 1p4nev6: AI trained on bacterial genomes produces never-before-seen proteins
+    AI trained on bacterial genomes produces never before seen proteins
+
+Cluster 7 (size=18, avg_sim=0.325)
+Samples:
+  - 1ptvjpf: AI-powered 'glasses' help the blind go places – safely
+    AI powered glasses help the blind go places safely
+  - 1p78c7n: 3D-printable concrete alternative hardens in three days, not four weeks
+    3D printable concrete alternative hardens in three days not four weeks
+  - 1po31w8: Futuristic pixel-raising display lets you feel what’s onscreen
+    Futuristic pixel raising display lets you feel what s onscreen
+
+Cluster 8 (size=14, avg_sim=0.3959)
+Samples:
+  - 1pqmdwz: Scientists find a way to 'reboot' vision in adults with lazy eye
+    Scientists find a way to reboot vision in adults with lazy eye
+  - 1nxv83p: Parachutes with hundreds of holes could enable safer drone deliveries
+    Parachutes with hundreds of holes could enable safer drone deliveries
+  - 1oex8bb: Pioneering eye implant restores reading vision to the blind
+    Pioneering eye implant restores reading vision to the blind
+
+Cluster 9 (size=21, avg_sim=0.3145)
+Samples:
+  - 1p22lah: World first: Breath-saving exoskeleton turbocharges diver's kicks
+    World first Breath saving exoskeleton turbocharges diver s kicks
+  - 1ql87uu: New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’
+    New filtration technology could be gamechanger in removal of Pfas forever chemicals
+  - 1qwz2os: People Could Be ‘Resurrected’ in Robotic Bodies One Day, Futurist Believes. Now He’s Taken the First Step.
+    People Could Be Resurrected in Robotic Bodies One Day Futurist Believes Now He s Taken the First Step

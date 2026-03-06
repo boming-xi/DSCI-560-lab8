@@ -1,0 +1,32 @@
+Config       : w2v_k100
+Word Bins K  : 100
+Weighting    : freq
+Doc Clusters : 2
+Documents    : 200
+Silhouette   : 0.0926
+Davies-Bouldin: 3.981
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: power, life
+  Bin   1: their, high, hybrid, it, weapon, water, big, lithium
+  Bin   2: light, injectable, magnets, create, drugs, controlled, real
+  Bin   3: without, both, seen, cheaper, compound, targets, fuels, match
+  Bin   4: off, tars, on
+
+Cluster 0 (size=111, avg_sim=0.1291)
+Samples:
+  - 1nuwsa7: Study finds key role for non-neural brain cells in processing vision | MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing by maintaining ambient levels of the neurotransmitter chemical GABA.
+    Study finds key role for non neural brain cells in processing vision MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing...
+  - 1oym5mb: Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.
+    Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...
+  - 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+    New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+
+Cluster 1 (size=89, avg_sim=0.2678)
+Samples:
+  - 1qtwjfo: Engineers just found a way to cool quantum systems using microwave noise
+    Engineers just found a way to cool quantum systems using microwave noise
+  - 1oe2ib9: Bowel cancer’s “sugar shield” removed to reawaken immune defenses
+    Bowel cancer s sugar shield removed to reawaken immune defenses
+  - 1odbuvo: App that translates speech to sign language in real-time wins top innovation prize
+    App that translates speech to sign language in real time wins top innovation prize

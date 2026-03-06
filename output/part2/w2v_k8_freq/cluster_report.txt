@@ -1,0 +1,77 @@
+Config       : w2v_k8
+Word Bins K  : 8
+Weighting    : freq
+Doc Clusters : 7
+Documents    : 200
+Silhouette   : 0.2959
+Davies-Bouldin: 1.5476
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: alternative, identify, computers, chips, sensor, found, as, lasers
+  Bin   1: weight, chronic, and, thing, drugs, damage, light, treating
+  Bin   2: the, patch, to, on, autonomous, off, interstellar, loss
+  Bin   3: robotic, therapy, from, in, low, researchers, mice, printed
+  Bin   4: fusion, human, such, dyes, heal, safe, plastic, film
+
+Cluster 0 (size=23, avg_sim=0.7264)
+Samples:
+  - 1qbrxib: A single inflammatory switch may help repair the liver
+    A single inflammatory switch may help repair the liver
+  - 1pd5ufz: DragonFire laser weapon takes down high-speed drones
+    DragonFire laser weapon takes down high speed drones
+  - 1nwzuea: NASA moon rover project pushes extreme battery tech to its limits
+    NASA moon rover project pushes extreme battery tech to its limits
+
+Cluster 1 (size=26, avg_sim=0.766)
+Samples:
+  - 1qa1gn0: Spray-on armor for plants offers a new tool for global food security
+    Spray on armor for plants offers a new tool for global food security
+  - 1nuce6u: Spider-like construction robot promises to build a home per day | Being autonomously capable of building a 2,150-sq-ft home in a single day – operating at roughly the speed of 100 bricklayers.
+    Spider like construction robot promises to build a home per day Being autonomously capable of building a 2 150 sq ft home in a single day operating at roughly the speed of 100 bricklayers
+  - 1ptvjpf: AI-powered 'glasses' help the blind go places – safely
+    AI powered glasses help the blind go places safely
+
+Cluster 2 (size=35, avg_sim=0.7883)
+Samples:
+  - 1nzfpoi: How Wi-Fi Signals Can Be Used to Detect Your Heartbeat | Contactless pulse monitoring opens up new wearable possibilities
+    How Wi Fi Signals Can Be Used to Detect Your Heartbeat Contactless pulse monitoring opens up new wearable possibilities
+  - 1q14jnt: How battery charging led to a breakthrough in lithium recycling
+    How battery charging led to a breakthrough in lithium recycling
+  - 1qpcts9: A new chemical trick could extend lithium-ion battery life without redesigning cells
+    A new chemical trick could extend lithium ion battery life without redesigning cells
+
+Cluster 3 (size=47, avg_sim=0.7966)
+Samples:
+  - 1qfejyt: Scientists create a spray-on powder that seals life-threatening wounds in seconds
+    Scientists create a spray on powder that seals life threatening wounds in seconds
+  - 1qg9dem: Chemists determine the structure of the fuzzy coat that surrounds Tau proteins
+    Chemists determine the structure of the fuzzy coat that surrounds Tau proteins
+  - 1qoi3w1: Models that improve on their own are AI's next big thing
+    Models that improve on their own are AI s next big thing
+
+Cluster 4 (size=20, avg_sim=0.7394)
+Samples:
+  - 1nvzkbv: Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.
+    Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...
+  - 1nvjz4n: Edible sensor warns of flu by tasting like thyme | The molecular sensor contains a phenolic compound called thymol, which is found in thyme
+    Edible sensor warns of flu by tasting like thyme The molecular sensor contains a phenolic compound called thymol which is found in thyme
+  - 1obhtwa: Cancer drug combo slashes risk of death by more than 40%
+    Cancer drug combo slashes risk of death by more than 40
+
+Cluster 5 (size=25, avg_sim=0.742)
+Samples:
+  - 1nv6bxv: Oak Ridge's new 3D printer can mix and match materials at massive scale | Scientists unveil multiplexed nozzle for next-generation 3D printing
+    Oak Ridge s new 3D printer can mix and match materials at massive scale Scientists unveil multiplexed nozzle for next generation 3D printing
+  - 1pvdysj: World's smallest autonomous robots could one day save your life
+    World s smallest autonomous robots could one day save your life
+  - 1osjysu: Giving buildings an “MRI” to make them more energy-efficient and resilient | Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.
+    Giving buildings an MRI to make them more energy efficient and resilient Lamarr AI uses drones thermal imaging and AI to help property owners make targeted investments in their buildings
+
+Cluster 6 (size=24, avg_sim=0.5981)
+Samples:
+  - 1r1y4dy: Sugar molecules used to destroy antibiotic-resistant bacteria
+    Sugar molecules used to destroy antibiotic resistant bacteria
+  - 1ou80lz: MIT physicists observe key evidence of unconventional superconductivity in magic-angle graphene
+    MIT physicists observe key evidence of unconventional superconductivity in magic angle graphene
+  - 1orqtni: MIT study finds targets for a new tuberculosis vaccine
+    MIT study finds targets for a new tuberculosis vaccine

@@ -1,0 +1,146 @@
+[
+  {
+    "name": "w2v_k3_tfidf",
+    "k_word_bins": 3,
+    "weighting": "tfidf",
+    "doc_clusters_k": 10,
+    "silhouette_cosine": 0.5485,
+    "davies_bouldin": 0.7175,
+    "avg_intra_similarity": 0.9699
+  },
+  {
+    "name": "w2v_k3_freq",
+    "k_word_bins": 3,
+    "weighting": "freq",
+    "doc_clusters_k": 10,
+    "silhouette_cosine": 0.5338,
+    "davies_bouldin": 0.7268,
+    "avg_intra_similarity": 0.9706
+  },
+  {
+    "name": "w2v_k5_freq",
+    "k_word_bins": 5,
+    "weighting": "freq",
+    "doc_clusters_k": 9,
+    "silhouette_cosine": 0.34,
+    "davies_bouldin": 1.1887,
+    "avg_intra_similarity": 0.8801
+  },
+  {
+    "name": "w2v_k5_tfidf",
+    "k_word_bins": 5,
+    "weighting": "tfidf",
+    "doc_clusters_k": 7,
+    "silhouette_cosine": 0.3361,
+    "davies_bouldin": 1.2806,
+    "avg_intra_similarity": 0.8533
+  },
+  {
+    "name": "w2v_k8_freq",
+    "k_word_bins": 8,
+    "weighting": "freq",
+    "doc_clusters_k": 7,
+    "silhouette_cosine": 0.2959,
+    "davies_bouldin": 1.5476,
+    "avg_intra_similarity": 0.7467
+  },
+  {
+    "name": "w2v_k8_tfidf",
+    "k_word_bins": 8,
+    "weighting": "tfidf",
+    "doc_clusters_k": 7,
+    "silhouette_cosine": 0.2937,
+    "davies_bouldin": 1.4913,
+    "avg_intra_similarity": 0.7271
+  },
+  {
+    "name": "w2v_k10_freq",
+    "k_word_bins": 10,
+    "weighting": "freq",
+    "doc_clusters_k": 7,
+    "silhouette_cosine": 0.2465,
+    "davies_bouldin": 1.6447,
+    "avg_intra_similarity": 0.698
+  },
+  {
+    "name": "w2v_k10_tfidf",
+    "k_word_bins": 10,
+    "weighting": "tfidf",
+    "doc_clusters_k": 9,
+    "silhouette_cosine": 0.2436,
+    "davies_bouldin": 1.6344,
+    "avg_intra_similarity": 0.6969
+  },
+  {
+    "name": "w2v_k20_freq",
+    "k_word_bins": 20,
+    "weighting": "freq",
+    "doc_clusters_k": 2,
+    "silhouette_cosine": 0.1973,
+    "davies_bouldin": 2.7345,
+    "avg_intra_similarity": 0.4342
+  },
+  {
+    "name": "w2v_k20_tfidf",
+    "k_word_bins": 20,
+    "weighting": "tfidf",
+    "doc_clusters_k": 9,
+    "silhouette_cosine": 0.1605,
+    "davies_bouldin": 2.1943,
+    "avg_intra_similarity": 0.4881
+  },
+  {
+    "name": "w2v_k50_freq",
+    "k_word_bins": 50,
+    "weighting": "freq",
+    "doc_clusters_k": 4,
+    "silhouette_cosine": 0.1088,
+    "davies_bouldin": 3.3969,
+    "avg_intra_similarity": 0.2828
+  },
+  {
+    "name": "w2v_k50_tfidf",
+    "k_word_bins": 50,
+    "weighting": "tfidf",
+    "doc_clusters_k": 10,
+    "silhouette_cosine": 0.0942,
+    "davies_bouldin": 3.0554,
+    "avg_intra_similarity": 0.2958
+  },
+  {
+    "name": "w2v_k100_freq",
+    "k_word_bins": 100,
+    "weighting": "freq",
+    "doc_clusters_k": 2,
+    "silhouette_cosine": 0.0926,
+    "davies_bouldin": 3.981,
+    "avg_intra_similarity": 0.1908
+  },
+  {
+    "name": "w2v_k200_freq",
+    "k_word_bins": 200,
+    "weighting": "freq",
+    "doc_clusters_k": 4,
+    "silhouette_cosine": 0.0827,
+    "davies_bouldin": 3.7964,
+    "avg_intra_similarity": 0.1838
+  },
+  {
+    "name": "w2v_k100_tfidf",
+    "k_word_bins": 100,
+    "weighting": "tfidf",
+    "doc_clusters_k": 9,
+    "silhouette_cosine": 0.0514,
+    "davies_bouldin": 3.8512,
+    "avg_intra_similarity": 0.1826
+  },
+  {
+    "name": "w2v_k200_tfidf",
+    "k_word_bins": 200,
+    "weighting": "tfidf",
+    "doc_clusters_k": 8,
+    "silhouette_cosine": 0.0334,
+    "davies_bouldin": 4.6786,
+    "avg_intra_similarity": 0.1161
+  }
+]

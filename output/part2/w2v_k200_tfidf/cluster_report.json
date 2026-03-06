@@ -1,0 +1,222 @@
+{
+  "bin_config": "w2v_k200",
+  "k_word_bins": 200,
+  "weighting": "tfidf",
+  "doc_clusters_k": 8,
+  "num_docs": 200,
+  "silhouette_cosine": 0.0334,
+  "davies_bouldin": 4.6786,
+  "k_scores": {
+    "2": 0.0303,
+    "3": 0.0246,
+    "4": 0.0268,
+    "5": 0.0289,
+    "6": 0.0249,
+    "7": 0.0249,
+    "8": 0.0334,
+    "9": 0.0308,
+    "10": 0.0293
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 48,
+      "avg_intra_similarity": 0.0801,
+      "samples": [
+        {
+          "id": "1ov3lkv",
+          "title": "MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders",
+          "preview": "MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...",
+          "score": 0.6501
+        },
+        {
+          "id": "1oaotd7",
+          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
+          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
+          "score": 0.4686
+        },
+        {
+          "id": "1osl0gs",
+          "title": "New therapeutic brain implants could defy the need for surgery",
+          "preview": "New therapeutic brain implants could defy the need for surgery",
+          "score": 0.4537
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 35,
+      "avg_intra_similarity": 0.1361,
+      "samples": [
+        {
+          "id": "1o0b42k",
+          "title": "Tiny lab-grown brains could help build the next generation of computers | Biocomputing has left the realm of science fiction and entered the laboratory",
+          "preview": "Tiny lab grown brains could help build the next generation of computers Biocomputing has left the realm of science fiction and entered the laboratory",
+          "score": 0.5981
+        },
+        {
+          "id": "1nw0fgn",
+          "title": "Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.",
+          "preview": "Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures",
+          "score": 0.5891
+        },
+        {
+          "id": "1nwvnsp",
+          "title": "Next-gen imaging tech could catch sight-stealing diseases early | A powerful new imaging tool offers unprecedented 3D vision of the retina",
+          "preview": "Next gen imaging tech could catch sight stealing diseases early A powerful new imaging tool offers unprecedented 3D vision of the retina",
+          "score": 0.5749
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 10,
+      "avg_intra_similarity": 0.2851,
+      "samples": [
+        {
+          "id": "1p22lah",
+          "title": "World first: Breath-saving exoskeleton turbocharges diver's kicks",
+          "preview": "World first Breath saving exoskeleton turbocharges diver s kicks",
+          "score": 0.7702
+        },
+        {
+          "id": "1obhtwa",
+          "title": "Cancer drug combo slashes risk of death by more than 40%",
+          "preview": "Cancer drug combo slashes risk of death by more than 40",
+          "score": 0.7669
+        },
+        {
+          "id": "1ogkg1j",
+          "title": "New Space Armor shields satellites from hypersonic space debris",
+          "preview": "New Space Armor shields satellites from hypersonic space debris",
+          "score": 0.7444
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 23,
+      "avg_intra_similarity": 0.1001,
+      "samples": [
+        {
+          "id": "1qsqfpv",
+          "title": "New Drug Stops Weight Gain and Lowers Cholesterol by Targeting Nitric Oxide",
+          "preview": "New Drug Stops Weight Gain and Lowers Cholesterol by Targeting Nitric Oxide",
+          "score": 0.6481
+        },
+        {
+          "id": "1ou7znr",
+          "title": "One-off lipid-lowering gene therapy a success in world-first human trial | A new gene therapy lowered two heart disease-related lipids in a human clinical trial",
+          "preview": "One off lipid lowering gene therapy a success in world first human trial A new gene therapy lowered two heart disease related lipids in a human clinical trial",
+          "score": 0.5042
+        },
+        {
+          "id": "1ovyj9z",
+          "title": "Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients",
+          "preview": "Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients",
+          "score": 0.4835
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 23,
+      "avg_intra_similarity": 0.1359,
+      "samples": [
+        {
+          "id": "1qbrxib",
+          "title": "A single inflammatory switch may help repair the liver",
+          "preview": "A single inflammatory switch may help repair the liver",
+          "score": 0.7067
+        },
+        {
+          "id": "1nvjz4n",
+          "title": "Edible sensor warns of flu by tasting like thyme | The molecular sensor contains a phenolic compound called thymol, which is found in thyme",
+          "preview": "Edible sensor warns of flu by tasting like thyme The molecular sensor contains a phenolic compound called thymol which is found in thyme",
+          "score": 0.6468
+        },
+        {
+          "id": "1pyngm2",
+          "title": "Anything-goes “anyons” may be at the root of surprising quantum experiments",
+          "preview": "Anything goes anyons may be at the root of surprising quantum experiments",
+          "score": 0.5528
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 28,
+      "avg_intra_similarity": 0.0937,
+      "samples": [
+        {
+          "id": "1oi8wdr",
+          "title": "Swiss smart socks help diabetics feel their feet again",
+          "preview": "Swiss smart socks help diabetics feel their feet again",
+          "score": 0.6546
+        },
+        {
+          "id": "1oe4r3q",
+          "title": "A new autonomous fighter jet just broke cover. It's powered by the same AI brain that flew an F-16 through a dogfight.",
+          "preview": "A new autonomous fighter jet just broke cover It s powered by the same AI brain that flew an F 16 through a dogfight",
+          "score": 0.5943
+        },
+        {
+          "id": "1oexycx",
+          "title": "Real-Time Audio Deepfakes Are Now a Reality | A cybersecurity firm has created convincing voices on the fly",
+          "preview": "Real Time Audio Deepfakes Are Now a Reality A cybersecurity firm has created convincing voices on the fly",
+          "score": 0.4783
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 20,
+      "avg_intra_similarity": 0.1236,
+      "samples": [
+        {
+          "id": "1qfejyt",
+          "title": "Scientists create a spray-on powder that seals life-threatening wounds in seconds",
+          "preview": "Scientists create a spray on powder that seals life threatening wounds in seconds",
+          "score": 0.6137
+        },
+        {
+          "id": "1qlo9ok",
+          "title": "Scientists print human liver tissue in breakthrough that could save lives",
+          "preview": "Scientists print human liver tissue in breakthrough that could save lives",
+          "score": 0.6007
+        },
+        {
+          "id": "1qcnwbl",
+          "title": "Scientists develop nanophotonic material that changes color, texture, and shape on demand",
+          "preview": "Scientists develop nanophotonic material that changes color texture and shape on demand",
+          "score": 0.5501
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 13,
+      "avg_intra_similarity": 0.0949,
+      "samples": [
+        {
+          "id": "1od780y",
+          "title": "IBS breakthrough: Serotonin-making gut bugs restore bowel function",
+          "preview": "IBS breakthrough Serotonin making gut bugs restore bowel function",
+          "score": 0.6772
+        },
+        {
+          "id": "1ntgxhg",
+          "title": "Low-dose radiation relieves knee osteoarthritis pain, improves function",
+          "preview": "Low dose radiation relieves knee osteoarthritis pain improves function",
+          "score": 0.5382
+        },
+        {
+          "id": "1pbe7h2",
+          "title": "Tuneable perovskite: A breakthrough in low-cost solar and laser materials",
+          "preview": "Tuneable perovskite A breakthrough in low cost solar and laser materials",
+          "score": 0.52
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+Config       : w2v_k10
+Word Bins K  : 10
+Weighting    : freq
+Doc Clusters : 7
+Documents    : 200
+Silhouette   : 0.2465
+Davies-Bouldin: 1.6447
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: airborne, uses, compound, mit, laser, co, match, sugar
+  Bin   1: small, high, alternative, found, use, growth, lab, kills
+  Bin   2: signals, molecule, cheaper, and, single, shows, tumor, through
+  Bin   3: need, in, interstellar, processing, to, previously, trial, ocean
+  Bin   4: reverses, see, gene, times, replace, safe, makes, aging
+
+Cluster 0 (size=19, avg_sim=0.7187)
+Samples:
+  - 1nzfgso: Chemists create red fluorescent dyes that may enable clearer biomedical imaging | The new dyes are based on boron-containing molecules that were previously too unstable for practical use.
+    Chemists create red fluorescent dyes that may enable clearer biomedical imaging The new dyes are based on boron containing molecules that were previously too unstable for practical use
+  - 1nvjz4n: Edible sensor warns of flu by tasting like thyme | The molecular sensor contains a phenolic compound called thymol, which is found in thyme
+    Edible sensor warns of flu by tasting like thyme The molecular sensor contains a phenolic compound called thymol which is found in thyme
+  - 1pj47oh: Watch: Glowing tool seeks out DNA damage in real time
+    Watch Glowing tool seeks out DNA damage in real time
+
+Cluster 1 (size=43, avg_sim=0.7353)
+Samples:
+  - 1qjwq10: Forestry-waste pine bark could be used to pull antibiotics out of wastewater
+    Forestry waste pine bark could be used to pull antibiotics out of wastewater
+  - 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+    New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+  - 1pn89ot: A new way to deliver antibodies could make treatment much easier for patients
+    A new way to deliver antibodies could make treatment much easier for patients
+
+Cluster 2 (size=28, avg_sim=0.7159)
+Samples:
+  - 1nzfaht: 'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.
+    Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...
+  - 1ppre9i: Helical rover wheel balloons from 9 to 20 inches &amp; survives fire
+    Helical rover wheel balloons from 9 to 20 inches survives fire
+  - 1osl0gs: New therapeutic brain implants could defy the need for surgery
+    New therapeutic brain implants could defy the need for surgery
+
+Cluster 3 (size=25, avg_sim=0.6015)
+Samples:
+  - 1oe4r3q: A new autonomous fighter jet just broke cover. It's powered by the same AI brain that flew an F-16 through a dogfight.
+    A new autonomous fighter jet just broke cover It s powered by the same AI brain that flew an F 16 through a dogfight
+  - 1qr22va: Days numbered for 'risky' lithium-ion batteries, scientists say, after fast-charging breakthrough in sodium-ion alternative
+    Days numbered for risky lithium ion batteries scientists say after fast charging breakthrough in sodium ion alternative
+  - 1qnk0ut: China reveals 200-strong AI drone swarm that can be controlled by a single soldier — ‘intelligent algorithm’ allows individual units to cooperate autonomously even after losing communication with operator
+    China reveals 200 strong AI drone swarm that can be controlled by a single soldier intelligent algorithm allows individual units to cooperate autonomously even after losing communication with operator
+
+Cluster 4 (size=27, avg_sim=0.7012)
+Samples:
+  - 1qmkylh: UCLA engineers discover the most heat-conductive metal ever measured
+    UCLA engineers discover the most heat conductive metal ever measured
+  - 1qh5bqq: A protein found in the GI tract can neutralize many bacteria
+    A protein found in the GI tract can neutralize many bacteria
+  - 1ote4b3: A new patch could help to heal the heart
+    A new patch could help to heal the heart
+
+Cluster 5 (size=22, avg_sim=0.6698)
+Samples:
+  - 1nw5nqm: MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.
+    MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times
+  - 1qa1gn0: Spray-on armor for plants offers a new tool for global food security
+    Spray on armor for plants offers a new tool for global food security
+  - 1pe22mw: Noninvasive imaging could replace finger pricks for people with diabetes
+    Noninvasive imaging could replace finger pricks for people with diabetes
+
+Cluster 6 (size=36, avg_sim=0.7102)
+Samples:
+  - 1nvzkbv: Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.
+    Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...
+  - 1oym5mb: Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.
+    Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...
+  - 1nuce6u: Spider-like construction robot promises to build a home per day | Being autonomously capable of building a 2,150-sq-ft home in a single day – operating at roughly the speed of 100 bricklayers.
+    Spider like construction robot promises to build a home per day Being autonomously capable of building a 2 150 sq ft home in a single day operating at roughly the speed of 100 bricklayers

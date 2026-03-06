@@ -1,0 +1,72 @@
+{
+  "bin_config": "w2v_k100",
+  "k_word_bins": 100,
+  "weighting": "freq",
+  "doc_clusters_k": 2,
+  "num_docs": 200,
+  "silhouette_cosine": 0.0926,
+  "davies_bouldin": 3.981,
+  "k_scores": {
+    "2": 0.0926,
+    "3": 0.0864,
+    "4": 0.0921,
+    "5": 0.0815,
+    "6": 0.0861,
+    "7": 0.0787,
+    "8": 0.0658,
+    "9": 0.0692,
+    "10": 0.0628
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 111,
+      "avg_intra_similarity": 0.1291,
+      "samples": [
+        {
+          "id": "1nuwsa7",
+          "title": "Study finds key role for non-neural brain cells in processing vision | MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing by maintaining ambient levels of the neurotransmitter chemical GABA.",
+          "preview": "Study finds key role for non neural brain cells in processing vision MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing...",
+          "score": 0.6561
+        },
+        {
+          "id": "1oym5mb",
+          "title": "Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.",
+          "preview": "Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...",
+          "score": 0.6559
+        },
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.6181
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 89,
+      "avg_intra_similarity": 0.2678,
+      "samples": [
+        {
+          "id": "1qtwjfo",
+          "title": "Engineers just found a way to cool quantum systems using microwave noise",
+          "preview": "Engineers just found a way to cool quantum systems using microwave noise",
+          "score": 0.7803
+        },
+        {
+          "id": "1oe2ib9",
+          "title": "Bowel cancer’s “sugar shield” removed to reawaken immune defenses",
+          "preview": "Bowel cancer s sugar shield removed to reawaken immune defenses",
+          "score": 0.7219
+        },
+        {
+          "id": "1odbuvo",
+          "title": "App that translates speech to sign language in real-time wins top innovation prize",
+          "preview": "App that translates speech to sign language in real time wins top innovation prize",
+          "score": 0.7031
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "bin_config": "w2v_k3",
+  "k_word_bins": 3,
+  "weighting": "freq",
+  "doc_clusters_k": 10,
+  "num_docs": 200,
+  "silhouette_cosine": 0.5338,
+  "davies_bouldin": 0.7268,
+  "k_scores": {
+    "2": 0.4513,
+    "3": 0.5152,
+    "4": 0.4487,
+    "5": 0.5092,
+    "6": 0.487,
+    "7": 0.4726,
+    "8": 0.47,
+    "9": 0.5294,
+    "10": 0.5338
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 40,
+      "avg_intra_similarity": 0.9741,
+      "samples": [
+        {
+          "id": "1ps7gcz",
+          "title": "No DNA evidence at crime scene? Protein analysis comes to the rescue",
+          "preview": "No DNA evidence at crime scene Protein analysis comes to the rescue",
+          "score": 0.9993
+        },
+        {
+          "id": "1oxrrdk",
+          "title": "Nuclear waste may hold the key to greener hydrogen production",
+          "preview": "Nuclear waste may hold the key to greener hydrogen production",
+          "score": 0.9993
+        },
+        {
+          "id": "1osjwmp",
+          "title": "Smart dressings and stem cells: The future of wound healing | Researchers have compared newer wound-healing tech to conventional therapies and dressings",
+          "preview": "Smart dressings and stem cells The future of wound healing Researchers have compared newer wound healing tech to conventional therapies and dressings",
+          "score": 0.9985
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 13,
+      "avg_intra_similarity": 0.9534,
+      "samples": [
+        {
+          "id": "1qo12gu",
+          "title": "Using amino acids as fuels to make conductive graphene",
+          "preview": "Using amino acids as fuels to make conductive graphene",
+          "score": 0.9987
+        },
+        {
+          "id": "1qi5qap",
+          "title": "Magnets produced at room temperature using lasers could produce faster non-silicon processors",
+          "preview": "Magnets produced at room temperature using lasers could produce faster non silicon processors",
+          "score": 0.9987
+        },
+        {
+          "id": "1qdkdz6",
+          "title": "Could glowing green skin be an alternative to blood sampling?",
+          "preview": "Could glowing green skin be an alternative to blood sampling",
+          "score": 0.9987
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 22,
+      "avg_intra_similarity": 0.9501,
+      "samples": [
+        {
+          "id": "1phd3lf",
+          "title": "Underwater arms race: How robot subs will outwit next-gen sonar",
+          "preview": "Underwater arms race How robot subs will outwit next gen sonar",
+          "score": 0.9992
+        },
+        {
+          "id": "1ofqd2z",
+          "title": "Startup’s tablets deliver cancer drugs more evenly over time",
+          "preview": "Startup s tablets deliver cancer drugs more evenly over time",
+          "score": 0.9992
+        },
+        {
+          "id": "1qwmeyk",
+          "title": "Microneedle patch uses bubbles to fight stubborn acne",
+          "preview": "Microneedle patch uses bubbles to fight stubborn acne",
+          "score": 0.9978
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 36,
+      "avg_intra_similarity": 0.9793,
+      "samples": [
+        {
+          "id": "1nzmd2l",
+          "title": "Ocean CO2 becomes sustainable plastic, thanks to modified microbes | Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean",
+          "preview": "Ocean CO2 becomes sustainable plastic thanks to modified microbes Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean",
+          "score": 0.9989
+        },
+        {
+          "id": "1nw0fgn",
+          "title": "Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.",
+          "preview": "Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures",
+          "score": 0.9989
+        },
+        {
+          "id": "1r12llt",
+          "title": "A quick stretch switches this polymer’s capacity to transport heat",
+          "preview": "A quick stretch switches this polymer s capacity to transport heat",
+          "score": 0.9977
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 10,
+      "avg_intra_similarity": 0.9756,
+      "samples": [
+        {
+          "id": "1qi1ui1",
+          "title": "Researchers build a stretchable OLED that can double in size without dimming",
+          "preview": "Researchers build a stretchable OLED that can double in size without dimming",
+          "score": 0.9939
+        },
+        {
+          "id": "1nzfaht",
+          "title": "'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.",
+          "preview": "Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...",
+          "score": 0.9931
+        },
+        {
+          "id": "1qsf709",
+          "title": "48 hours without lungs: artificial organ kept man alive until transplant",
+          "preview": "48 hours without lungs artificial organ kept man alive until transplant",
+          "score": 0.9912
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 21,
+      "avg_intra_similarity": 0.981,
+      "samples": [
+        {
+          "id": "1orqtni",
+          "title": "MIT study finds targets for a new tuberculosis vaccine",
+          "preview": "MIT study finds targets for a new tuberculosis vaccine",
+          "score": 1.0
+        },
+        {
+          "id": "1okucbg",
+          "title": "New nanoparticles stimulate the immune system to attack ovarian tumors",
+          "preview": "New nanoparticles stimulate the immune system to attack ovarian tumors",
+          "score": 1.0
+        },
+        {
+          "id": "1r1y4dy",
+          "title": "Sugar molecules used to destroy antibiotic-resistant bacteria",
+          "preview": "Sugar molecules used to destroy antibiotic resistant bacteria",
+          "score": 0.9982
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 10,
+      "avg_intra_similarity": 0.9505,
+      "samples": [
+        {
+          "id": "1ql87uu",
+          "title": "New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’",
+          "preview": "New filtration technology could be gamechanger in removal of Pfas forever chemicals",
+          "score": 0.9918
+        },
+        {
+          "id": "1pzikee",
+          "title": "Tiny under-scalp implant could restore lost senses through prostheses",
+          "preview": "Tiny under scalp implant could restore lost senses through prostheses",
+          "score": 0.9918
+        },
+        {
+          "id": "1qz3n1m",
+          "title": "Breakthrough: Scientists Created a 'Universal' Kidney To Match Any Blood Type",
+          "preview": "Breakthrough Scientists Created a Universal Kidney To Match Any Blood Type",
+          "score": 0.9856
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 19,
+      "avg_intra_similarity": 0.9625,
+      "samples": [
+        {
+          "id": "1p78c7n",
+          "title": "3D-printable concrete alternative hardens in three days, not four weeks",
+          "preview": "3D printable concrete alternative hardens in three days not four weeks",
+          "score": 0.9931
+        },
+        {
+          "id": "1o1ahsj",
+          "title": "'Breakthrough' blood test detects chronic fatigue in 92% of cases",
+          "preview": "Breakthrough blood test detects chronic fatigue in 92 of cases",
+          "score": 0.9931
+        },
+        {
+          "id": "1q14jnt",
+          "title": "How battery charging led to a breakthrough in lithium recycling",
+          "preview": "How battery charging led to a breakthrough in lithium recycling",
+          "score": 0.9898
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 28,
+      "avg_intra_similarity": 0.9803,
+      "samples": [
+        {
+          "id": "1qoi3w1",
+          "title": "Models that improve on their own are AI's next big thing",
+          "preview": "Models that improve on their own are AI s next big thing",
+          "score": 0.9978
+        },
+        {
+          "id": "1qa1gn0",
+          "title": "Spray-on armor for plants offers a new tool for global food security",
+          "preview": "Spray on armor for plants offers a new tool for global food security",
+          "score": 0.9978
+        },
+        {
+          "id": "1poa0sn",
+          "title": "ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30%",
+          "preview": "ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30",
+          "score": 0.9978
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "samples": [
+        {
+          "id": "1ond2wz",
+          "title": "Designing better, longer-lasting medicines",
+          "preview": "Designing better longer lasting medicines",
+          "score": 0.0
+        }
+      ]
+    }
+  ]
+}

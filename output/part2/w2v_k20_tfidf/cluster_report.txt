@@ -1,0 +1,95 @@
+Config       : w2v_k20
+Word Bins K  : 20
+Weighting    : tfidf
+Doc Clusters : 9
+Documents    : 200
+Silhouette   : 0.1605
+Davies-Bouldin: 2.1943
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: way, need, are, powered, brain, plastic, dressings
+  Bin   1: blind, open, fuels, stress, batteries, chip, cheaper, magnets
+  Bin   2: mrna, provide, up, disease, turning, post, ion, feel
+  Bin   3: restore, their, kills, make, quick, it, made, computers
+  Bin   4: buildings, gut, lab, nanoparticles, risk, problems, our, generation
+
+Cluster 0 (size=14, avg_sim=0.4888)
+Samples:
+  - 1pktgse: California startup's new fire-suppression system uses sound instead of water
+    California startup s new fire suppression system uses sound instead of water
+  - 1q0dhrx: Injectable antibodies in nanoparticles could replace hour-long infusions
+    Injectable antibodies in nanoparticles could replace hour long infusions
+  - 1ofqd2z: Startup’s tablets deliver cancer drugs more evenly over time
+    Startup s tablets deliver cancer drugs more evenly over time
+
+Cluster 1 (size=33, avg_sim=0.531)
+Samples:
+  - 1ox1c7t: Revolutionary biofuel battery is inspired by human metabolism | Using glucose and riboflavin in the creation of a biofuel flow cell which functions similarly to a human cell.
+    Revolutionary biofuel battery is inspired by human metabolism Using glucose and riboflavin in the creation of a biofuel flow cell which functions similarly to a human cell
+  - 1ou7znr: One-off lipid-lowering gene therapy a success in world-first human trial | A new gene therapy lowered two heart disease-related lipids in a human clinical trial
+    One off lipid lowering gene therapy a success in world first human trial A new gene therapy lowered two heart disease related lipids in a human clinical trial
+  - 1nwvnsp: Next-gen imaging tech could catch sight-stealing diseases early | A powerful new imaging tool offers unprecedented 3D vision of the retina
+    Next gen imaging tech could catch sight stealing diseases early A powerful new imaging tool offers unprecedented 3D vision of the retina
+
+Cluster 2 (size=23, avg_sim=0.5054)
+Samples:
+  - 1qkrlsi: This robotic hand can crawl away from its arm to grab things
+    This robotic hand can crawl away from its arm to grab things
+  - 1qdkdz6: Could glowing green skin be an alternative to blood sampling?
+    Could glowing green skin be an alternative to blood sampling
+  - 1nxv83p: Parachutes with hundreds of holes could enable safer drone deliveries
+    Parachutes with hundreds of holes could enable safer drone deliveries
+
+Cluster 3 (size=21, avg_sim=0.5108)
+Samples:
+  - 1odbuvo: App that translates speech to sign language in real-time wins top innovation prize
+    App that translates speech to sign language in real time wins top innovation prize
+  - 1q94q7g: Pills that communicate from the stomach could improve medication adherence
+    Pills that communicate from the stomach could improve medication adherence
+  - 1q1ym6n: Silicon 'postage stamp' implant instantly emails your thoughts to AI
+    Silicon postage stamp implant instantly emails your thoughts to AI
+
+Cluster 4 (size=24, avg_sim=0.5018)
+Samples:
+  - 1osjysu: Giving buildings an “MRI” to make them more energy-efficient and resilient | Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.
+    Giving buildings an MRI to make them more energy efficient and resilient Lamarr AI uses drones thermal imaging and AI to help property owners make targeted investments in their buildings
+  - 1o0i23l: New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.
+    New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis
+  - 1ov6kj6: Teaching robots to map large environments
+    Teaching robots to map large environments
+
+Cluster 5 (size=19, avg_sim=0.5069)
+Samples:
+  - 1owvj8c: Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help
+    Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help
+  - 1ov3lkv: MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders
+    MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...
+  - 1oexycx: Real-Time Audio Deepfakes Are Now a Reality | A cybersecurity firm has created convincing voices on the fly
+    Real Time Audio Deepfakes Are Now a Reality A cybersecurity firm has created convincing voices on the fly
+
+Cluster 6 (size=22, avg_sim=0.4059)
+Samples:
+  - 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+    New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+  - 1ql2wxh: Why Apple and OpenAI are reportedly betting on AI hardware in 2026
+    Why Apple and OpenAI are reportedly betting on AI hardware in 2026
+  - 1osjwmp: Smart dressings and stem cells: The future of wound healing | Researchers have compared newer wound-healing tech to conventional therapies and dressings
+    Smart dressings and stem cells The future of wound healing Researchers have compared newer wound healing tech to conventional therapies and dressings
+
+Cluster 7 (size=24, avg_sim=0.4253)
+Samples:
+  - 1ovyj9z: Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients
+    Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients
+  - 1ow04l6: Interstellar-inspired TARS3D may be first such robot that both walks and rolls | Scientists have created a real-life functional version of the TARS robot from the movie Interstellar
+    Interstellar inspired TARS3D may be first such robot that both walks and rolls Scientists have created a real life functional version of the TARS robot from the movie Interstellar
+  - 1q5jrtz: First US at-home depression kit on its way after trial shows relief in weeks
+    First US at home depression kit on its way after trial shows relief in weeks
+
+Cluster 8 (size=20, avg_sim=0.5046)
+Samples:
+  - 1qvy73x: AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts
+    AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts
+  - 1pvdysj: World's smallest autonomous robots could one day save your life
+    World s smallest autonomous robots could one day save your life
+  - 1op363o: Simple saliva test catches heart failure before you know you have it
+    Simple saliva test catches heart failure before you know you have it

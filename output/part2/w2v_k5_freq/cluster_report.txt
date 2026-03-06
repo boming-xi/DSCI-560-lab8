@@ -1,0 +1,95 @@
+Config       : w2v_k5
+Word Bins K  : 5
+Weighting    : freq
+Doc Clusters : 9
+Documents    : 200
+Silhouette   : 0.34
+Davies-Bouldin: 1.1887
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: patch, dyes, post, are, therapy, non, robot, robotic
+  Bin   1: drugs, and, smart, through, eye, reduce, light, thing
+  Bin   2: on, to, the, that, early, have, human, mice
+  Bin   3: alternative, found, your, see, reverses, fast, dna, brain
+  Bin   4: quantum, tech, bowel, interstellar, home, healthy, hybrid, trial
+
+Cluster 0 (size=20, avg_sim=0.8792)
+Samples:
+  - 1ptvjpf: AI-powered 'glasses' help the blind go places – safely
+    AI powered glasses help the blind go places safely
+  - 1nzfaht: 'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.
+    Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...
+  - 1odbuvo: App that translates speech to sign language in real-time wins top innovation prize
+    App that translates speech to sign language in real time wins top innovation prize
+
+Cluster 1 (size=15, avg_sim=0.9307)
+Samples:
+  - 1qpyl7w: Scientists Identify an Epigenetic Switch That Can Slow Production of Fat Cells
+    Scientists Identify an Epigenetic Switch That Can Slow Production of Fat Cells
+  - 1ql8ewk: UC Irvine engineers invent wireless transceiver rivaling fiber-optic speed
+    UC Irvine engineers invent wireless transceiver rivaling fiber optic speed
+  - 1p83tf1: Simple solvent makes polycotton fabric completely recyclable
+    Simple solvent makes polycotton fabric completely recyclable
+
+Cluster 2 (size=8, avg_sim=0.8776)
+Samples:
+  - 1qwni2u: A New AI Math Startup Just Cracked 4 Previously Unsolved Problems
+    A New AI Math Startup Just Cracked 4 Previously Unsolved Problems
+  - 1ow30qa: New lightweight polymer film can prevent corrosion
+    New lightweight polymer film can prevent corrosion
+  - 1qyj2fh: Sixteen Claude AI agents working together created a new C compiler
+    Sixteen Claude AI agents working together created a new C compiler
+
+Cluster 3 (size=18, avg_sim=0.7185)
+Samples:
+  - 1qo12gu: Using amino acids as fuels to make conductive graphene
+    Using amino acids as fuels to make conductive graphene
+  - 1pbe7h2: Tuneable perovskite: A breakthrough in low-cost solar and laser materials
+    Tuneable perovskite A breakthrough in low cost solar and laser materials
+  - 1quuj34: The Large Hadron Collider will now heat homes as well as smash particles
+    The Large Hadron Collider will now heat homes as well as smash particles
+
+Cluster 4 (size=34, avg_sim=0.9063)
+Samples:
+  - 1nvzkbv: Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.
+    Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...
+  - 1nw5nqm: MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.
+    MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times
+  - 1qwz2os: People Could Be ‘Resurrected’ in Robotic Bodies One Day, Futurist Believes. Now He’s Taken the First Step.
+    People Could Be Resurrected in Robotic Bodies One Day Futurist Believes Now He s Taken the First Step
+
+Cluster 5 (size=24, avg_sim=0.8832)
+Samples:
+  - 1ov3lkv: MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders
+    MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...
+  - 1qpferj: Goodbye to fragile solar cells: New method makes them almost eternal
+    Goodbye to fragile solar cells New method makes them almost eternal
+  - 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+    New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+
+Cluster 6 (size=26, avg_sim=0.8794)
+Samples:
+  - 1q6g4an: AI co-pilot uses machine learning to reduce deadly sea collisions
+    AI co pilot uses machine learning to reduce deadly sea collisions
+  - 1pfqaa8: First-ever drug to repair DNA and regenerate damaged tissue is here
+    First ever drug to repair DNA and regenerate damaged tissue is here
+  - 1oo8t1s: Designer drug targets both heart disease and diabetes
+    Designer drug targets both heart disease and diabetes
+
+Cluster 7 (size=23, avg_sim=0.8786)
+Samples:
+  - 1qdkdz6: Could glowing green skin be an alternative to blood sampling?
+    Could glowing green skin be an alternative to blood sampling
+  - 1qavcqn: These paper batteries made from plants want to replace AA and AAA cells
+    These paper batteries made from plants want to replace AA and AAA cells
+  - 1pvdysj: World's smallest autonomous robots could one day save your life
+    World s smallest autonomous robots could one day save your life
+
+Cluster 8 (size=32, avg_sim=0.9198)
+Samples:
+  - 1qnk0ut: China reveals 200-strong AI drone swarm that can be controlled by a single soldier — ‘intelligent algorithm’ allows individual units to cooperate autonomously even after losing communication with operator
+    China reveals 200 strong AI drone swarm that can be controlled by a single soldier intelligent algorithm allows individual units to cooperate autonomously even after losing communication with operator
+  - 1qlo9ok: Scientists print human liver tissue in breakthrough that could save lives
+    Scientists print human liver tissue in breakthrough that could save lives
+  - 1ow04l6: Interstellar-inspired TARS3D may be first such robot that both walks and rolls | Scientists have created a real-life functional version of the TARS robot from the movie Interstellar
+    Interstellar inspired TARS3D may be first such robot that both walks and rolls Scientists have created a real life functional version of the TARS robot from the movie Interstellar

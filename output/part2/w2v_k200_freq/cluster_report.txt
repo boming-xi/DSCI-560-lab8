@@ -1,0 +1,50 @@
+Config       : w2v_k200
+Word Bins K  : 200
+Weighting    : freq
+Doc Clusters : 4
+Documents    : 200
+Silhouette   : 0.0827
+Davies-Bouldin: 3.7964
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: day
+  Bin   1: natural, tech, treatment
+  Bin   2: lithium, restoring
+  Bin   3: kills
+  Bin   4: injectable, artificial
+
+Cluster 0 (size=28, avg_sim=0.2759)
+Samples:
+  - 1pi9cns: Pneumatic-suction robot clears 75,000 lb of cargo an hour
+    Pneumatic suction robot clears 75 000 lb of cargo an hour
+  - 1ofezo6: Miami Has a New Cop on the Beat: A Drone-Launching Police Car That Can Drive Itself
+    Miami Has a New Cop on the Beat A Drone Launching Police Car That Can Drive Itself
+  - 1okucbg: New nanoparticles stimulate the immune system to attack ovarian tumors
+    New nanoparticles stimulate the immune system to attack ovarian tumors
+
+Cluster 1 (size=45, avg_sim=0.2111)
+Samples:
+  - 1qofe50: Electrifying boilers to decarbonize industry
+    Electrifying boilers to decarbonize industry
+  - 1ov6kj6: Teaching robots to map large environments
+    Teaching robots to map large environments
+  - 1osjysu: Giving buildings an “MRI” to make them more energy-efficient and resilient | Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.
+    Giving buildings an MRI to make them more energy efficient and resilient Lamarr AI uses drones thermal imaging and AI to help property owners make targeted investments in their buildings
+
+Cluster 2 (size=59, avg_sim=0.2465)
+Samples:
+  - 1qg9dem: Chemists determine the structure of the fuzzy coat that surrounds Tau proteins
+    Chemists determine the structure of the fuzzy coat that surrounds Tau proteins
+  - 1o0b42k: Tiny lab-grown brains could help build the next generation of computers | Biocomputing has left the realm of science fiction and entered the laboratory
+    Tiny lab grown brains could help build the next generation of computers Biocomputing has left the realm of science fiction and entered the laboratory
+  - 1nw0fgn: Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.
+    Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures
+
+Cluster 3 (size=68, avg_sim=0.0734)
+Samples:
+  - 1ou7znr: One-off lipid-lowering gene therapy a success in world-first human trial | A new gene therapy lowered two heart disease-related lipids in a human clinical trial
+    One off lipid lowering gene therapy a success in world first human trial A new gene therapy lowered two heart disease related lipids in a human clinical trial
+  - 1qlo9ok: Scientists print human liver tissue in breakthrough that could save lives
+    Scientists print human liver tissue in breakthrough that could save lives
+  - 1ovyj9z: Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients
+    Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients

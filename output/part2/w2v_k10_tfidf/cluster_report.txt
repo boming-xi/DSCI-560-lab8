@@ -1,0 +1,95 @@
+Config       : w2v_k10
+Word Bins K  : 10
+Weighting    : tfidf
+Doc Clusters : 9
+Documents    : 200
+Silhouette   : 0.2436
+Davies-Bouldin: 1.6344
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: airborne, uses, compound, mit, laser, co, match, sugar
+  Bin   1: small, high, alternative, found, use, growth, lab, kills
+  Bin   2: signals, molecule, cheaper, and, single, shows, tumor, through
+  Bin   3: need, in, interstellar, processing, to, previously, trial, ocean
+  Bin   4: reverses, see, gene, times, replace, safe, makes, aging
+
+Cluster 0 (size=24, avg_sim=0.746)
+Samples:
+  - 1ppre9i: Helical rover wheel balloons from 9 to 20 inches &amp; survives fire
+    Helical rover wheel balloons from 9 to 20 inches survives fire
+  - 1osl0gs: New therapeutic brain implants could defy the need for surgery
+    New therapeutic brain implants could defy the need for surgery
+  - 1qjtluw: Building the world's first open-source quantum computer
+    Building the world s first open source quantum computer
+
+Cluster 1 (size=25, avg_sim=0.6947)
+Samples:
+  - 1pn89ot: A new way to deliver antibodies could make treatment much easier for patients
+    A new way to deliver antibodies could make treatment much easier for patients
+  - 1qjwq10: Forestry-waste pine bark could be used to pull antibiotics out of wastewater
+    Forestry waste pine bark could be used to pull antibiotics out of wastewater
+  - 1ql87uu: New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’
+    New filtration technology could be gamechanger in removal of Pfas forever chemicals
+
+Cluster 2 (size=18, avg_sim=0.5888)
+Samples:
+  - 1pfqaa8: First-ever drug to repair DNA and regenerate damaged tissue is here
+    First ever drug to repair DNA and regenerate damaged tissue is here
+  - 1oe2ib9: Bowel cancer’s “sugar shield” removed to reawaken immune defenses
+    Bowel cancer s sugar shield removed to reawaken immune defenses
+  - 1qlo9ok: Scientists print human liver tissue in breakthrough that could save lives
+    Scientists print human liver tissue in breakthrough that could save lives
+
+Cluster 3 (size=21, avg_sim=0.7255)
+Samples:
+  - 1nzfgso: Chemists create red fluorescent dyes that may enable clearer biomedical imaging | The new dyes are based on boron-containing molecules that were previously too unstable for practical use.
+    Chemists create red fluorescent dyes that may enable clearer biomedical imaging The new dyes are based on boron containing molecules that were previously too unstable for practical use
+  - 1pd57e5: Bacteria used to make and dye fiber for clothing in the same vat
+    Bacteria used to make and dye fiber for clothing in the same vat
+  - 1qz9ri2: 3D-printed batteries aim to reshape energy storage in small devices
+    3D printed batteries aim to reshape energy storage in small devices
+
+Cluster 4 (size=26, avg_sim=0.6789)
+Samples:
+  - 1nw5nqm: MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.
+    MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times
+  - 1qpferj: Goodbye to fragile solar cells: New method makes them almost eternal
+    Goodbye to fragile solar cells New method makes them almost eternal
+  - 1oymihf: Turkey tail mushroom provides alternative to single-use plastic wrap
+    Turkey tail mushroom provides alternative to single use plastic wrap
+
+Cluster 5 (size=20, avg_sim=0.6668)
+Samples:
+  - 1nwvnsp: Next-gen imaging tech could catch sight-stealing diseases early | A powerful new imaging tool offers unprecedented 3D vision of the retina
+    Next gen imaging tech could catch sight stealing diseases early A powerful new imaging tool offers unprecedented 3D vision of the retina
+  - 1owvj8c: Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help
+    Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help
+  - 1plmu7w: ADHD 'audio shield' turns sounds from daily tasks into powerful focus tool
+    ADHD audio shield turns sounds from daily tasks into powerful focus tool
+
+Cluster 6 (size=25, avg_sim=0.7132)
+Samples:
+  - 1qavcqn: These paper batteries made from plants want to replace AA and AAA cells
+    These paper batteries made from plants want to replace AA and AAA cells
+  - 1nucil7: A boost for the precision of genome editing
+    A boost for the precision of genome editing
+  - 1qwz2os: People Could Be ‘Resurrected’ in Robotic Bodies One Day, Futurist Believes. Now He’s Taken the First Step.
+    People Could Be Resurrected in Robotic Bodies One Day Futurist Believes Now He s Taken the First Step
+
+Cluster 7 (size=22, avg_sim=0.7155)
+Samples:
+  - 1nvzkbv: Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.
+    Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...
+  - 1nxscj6: A groundbreaking study has revealed that your mom and dad’s DNA don’t just pass on telomere length, they actively reshape it in the first days of life, influencing how we age and our risk of developing diseases such as cancer.
+    A groundbreaking study has revealed that your mom and dad s DNA don t just pass on telomere length they actively reshape it in the first days of life influencing how we age and our risk of...
+  - 1qwni2u: A New AI Math Startup Just Cracked 4 Previously Unsolved Problems
+    A New AI Math Startup Just Cracked 4 Previously Unsolved Problems
+
+Cluster 8 (size=19, avg_sim=0.7219)
+Samples:
+  - 1qmkylh: UCLA engineers discover the most heat-conductive metal ever measured
+    UCLA engineers discover the most heat conductive metal ever measured
+  - 1qh5bqq: A protein found in the GI tract can neutralize many bacteria
+    A protein found in the GI tract can neutralize many bacteria
+  - 1qo12gu: Using amino acids as fuels to make conductive graphene
+    Using amino acids as fuels to make conductive graphene

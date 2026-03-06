@@ -1,0 +1,72 @@
+{
+  "bin_config": "w2v_k20",
+  "k_word_bins": 20,
+  "weighting": "freq",
+  "doc_clusters_k": 2,
+  "num_docs": 200,
+  "silhouette_cosine": 0.1973,
+  "davies_bouldin": 2.7345,
+  "k_scores": {
+    "2": 0.1973,
+    "3": 0.175,
+    "4": 0.1549,
+    "5": 0.153,
+    "6": 0.1334,
+    "7": 0.174,
+    "8": 0.1625,
+    "9": 0.173,
+    "10": 0.1311
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 96,
+      "avg_intra_similarity": 0.308,
+      "samples": [
+        {
+          "id": "1oym5mb",
+          "title": "Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.",
+          "preview": "Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...",
+          "score": 0.8522
+        },
+        {
+          "id": "1qyf0di",
+          "title": "This fusion energy startup thinks it can cut lasers out of the equation",
+          "preview": "This fusion energy startup thinks it can cut lasers out of the equation",
+          "score": 0.7674
+        },
+        {
+          "id": "1r2ugsz",
+          "title": "Big blimp uses blades to pull wind power out of the sky",
+          "preview": "Big blimp uses blades to pull wind power out of the sky",
+          "score": 0.7566
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 104,
+      "avg_intra_similarity": 0.5507,
+      "samples": [
+        {
+          "id": "1nxscj6",
+          "title": "A groundbreaking study has revealed that your mom and dad’s DNA don’t just pass on telomere length, they actively reshape it in the first days of life, influencing how we age and our risk of developing diseases such as cancer.",
+          "preview": "A groundbreaking study has revealed that your mom and dad s DNA don t just pass on telomere length they actively reshape it in the first days of life influencing how we age and our risk of...",
+          "score": 0.9356
+        },
+        {
+          "id": "1ou7znr",
+          "title": "One-off lipid-lowering gene therapy a success in world-first human trial | A new gene therapy lowered two heart disease-related lipids in a human clinical trial",
+          "preview": "One off lipid lowering gene therapy a success in world first human trial A new gene therapy lowered two heart disease related lipids in a human clinical trial",
+          "score": 0.9276
+        },
+        {
+          "id": "1ox1c7t",
+          "title": "Revolutionary biofuel battery is inspired by human metabolism | Using glucose and riboflavin in the creation of a biofuel flow cell which functions similarly to a human cell.",
+          "preview": "Revolutionary biofuel battery is inspired by human metabolism Using glucose and riboflavin in the creation of a biofuel flow cell which functions similarly to a human cell",
+          "score": 0.9098
+        }
+      ]
+    }
+  ]
+}

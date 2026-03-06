@@ -1,0 +1,95 @@
+Config       : w2v_k100
+Word Bins K  : 100
+Weighting    : tfidf
+Doc Clusters : 9
+Documents    : 200
+Silhouette   : 0.0514
+Davies-Bouldin: 3.8512
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: power, life
+  Bin   1: their, high, hybrid, it, weapon, water, big, lithium
+  Bin   2: light, injectable, magnets, create, drugs, controlled, real
+  Bin   3: without, both, seen, cheaper, compound, targets, fuels, match
+  Bin   4: off, tars, on
+
+Cluster 0 (size=39, avg_sim=0.1725)
+Samples:
+  - 1nw0fgn: Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.
+    Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures
+  - 1osl0gs: New therapeutic brain implants could defy the need for surgery
+    New therapeutic brain implants could defy the need for surgery
+  - 1ov3lkv: MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders
+    MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...
+
+Cluster 1 (size=17, avg_sim=0.2717)
+Samples:
+  - 1qcnwbl: Scientists develop nanophotonic material that changes color, texture, and shape on demand
+    Scientists develop nanophotonic material that changes color texture and shape on demand
+  - 1qfejyt: Scientists create a spray-on powder that seals life-threatening wounds in seconds
+    Scientists create a spray on powder that seals life threatening wounds in seconds
+  - 1ql2wxh: Why Apple and OpenAI are reportedly betting on AI hardware in 2026
+    Why Apple and OpenAI are reportedly betting on AI hardware in 2026
+
+Cluster 2 (size=16, avg_sim=0.1793)
+Samples:
+  - 1qr22va: Days numbered for 'risky' lithium-ion batteries, scientists say, after fast-charging breakthrough in sodium-ion alternative
+    Days numbered for risky lithium ion batteries scientists say after fast charging breakthrough in sodium ion alternative
+  - 1qeftaw: AI models are starting to crack high-level math problems
+    AI models are starting to crack high level math problems
+  - 1q7f4wz: AI Models Are Starting to Learn by Asking Themselves Questions
+    AI Models Are Starting to Learn by Asking Themselves Questions
+
+Cluster 3 (size=32, avg_sim=0.1497)
+Samples:
+  - 1ou7znr: One-off lipid-lowering gene therapy a success in world-first human trial | A new gene therapy lowered two heart disease-related lipids in a human clinical trial
+    One off lipid lowering gene therapy a success in world first human trial A new gene therapy lowered two heart disease related lipids in a human clinical trial
+  - 1ovyj9z: Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients
+    Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients
+  - 1o24xx8: New daily pill shows strong results in ulcerative colitis clinical trial
+    New daily pill shows strong results in ulcerative colitis clinical trial
+
+Cluster 4 (size=12, avg_sim=0.2757)
+Samples:
+  - 1p78c7n: 3D-printable concrete alternative hardens in three days, not four weeks
+    3D printable concrete alternative hardens in three days not four weeks
+  - 1nw5nqm: MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.
+    MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times
+  - 1pajpr5: Stretchy battery inspired by lemons improves voltage and cell life
+    Stretchy battery inspired by lemons improves voltage and cell life
+
+Cluster 5 (size=28, avg_sim=0.14)
+Samples:
+  - 1nuwsa7: Study finds key role for non-neural brain cells in processing vision | MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing by maintaining ambient levels of the neurotransmitter chemical GABA.
+    Study finds key role for non neural brain cells in processing vision MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing...
+  - 1nxscj6: A groundbreaking study has revealed that your mom and dad’s DNA don’t just pass on telomere length, they actively reshape it in the first days of life, influencing how we age and our risk of developing diseases such as cancer.
+    A groundbreaking study has revealed that your mom and dad s DNA don t just pass on telomere length they actively reshape it in the first days of life influencing how we age and our risk of...
+  - 1qavcqn: These paper batteries made from plants want to replace AA and AAA cells
+    These paper batteries made from plants want to replace AA and AAA cells
+
+Cluster 6 (size=30, avg_sim=0.1422)
+Samples:
+  - 1odbuvo: App that translates speech to sign language in real-time wins top innovation prize
+    App that translates speech to sign language in real time wins top innovation prize
+  - 1nzfaht: 'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.
+    Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...
+  - 1qszrap: New ultrasound pad aims to make prenatal visits less unpleasant
+    New ultrasound pad aims to make prenatal visits less unpleasant
+
+Cluster 7 (size=8, avg_sim=0.331)
+Samples:
+  - 1opviil: ‘Mind-captioning’ AI decodes brain activity to turn thoughts into text
+    Mind captioning AI decodes brain activity to turn thoughts into text
+  - 1qxil2p: Wood scraps turn 'useless' desert sand into concrete
+    Wood scraps turn useless desert sand into concrete
+  - 1qj3ubg: MIT’s new ‘recursive’ framework lets LLMs process 10 million tokens without context rot
+    MIT s new recursive framework lets LLMs process 10 million tokens without context rot
+
+Cluster 8 (size=18, avg_sim=0.1871)
+Samples:
+  - 1p8vofc: Lining pipes with lab-grown diamonds can keep them squeaky clean
+    Lining pipes with lab grown diamonds can keep them squeaky clean
+  - 1pjydlg: Soft robots can now see with a self-focusing squishy eye
+    Soft robots can now see with a self focusing squishy eye
+  - 1pqmdwz: Scientists find a way to 'reboot' vision in adults with lazy eye
+    Scientists find a way to reboot vision in adults with lazy eye

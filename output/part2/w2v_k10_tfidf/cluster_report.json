@@ -1,0 +1,247 @@
+{
+  "bin_config": "w2v_k10",
+  "k_word_bins": 10,
+  "weighting": "tfidf",
+  "doc_clusters_k": 9,
+  "num_docs": 200,
+  "silhouette_cosine": 0.2436,
+  "davies_bouldin": 1.6344,
+  "k_scores": {
+    "2": 0.1692,
+    "3": 0.1841,
+    "4": 0.2113,
+    "5": 0.2208,
+    "6": 0.2269,
+    "7": 0.2254,
+    "8": 0.2294,
+    "9": 0.2436,
+    "10": 0.2165
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 24,
+      "avg_intra_similarity": 0.746,
+      "samples": [
+        {
+          "id": "1ppre9i",
+          "title": "Helical rover wheel balloons from 9 to 20 inches &amp; survives fire",
+          "preview": "Helical rover wheel balloons from 9 to 20 inches survives fire",
+          "score": 0.9462
+        },
+        {
+          "id": "1osl0gs",
+          "title": "New therapeutic brain implants could defy the need for surgery",
+          "preview": "New therapeutic brain implants could defy the need for surgery",
+          "score": 0.9408
+        },
+        {
+          "id": "1qjtluw",
+          "title": "Building the world's first open-source quantum computer",
+          "preview": "Building the world s first open source quantum computer",
+          "score": 0.9225
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 25,
+      "avg_intra_similarity": 0.6947,
+      "samples": [
+        {
+          "id": "1pn89ot",
+          "title": "A new way to deliver antibodies could make treatment much easier for patients",
+          "preview": "A new way to deliver antibodies could make treatment much easier for patients",
+          "score": 0.9393
+        },
+        {
+          "id": "1qjwq10",
+          "title": "Forestry-waste pine bark could be used to pull antibiotics out of wastewater",
+          "preview": "Forestry waste pine bark could be used to pull antibiotics out of wastewater",
+          "score": 0.9356
+        },
+        {
+          "id": "1ql87uu",
+          "title": "New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’",
+          "preview": "New filtration technology could be gamechanger in removal of Pfas forever chemicals",
+          "score": 0.91
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 18,
+      "avg_intra_similarity": 0.5888,
+      "samples": [
+        {
+          "id": "1pfqaa8",
+          "title": "First-ever drug to repair DNA and regenerate damaged tissue is here",
+          "preview": "First ever drug to repair DNA and regenerate damaged tissue is here",
+          "score": 0.9269
+        },
+        {
+          "id": "1oe2ib9",
+          "title": "Bowel cancer’s “sugar shield” removed to reawaken immune defenses",
+          "preview": "Bowel cancer s sugar shield removed to reawaken immune defenses",
+          "score": 0.871
+        },
+        {
+          "id": "1qlo9ok",
+          "title": "Scientists print human liver tissue in breakthrough that could save lives",
+          "preview": "Scientists print human liver tissue in breakthrough that could save lives",
+          "score": 0.8624
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 21,
+      "avg_intra_similarity": 0.7255,
+      "samples": [
+        {
+          "id": "1nzfgso",
+          "title": "Chemists create red fluorescent dyes that may enable clearer biomedical imaging | The new dyes are based on boron-containing molecules that were previously too unstable for practical use.",
+          "preview": "Chemists create red fluorescent dyes that may enable clearer biomedical imaging The new dyes are based on boron containing molecules that were previously too unstable for practical use",
+          "score": 0.9686
+        },
+        {
+          "id": "1pd57e5",
+          "title": "Bacteria used to make and dye fiber for clothing in the same vat",
+          "preview": "Bacteria used to make and dye fiber for clothing in the same vat",
+          "score": 0.9211
+        },
+        {
+          "id": "1qz9ri2",
+          "title": "3D-printed batteries aim to reshape energy storage in small devices",
+          "preview": "3D printed batteries aim to reshape energy storage in small devices",
+          "score": 0.9101
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 26,
+      "avg_intra_similarity": 0.6789,
+      "samples": [
+        {
+          "id": "1nw5nqm",
+          "title": "MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.",
+          "preview": "MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times",
+          "score": 0.9235
+        },
+        {
+          "id": "1qpferj",
+          "title": "Goodbye to fragile solar cells: New method makes them almost eternal",
+          "preview": "Goodbye to fragile solar cells New method makes them almost eternal",
+          "score": 0.9176
+        },
+        {
+          "id": "1oymihf",
+          "title": "Turkey tail mushroom provides alternative to single-use plastic wrap",
+          "preview": "Turkey tail mushroom provides alternative to single use plastic wrap",
+          "score": 0.9014
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 20,
+      "avg_intra_similarity": 0.6668,
+      "samples": [
+        {
+          "id": "1nwvnsp",
+          "title": "Next-gen imaging tech could catch sight-stealing diseases early | A powerful new imaging tool offers unprecedented 3D vision of the retina",
+          "preview": "Next gen imaging tech could catch sight stealing diseases early A powerful new imaging tool offers unprecedented 3D vision of the retina",
+          "score": 0.9603
+        },
+        {
+          "id": "1owvj8c",
+          "title": "Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help",
+          "preview": "Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help",
+          "score": 0.9144
+        },
+        {
+          "id": "1plmu7w",
+          "title": "ADHD 'audio shield' turns sounds from daily tasks into powerful focus tool",
+          "preview": "ADHD audio shield turns sounds from daily tasks into powerful focus tool",
+          "score": 0.8949
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 25,
+      "avg_intra_similarity": 0.7132,
+      "samples": [
+        {
+          "id": "1qavcqn",
+          "title": "These paper batteries made from plants want to replace AA and AAA cells",
+          "preview": "These paper batteries made from plants want to replace AA and AAA cells",
+          "score": 0.9066
+        },
+        {
+          "id": "1nucil7",
+          "title": "A boost for the precision of genome editing",
+          "preview": "A boost for the precision of genome editing",
+          "score": 0.9044
+        },
+        {
+          "id": "1qwz2os",
+          "title": "People Could Be ‘Resurrected’ in Robotic Bodies One Day, Futurist Believes. Now He’s Taken the First Step.",
+          "preview": "People Could Be Resurrected in Robotic Bodies One Day Futurist Believes Now He s Taken the First Step",
+          "score": 0.9034
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 22,
+      "avg_intra_similarity": 0.7155,
+      "samples": [
+        {
+          "id": "1nvzkbv",
+          "title": "Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.",
+          "preview": "Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...",
+          "score": 0.9469
+        },
+        {
+          "id": "1nxscj6",
+          "title": "A groundbreaking study has revealed that your mom and dad’s DNA don’t just pass on telomere length, they actively reshape it in the first days of life, influencing how we age and our risk of developing diseases such as cancer.",
+          "preview": "A groundbreaking study has revealed that your mom and dad s DNA don t just pass on telomere length they actively reshape it in the first days of life influencing how we age and our risk of...",
+          "score": 0.9342
+        },
+        {
+          "id": "1qwni2u",
+          "title": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
+          "preview": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
+          "score": 0.9231
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 19,
+      "avg_intra_similarity": 0.7219,
+      "samples": [
+        {
+          "id": "1qmkylh",
+          "title": "UCLA engineers discover the most heat-conductive metal ever measured",
+          "preview": "UCLA engineers discover the most heat conductive metal ever measured",
+          "score": 0.9358
+        },
+        {
+          "id": "1qh5bqq",
+          "title": "A protein found in the GI tract can neutralize many bacteria",
+          "preview": "A protein found in the GI tract can neutralize many bacteria",
+          "score": 0.9358
+        },
+        {
+          "id": "1qo12gu",
+          "title": "Using amino acids as fuels to make conductive graphene",
+          "preview": "Using amino acids as fuels to make conductive graphene",
+          "score": 0.9308
+        }
+      ]
+    }
+  ]
+}

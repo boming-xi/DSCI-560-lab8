@@ -1,0 +1,77 @@
+Config       : w2v_k5
+Word Bins K  : 5
+Weighting    : tfidf
+Doc Clusters : 7
+Documents    : 200
+Silhouette   : 0.3361
+Davies-Bouldin: 1.2806
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: patch, dyes, post, are, therapy, non, robot, robotic
+  Bin   1: drugs, and, smart, through, eye, reduce, light, thing
+  Bin   2: on, to, the, that, early, have, human, mice
+  Bin   3: alternative, found, your, see, reverses, fast, dna, brain
+  Bin   4: quantum, tech, bowel, interstellar, home, healthy, hybrid, trial
+
+Cluster 0 (size=32, avg_sim=0.8488)
+Samples:
+  - 1qpferj: Goodbye to fragile solar cells: New method makes them almost eternal
+    Goodbye to fragile solar cells New method makes them almost eternal
+  - 1osjwmp: Smart dressings and stem cells: The future of wound healing | Researchers have compared newer wound-healing tech to conventional therapies and dressings
+    Smart dressings and stem cells The future of wound healing Researchers have compared newer wound healing tech to conventional therapies and dressings
+  - 1o0i23l: New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.
+    New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis
+
+Cluster 1 (size=24, avg_sim=0.8543)
+Samples:
+  - 1pfqaa8: First-ever drug to repair DNA and regenerate damaged tissue is here
+    First ever drug to repair DNA and regenerate damaged tissue is here
+  - 1qyf0di: This fusion energy startup thinks it can cut lasers out of the equation
+    This fusion energy startup thinks it can cut lasers out of the equation
+  - 1qkrlsi: This robotic hand can crawl away from its arm to grab things
+    This robotic hand can crawl away from its arm to grab things
+
+Cluster 2 (size=30, avg_sim=0.789)
+Samples:
+  - 1qmkylh: UCLA engineers discover the most heat-conductive metal ever measured
+    UCLA engineers discover the most heat conductive metal ever measured
+  - 1o5j1j1: Naked mole-rat DNA repair could unlock natural human longevity
+    Naked mole rat DNA repair could unlock natural human longevity
+  - 1nxv83p: Parachutes with hundreds of holes could enable safer drone deliveries
+    Parachutes with hundreds of holes could enable safer drone deliveries
+
+Cluster 3 (size=33, avg_sim=0.8634)
+Samples:
+  - 1ovyj9z: Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients
+    Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients
+  - 1nzmd2l: Ocean CO2 becomes sustainable plastic, thanks to modified microbes | Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean
+    Ocean CO2 becomes sustainable plastic thanks to modified microbes Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean
+  - 1qszrap: New ultrasound pad aims to make prenatal visits less unpleasant
+    New ultrasound pad aims to make prenatal visits less unpleasant
+
+Cluster 4 (size=25, avg_sim=0.8337)
+Samples:
+  - 1quuj34: The Large Hadron Collider will now heat homes as well as smash particles
+    The Large Hadron Collider will now heat homes as well as smash particles
+  - 1pgjktv: MIT researchers “speak objects into existence” using AI and robotics
+    MIT researchers speak objects into existence using AI and robotics
+  - 1pbe7h2: Tuneable perovskite: A breakthrough in low-cost solar and laser materials
+    Tuneable perovskite A breakthrough in low cost solar and laser materials
+
+Cluster 5 (size=23, avg_sim=0.88)
+Samples:
+  - 1qdkdz6: Could glowing green skin be an alternative to blood sampling?
+    Could glowing green skin be an alternative to blood sampling
+  - 1r12llt: A quick stretch switches this polymer’s capacity to transport heat
+    A quick stretch switches this polymer s capacity to transport heat
+  - 1o4p02i: Engineered “natural killer” cells could help fight cancer
+    Engineered natural killer cells could help fight cancer
+
+Cluster 6 (size=33, avg_sim=0.9014)
+Samples:
+  - 1nvzkbv: Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.
+    Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...
+  - 1qwz2os: People Could Be ‘Resurrected’ in Robotic Bodies One Day, Futurist Believes. Now He’s Taken the First Step.
+    People Could Be Resurrected in Robotic Bodies One Day Futurist Believes Now He s Taken the First Step
+  - 1nvjz4n: Edible sensor warns of flu by tasting like thyme | The molecular sensor contains a phenolic compound called thymol, which is found in thyme
+    Edible sensor warns of flu by tasting like thyme The molecular sensor contains a phenolic compound called thymol which is found in thyme

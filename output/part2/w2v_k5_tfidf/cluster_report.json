@@ -1,0 +1,197 @@
+{
+  "bin_config": "w2v_k5",
+  "k_word_bins": 5,
+  "weighting": "tfidf",
+  "doc_clusters_k": 7,
+  "num_docs": 200,
+  "silhouette_cosine": 0.3361,
+  "davies_bouldin": 1.2806,
+  "k_scores": {
+    "2": 0.2878,
+    "3": 0.3206,
+    "4": 0.3209,
+    "5": 0.3355,
+    "6": 0.3333,
+    "7": 0.3361,
+    "8": 0.3318,
+    "9": 0.3118,
+    "10": 0.3244
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 32,
+      "avg_intra_similarity": 0.8488,
+      "samples": [
+        {
+          "id": "1qpferj",
+          "title": "Goodbye to fragile solar cells: New method makes them almost eternal",
+          "preview": "Goodbye to fragile solar cells New method makes them almost eternal",
+          "score": 0.9923
+        },
+        {
+          "id": "1osjwmp",
+          "title": "Smart dressings and stem cells: The future of wound healing | Researchers have compared newer wound-healing tech to conventional therapies and dressings",
+          "preview": "Smart dressings and stem cells The future of wound healing Researchers have compared newer wound healing tech to conventional therapies and dressings",
+          "score": 0.9823
+        },
+        {
+          "id": "1o0i23l",
+          "title": "New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.",
+          "preview": "New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis",
+          "score": 0.9801
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 24,
+      "avg_intra_similarity": 0.8543,
+      "samples": [
+        {
+          "id": "1pfqaa8",
+          "title": "First-ever drug to repair DNA and regenerate damaged tissue is here",
+          "preview": "First ever drug to repair DNA and regenerate damaged tissue is here",
+          "score": 0.9918
+        },
+        {
+          "id": "1qyf0di",
+          "title": "This fusion energy startup thinks it can cut lasers out of the equation",
+          "preview": "This fusion energy startup thinks it can cut lasers out of the equation",
+          "score": 0.9753
+        },
+        {
+          "id": "1qkrlsi",
+          "title": "This robotic hand can crawl away from its arm to grab things",
+          "preview": "This robotic hand can crawl away from its arm to grab things",
+          "score": 0.9605
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 30,
+      "avg_intra_similarity": 0.789,
+      "samples": [
+        {
+          "id": "1qmkylh",
+          "title": "UCLA engineers discover the most heat-conductive metal ever measured",
+          "preview": "UCLA engineers discover the most heat conductive metal ever measured",
+          "score": 0.9877
+        },
+        {
+          "id": "1o5j1j1",
+          "title": "Naked mole-rat DNA repair could unlock natural human longevity",
+          "preview": "Naked mole rat DNA repair could unlock natural human longevity",
+          "score": 0.9877
+        },
+        {
+          "id": "1nxv83p",
+          "title": "Parachutes with hundreds of holes could enable safer drone deliveries",
+          "preview": "Parachutes with hundreds of holes could enable safer drone deliveries",
+          "score": 0.9877
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 33,
+      "avg_intra_similarity": 0.8634,
+      "samples": [
+        {
+          "id": "1ovyj9z",
+          "title": "Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients",
+          "preview": "Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients",
+          "score": 0.9951
+        },
+        {
+          "id": "1nzmd2l",
+          "title": "Ocean CO2 becomes sustainable plastic, thanks to modified microbes | Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean",
+          "preview": "Ocean CO2 becomes sustainable plastic thanks to modified microbes Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean",
+          "score": 0.9811
+        },
+        {
+          "id": "1qszrap",
+          "title": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "preview": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "score": 0.9774
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 25,
+      "avg_intra_similarity": 0.8337,
+      "samples": [
+        {
+          "id": "1quuj34",
+          "title": "The Large Hadron Collider will now heat homes as well as smash particles",
+          "preview": "The Large Hadron Collider will now heat homes as well as smash particles",
+          "score": 0.9737
+        },
+        {
+          "id": "1pgjktv",
+          "title": "MIT researchers “speak objects into existence” using AI and robotics",
+          "preview": "MIT researchers speak objects into existence using AI and robotics",
+          "score": 0.9699
+        },
+        {
+          "id": "1pbe7h2",
+          "title": "Tuneable perovskite: A breakthrough in low-cost solar and laser materials",
+          "preview": "Tuneable perovskite A breakthrough in low cost solar and laser materials",
+          "score": 0.9636
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 23,
+      "avg_intra_similarity": 0.88,
+      "samples": [
+        {
+          "id": "1qdkdz6",
+          "title": "Could glowing green skin be an alternative to blood sampling?",
+          "preview": "Could glowing green skin be an alternative to blood sampling",
+          "score": 0.9959
+        },
+        {
+          "id": "1r12llt",
+          "title": "A quick stretch switches this polymer’s capacity to transport heat",
+          "preview": "A quick stretch switches this polymer s capacity to transport heat",
+          "score": 0.9803
+        },
+        {
+          "id": "1o4p02i",
+          "title": "Engineered “natural killer” cells could help fight cancer",
+          "preview": "Engineered natural killer cells could help fight cancer",
+          "score": 0.9803
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 33,
+      "avg_intra_similarity": 0.9014,
+      "samples": [
+        {
+          "id": "1nvzkbv",
+          "title": "Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.",
+          "preview": "Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...",
+          "score": 0.9919
+        },
+        {
+          "id": "1qwz2os",
+          "title": "People Could Be ‘Resurrected’ in Robotic Bodies One Day, Futurist Believes. Now He’s Taken the First Step.",
+          "preview": "People Could Be Resurrected in Robotic Bodies One Day Futurist Believes Now He s Taken the First Step",
+          "score": 0.9853
+        },
+        {
+          "id": "1nvjz4n",
+          "title": "Edible sensor warns of flu by tasting like thyme | The molecular sensor contains a phenolic compound called thymol, which is found in thyme",
+          "preview": "Edible sensor warns of flu by tasting like thyme The molecular sensor contains a phenolic compound called thymol which is found in thyme",
+          "score": 0.9796
+        }
+      ]
+    }
+  ]
+}

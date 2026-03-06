@@ -1,0 +1,197 @@
+{
+  "bin_config": "w2v_k8",
+  "k_word_bins": 8,
+  "weighting": "tfidf",
+  "doc_clusters_k": 7,
+  "num_docs": 200,
+  "silhouette_cosine": 0.2937,
+  "davies_bouldin": 1.4913,
+  "k_scores": {
+    "2": 0.2035,
+    "3": 0.2025,
+    "4": 0.2475,
+    "5": 0.267,
+    "6": 0.286,
+    "7": 0.2937,
+    "8": 0.2897,
+    "9": 0.2705,
+    "10": 0.2725
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 19,
+      "avg_intra_similarity": 0.7126,
+      "samples": [
+        {
+          "id": "1nxscj6",
+          "title": "A groundbreaking study has revealed that your mom and dad’s DNA don’t just pass on telomere length, they actively reshape it in the first days of life, influencing how we age and our risk of developing diseases such as cancer.",
+          "preview": "A groundbreaking study has revealed that your mom and dad s DNA don t just pass on telomere length they actively reshape it in the first days of life influencing how we age and our risk of...",
+          "score": 0.9342
+        },
+        {
+          "id": "1q5jrtz",
+          "title": "First US at-home depression kit on its way after trial shows relief in weeks",
+          "preview": "First US at home depression kit on its way after trial shows relief in weeks",
+          "score": 0.9095
+        },
+        {
+          "id": "1phd3lf",
+          "title": "Underwater arms race: How robot subs will outwit next-gen sonar",
+          "preview": "Underwater arms race How robot subs will outwit next gen sonar",
+          "score": 0.9018
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 28,
+      "avg_intra_similarity": 0.7378,
+      "samples": [
+        {
+          "id": "1pd5ufz",
+          "title": "DragonFire laser weapon takes down high-speed drones",
+          "preview": "DragonFire laser weapon takes down high speed drones",
+          "score": 0.9531
+        },
+        {
+          "id": "1nwzuea",
+          "title": "NASA moon rover project pushes extreme battery tech to its limits",
+          "preview": "NASA moon rover project pushes extreme battery tech to its limits",
+          "score": 0.9477
+        },
+        {
+          "id": "1qyf0di",
+          "title": "This fusion energy startup thinks it can cut lasers out of the equation",
+          "preview": "This fusion energy startup thinks it can cut lasers out of the equation",
+          "score": 0.9314
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 40,
+      "avg_intra_similarity": 0.7494,
+      "samples": [
+        {
+          "id": "1qfejyt",
+          "title": "Scientists create a spray-on powder that seals life-threatening wounds in seconds",
+          "preview": "Scientists create a spray on powder that seals life threatening wounds in seconds",
+          "score": 0.9788
+        },
+        {
+          "id": "1qg9dem",
+          "title": "Chemists determine the structure of the fuzzy coat that surrounds Tau proteins",
+          "preview": "Chemists determine the structure of the fuzzy coat that surrounds Tau proteins",
+          "score": 0.9606
+        },
+        {
+          "id": "1ow04l6",
+          "title": "Interstellar-inspired TARS3D may be first such robot that both walks and rolls | Scientists have created a real-life functional version of the TARS robot from the movie Interstellar",
+          "preview": "Interstellar inspired TARS3D may be first such robot that both walks and rolls Scientists have created a real life functional version of the TARS robot from the movie Interstellar",
+          "score": 0.9401
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 32,
+      "avg_intra_similarity": 0.7529,
+      "samples": [
+        {
+          "id": "1nzfpoi",
+          "title": "How Wi-Fi Signals Can Be Used to Detect Your Heartbeat | Contactless pulse monitoring opens up new wearable possibilities",
+          "preview": "How Wi Fi Signals Can Be Used to Detect Your Heartbeat Contactless pulse monitoring opens up new wearable possibilities",
+          "score": 0.9432
+        },
+        {
+          "id": "1oym5mb",
+          "title": "Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.",
+          "preview": "Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...",
+          "score": 0.9346
+        },
+        {
+          "id": "1pqmdwz",
+          "title": "Scientists find a way to 'reboot' vision in adults with lazy eye",
+          "preview": "Scientists find a way to reboot vision in adults with lazy eye",
+          "score": 0.9301
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 29,
+      "avg_intra_similarity": 0.671,
+      "samples": [
+        {
+          "id": "1nvzkbv",
+          "title": "Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.",
+          "preview": "Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...",
+          "score": 0.9676
+        },
+        {
+          "id": "1oozy3b",
+          "title": "A New Light-Based Cancer Treatment Kills Tumor Cells and Spares Healthy Ones",
+          "preview": "A New Light Based Cancer Treatment Kills Tumor Cells and Spares Healthy Ones",
+          "score": 0.9299
+        },
+        {
+          "id": "1qpyl7w",
+          "title": "Scientists Identify an Epigenetic Switch That Can Slow Production of Fat Cells",
+          "preview": "Scientists Identify an Epigenetic Switch That Can Slow Production of Fat Cells",
+          "score": 0.9207
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 36,
+      "avg_intra_similarity": 0.7351,
+      "samples": [
+        {
+          "id": "1nv6bxv",
+          "title": "Oak Ridge's new 3D printer can mix and match materials at massive scale | Scientists unveil multiplexed nozzle for next-generation 3D printing",
+          "preview": "Oak Ridge s new 3D printer can mix and match materials at massive scale Scientists unveil multiplexed nozzle for next generation 3D printing",
+          "score": 0.9703
+        },
+        {
+          "id": "1osjysu",
+          "title": "Giving buildings an “MRI” to make them more energy-efficient and resilient | Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.",
+          "preview": "Giving buildings an MRI to make them more energy efficient and resilient Lamarr AI uses drones thermal imaging and AI to help property owners make targeted investments in their buildings",
+          "score": 0.9366
+        },
+        {
+          "id": "1pajpr5",
+          "title": "Stretchy battery inspired by lemons improves voltage and cell life",
+          "preview": "Stretchy battery inspired by lemons improves voltage and cell life",
+          "score": 0.9353
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 16,
+      "avg_intra_similarity": 0.702,
+      "samples": [
+        {
+          "id": "1op363o",
+          "title": "Simple saliva test catches heart failure before you know you have it",
+          "preview": "Simple saliva test catches heart failure before you know you have it",
+          "score": 0.9565
+        },
+        {
+          "id": "1qj3ubg",
+          "title": "MIT’s new ‘recursive’ framework lets LLMs process 10 million tokens without context rot",
+          "preview": "MIT s new recursive framework lets LLMs process 10 million tokens without context rot",
+          "score": 0.9228
+        },
+        {
+          "id": "1o6eogc",
+          "title": "Two-pronged approach cuts sleep apnea events by 68%",
+          "preview": "Two pronged approach cuts sleep apnea events by 68",
+          "score": 0.9142
+        }
+      ]
+    }
+  ]
+}

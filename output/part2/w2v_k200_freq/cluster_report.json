@@ -1,0 +1,122 @@
+{
+  "bin_config": "w2v_k200",
+  "k_word_bins": 200,
+  "weighting": "freq",
+  "doc_clusters_k": 4,
+  "num_docs": 200,
+  "silhouette_cosine": 0.0827,
+  "davies_bouldin": 3.7964,
+  "k_scores": {
+    "2": 0.056,
+    "3": 0.0758,
+    "4": 0.0827,
+    "5": 0.0812,
+    "6": 0.0811,
+    "7": 0.0773,
+    "8": 0.0595,
+    "9": 0.0725,
+    "10": 0.0484
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 28,
+      "avg_intra_similarity": 0.2759,
+      "samples": [
+        {
+          "id": "1pi9cns",
+          "title": "Pneumatic-suction robot clears 75,000 lb of cargo an hour",
+          "preview": "Pneumatic suction robot clears 75 000 lb of cargo an hour",
+          "score": 0.7691
+        },
+        {
+          "id": "1ofezo6",
+          "title": "Miami Has a New Cop on the Beat: A Drone-Launching Police Car That Can Drive Itself",
+          "preview": "Miami Has a New Cop on the Beat A Drone Launching Police Car That Can Drive Itself",
+          "score": 0.7246
+        },
+        {
+          "id": "1okucbg",
+          "title": "New nanoparticles stimulate the immune system to attack ovarian tumors",
+          "preview": "New nanoparticles stimulate the immune system to attack ovarian tumors",
+          "score": 0.709
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 45,
+      "avg_intra_similarity": 0.2111,
+      "samples": [
+        {
+          "id": "1qofe50",
+          "title": "Electrifying boilers to decarbonize industry",
+          "preview": "Electrifying boilers to decarbonize industry",
+          "score": 0.6982
+        },
+        {
+          "id": "1ov6kj6",
+          "title": "Teaching robots to map large environments",
+          "preview": "Teaching robots to map large environments",
+          "score": 0.5829
+        },
+        {
+          "id": "1osjysu",
+          "title": "Giving buildings an “MRI” to make them more energy-efficient and resilient | Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.",
+          "preview": "Giving buildings an MRI to make them more energy efficient and resilient Lamarr AI uses drones thermal imaging and AI to help property owners make targeted investments in their buildings",
+          "score": 0.5615
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 59,
+      "avg_intra_similarity": 0.2465,
+      "samples": [
+        {
+          "id": "1qg9dem",
+          "title": "Chemists determine the structure of the fuzzy coat that surrounds Tau proteins",
+          "preview": "Chemists determine the structure of the fuzzy coat that surrounds Tau proteins",
+          "score": 0.7679
+        },
+        {
+          "id": "1o0b42k",
+          "title": "Tiny lab-grown brains could help build the next generation of computers | Biocomputing has left the realm of science fiction and entered the laboratory",
+          "preview": "Tiny lab grown brains could help build the next generation of computers Biocomputing has left the realm of science fiction and entered the laboratory",
+          "score": 0.7585
+        },
+        {
+          "id": "1nw0fgn",
+          "title": "Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.",
+          "preview": "Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures",
+          "score": 0.7513
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 68,
+      "avg_intra_similarity": 0.0734,
+      "samples": [
+        {
+          "id": "1ou7znr",
+          "title": "One-off lipid-lowering gene therapy a success in world-first human trial | A new gene therapy lowered two heart disease-related lipids in a human clinical trial",
+          "preview": "One off lipid lowering gene therapy a success in world first human trial A new gene therapy lowered two heart disease related lipids in a human clinical trial",
+          "score": 0.5394
+        },
+        {
+          "id": "1qlo9ok",
+          "title": "Scientists print human liver tissue in breakthrough that could save lives",
+          "preview": "Scientists print human liver tissue in breakthrough that could save lives",
+          "score": 0.5238
+        },
+        {
+          "id": "1ovyj9z",
+          "title": "Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients",
+          "preview": "Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients",
+          "score": 0.5168
+        }
+      ]
+    }
+  ]
+}

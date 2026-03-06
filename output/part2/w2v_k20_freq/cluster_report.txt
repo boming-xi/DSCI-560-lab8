@@ -1,0 +1,32 @@
+Config       : w2v_k20
+Word Bins K  : 20
+Weighting    : freq
+Doc Clusters : 2
+Documents    : 200
+Silhouette   : 0.1973
+Davies-Bouldin: 2.7345
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: way, need, are, powered, brain, plastic, dressings
+  Bin   1: blind, open, fuels, stress, batteries, chip, cheaper, magnets
+  Bin   2: mrna, provide, up, disease, turning, post, ion, feel
+  Bin   3: restore, their, kills, make, quick, it, made, computers
+  Bin   4: buildings, gut, lab, nanoparticles, risk, problems, our, generation
+
+Cluster 0 (size=96, avg_sim=0.308)
+Samples:
+  - 1oym5mb: Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.
+    Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...
+  - 1qyf0di: This fusion energy startup thinks it can cut lasers out of the equation
+    This fusion energy startup thinks it can cut lasers out of the equation
+  - 1r2ugsz: Big blimp uses blades to pull wind power out of the sky
+    Big blimp uses blades to pull wind power out of the sky
+
+Cluster 1 (size=104, avg_sim=0.5507)
+Samples:
+  - 1nxscj6: A groundbreaking study has revealed that your mom and dad’s DNA don’t just pass on telomere length, they actively reshape it in the first days of life, influencing how we age and our risk of developing diseases such as cancer.
+    A groundbreaking study has revealed that your mom and dad s DNA don t just pass on telomere length they actively reshape it in the first days of life influencing how we age and our risk of...
+  - 1ou7znr: One-off lipid-lowering gene therapy a success in world-first human trial | A new gene therapy lowered two heart disease-related lipids in a human clinical trial
+    One off lipid lowering gene therapy a success in world first human trial A new gene therapy lowered two heart disease related lipids in a human clinical trial
+  - 1ox1c7t: Revolutionary biofuel battery is inspired by human metabolism | Using glucose and riboflavin in the creation of a biofuel flow cell which functions similarly to a human cell.
+    Revolutionary biofuel battery is inspired by human metabolism Using glucose and riboflavin in the creation of a biofuel flow cell which functions similarly to a human cell

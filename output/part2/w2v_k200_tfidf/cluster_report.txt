@@ -1,0 +1,86 @@
+Config       : w2v_k200
+Word Bins K  : 200
+Weighting    : tfidf
+Doc Clusters : 8
+Documents    : 200
+Silhouette   : 0.0334
+Davies-Bouldin: 4.6786
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: day
+  Bin   1: natural, tech, treatment
+  Bin   2: lithium, restoring
+  Bin   3: kills
+  Bin   4: injectable, artificial
+
+Cluster 0 (size=48, avg_sim=0.0801)
+Samples:
+  - 1ov3lkv: MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders
+    MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...
+  - 1oaotd7: Sake to the stars: Japan’s lunar brewing experiment set for takeoff
+    Sake to the stars Japan s lunar brewing experiment set for takeoff
+  - 1osl0gs: New therapeutic brain implants could defy the need for surgery
+    New therapeutic brain implants could defy the need for surgery
+
+Cluster 1 (size=35, avg_sim=0.1361)
+Samples:
+  - 1o0b42k: Tiny lab-grown brains could help build the next generation of computers | Biocomputing has left the realm of science fiction and entered the laboratory
+    Tiny lab grown brains could help build the next generation of computers Biocomputing has left the realm of science fiction and entered the laboratory
+  - 1nw0fgn: Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.
+    Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures
+  - 1nwvnsp: Next-gen imaging tech could catch sight-stealing diseases early | A powerful new imaging tool offers unprecedented 3D vision of the retina
+    Next gen imaging tech could catch sight stealing diseases early A powerful new imaging tool offers unprecedented 3D vision of the retina
+
+Cluster 2 (size=10, avg_sim=0.2851)
+Samples:
+  - 1p22lah: World first: Breath-saving exoskeleton turbocharges diver's kicks
+    World first Breath saving exoskeleton turbocharges diver s kicks
+  - 1obhtwa: Cancer drug combo slashes risk of death by more than 40%
+    Cancer drug combo slashes risk of death by more than 40
+  - 1ogkg1j: New Space Armor shields satellites from hypersonic space debris
+    New Space Armor shields satellites from hypersonic space debris
+
+Cluster 3 (size=23, avg_sim=0.1001)
+Samples:
+  - 1qsqfpv: New Drug Stops Weight Gain and Lowers Cholesterol by Targeting Nitric Oxide
+    New Drug Stops Weight Gain and Lowers Cholesterol by Targeting Nitric Oxide
+  - 1ou7znr: One-off lipid-lowering gene therapy a success in world-first human trial | A new gene therapy lowered two heart disease-related lipids in a human clinical trial
+    One off lipid lowering gene therapy a success in world first human trial A new gene therapy lowered two heart disease related lipids in a human clinical trial
+  - 1ovyj9z: Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients
+    Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients
+
+Cluster 4 (size=23, avg_sim=0.1359)
+Samples:
+  - 1qbrxib: A single inflammatory switch may help repair the liver
+    A single inflammatory switch may help repair the liver
+  - 1nvjz4n: Edible sensor warns of flu by tasting like thyme | The molecular sensor contains a phenolic compound called thymol, which is found in thyme
+    Edible sensor warns of flu by tasting like thyme The molecular sensor contains a phenolic compound called thymol which is found in thyme
+  - 1pyngm2: Anything-goes “anyons” may be at the root of surprising quantum experiments
+    Anything goes anyons may be at the root of surprising quantum experiments
+
+Cluster 5 (size=28, avg_sim=0.0937)
+Samples:
+  - 1oi8wdr: Swiss smart socks help diabetics feel their feet again
+    Swiss smart socks help diabetics feel their feet again
+  - 1oe4r3q: A new autonomous fighter jet just broke cover. It's powered by the same AI brain that flew an F-16 through a dogfight.
+    A new autonomous fighter jet just broke cover It s powered by the same AI brain that flew an F 16 through a dogfight
+  - 1oexycx: Real-Time Audio Deepfakes Are Now a Reality | A cybersecurity firm has created convincing voices on the fly
+    Real Time Audio Deepfakes Are Now a Reality A cybersecurity firm has created convincing voices on the fly
+
+Cluster 6 (size=20, avg_sim=0.1236)
+Samples:
+  - 1qfejyt: Scientists create a spray-on powder that seals life-threatening wounds in seconds
+    Scientists create a spray on powder that seals life threatening wounds in seconds
+  - 1qlo9ok: Scientists print human liver tissue in breakthrough that could save lives
+    Scientists print human liver tissue in breakthrough that could save lives
+  - 1qcnwbl: Scientists develop nanophotonic material that changes color, texture, and shape on demand
+    Scientists develop nanophotonic material that changes color texture and shape on demand
+
+Cluster 7 (size=13, avg_sim=0.0949)
+Samples:
+  - 1od780y: IBS breakthrough: Serotonin-making gut bugs restore bowel function
+    IBS breakthrough Serotonin making gut bugs restore bowel function
+  - 1ntgxhg: Low-dose radiation relieves knee osteoarthritis pain, improves function
+    Low dose radiation relieves knee osteoarthritis pain improves function
+  - 1pbe7h2: Tuneable perovskite: A breakthrough in low-cost solar and laser materials
+    Tuneable perovskite A breakthrough in low cost solar and laser materials

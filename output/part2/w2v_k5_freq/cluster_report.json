@@ -1,0 +1,247 @@
+{
+  "bin_config": "w2v_k5",
+  "k_word_bins": 5,
+  "weighting": "freq",
+  "doc_clusters_k": 9,
+  "num_docs": 200,
+  "silhouette_cosine": 0.34,
+  "davies_bouldin": 1.1887,
+  "k_scores": {
+    "2": 0.3394,
+    "3": 0.3156,
+    "4": 0.3262,
+    "5": 0.3171,
+    "6": 0.3322,
+    "7": 0.3173,
+    "8": 0.3306,
+    "9": 0.34,
+    "10": 0.34
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 20,
+      "avg_intra_similarity": 0.8792,
+      "samples": [
+        {
+          "id": "1ptvjpf",
+          "title": "AI-powered 'glasses' help the blind go places – safely",
+          "preview": "AI powered glasses help the blind go places safely",
+          "score": 0.9816
+        },
+        {
+          "id": "1nzfaht",
+          "title": "'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.",
+          "preview": "Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...",
+          "score": 0.9795
+        },
+        {
+          "id": "1odbuvo",
+          "title": "App that translates speech to sign language in real-time wins top innovation prize",
+          "preview": "App that translates speech to sign language in real time wins top innovation prize",
+          "score": 0.9766
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 15,
+      "avg_intra_similarity": 0.9307,
+      "samples": [
+        {
+          "id": "1qpyl7w",
+          "title": "Scientists Identify an Epigenetic Switch That Can Slow Production of Fat Cells",
+          "preview": "Scientists Identify an Epigenetic Switch That Can Slow Production of Fat Cells",
+          "score": 0.992
+        },
+        {
+          "id": "1ql8ewk",
+          "title": "UC Irvine engineers invent wireless transceiver rivaling fiber-optic speed",
+          "preview": "UC Irvine engineers invent wireless transceiver rivaling fiber optic speed",
+          "score": 0.9894
+        },
+        {
+          "id": "1p83tf1",
+          "title": "Simple solvent makes polycotton fabric completely recyclable",
+          "preview": "Simple solvent makes polycotton fabric completely recyclable",
+          "score": 0.9894
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 8,
+      "avg_intra_similarity": 0.8776,
+      "samples": [
+        {
+          "id": "1qwni2u",
+          "title": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
+          "preview": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
+          "score": 0.9777
+        },
+        {
+          "id": "1ow30qa",
+          "title": "New lightweight polymer film can prevent corrosion",
+          "preview": "New lightweight polymer film can prevent corrosion",
+          "score": 0.9706
+        },
+        {
+          "id": "1qyj2fh",
+          "title": "Sixteen Claude AI agents working together created a new C compiler",
+          "preview": "Sixteen Claude AI agents working together created a new C compiler",
+          "score": 0.9599
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 18,
+      "avg_intra_similarity": 0.7185,
+      "samples": [
+        {
+          "id": "1qo12gu",
+          "title": "Using amino acids as fuels to make conductive graphene",
+          "preview": "Using amino acids as fuels to make conductive graphene",
+          "score": 0.9691
+        },
+        {
+          "id": "1pbe7h2",
+          "title": "Tuneable perovskite: A breakthrough in low-cost solar and laser materials",
+          "preview": "Tuneable perovskite A breakthrough in low cost solar and laser materials",
+          "score": 0.9675
+        },
+        {
+          "id": "1quuj34",
+          "title": "The Large Hadron Collider will now heat homes as well as smash particles",
+          "preview": "The Large Hadron Collider will now heat homes as well as smash particles",
+          "score": 0.9593
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 34,
+      "avg_intra_similarity": 0.9063,
+      "samples": [
+        {
+          "id": "1nvzkbv",
+          "title": "Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.",
+          "preview": "Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...",
+          "score": 0.9902
+        },
+        {
+          "id": "1nw5nqm",
+          "title": "MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.",
+          "preview": "MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times",
+          "score": 0.99
+        },
+        {
+          "id": "1qwz2os",
+          "title": "People Could Be ‘Resurrected’ in Robotic Bodies One Day, Futurist Believes. Now He’s Taken the First Step.",
+          "preview": "People Could Be Resurrected in Robotic Bodies One Day Futurist Believes Now He s Taken the First Step",
+          "score": 0.9825
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 24,
+      "avg_intra_similarity": 0.8832,
+      "samples": [
+        {
+          "id": "1ov3lkv",
+          "title": "MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders",
+          "preview": "MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...",
+          "score": 0.9859
+        },
+        {
+          "id": "1qpferj",
+          "title": "Goodbye to fragile solar cells: New method makes them almost eternal",
+          "preview": "Goodbye to fragile solar cells New method makes them almost eternal",
+          "score": 0.9836
+        },
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.9815
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 26,
+      "avg_intra_similarity": 0.8794,
+      "samples": [
+        {
+          "id": "1q6g4an",
+          "title": "AI co-pilot uses machine learning to reduce deadly sea collisions",
+          "preview": "AI co pilot uses machine learning to reduce deadly sea collisions",
+          "score": 0.9888
+        },
+        {
+          "id": "1pfqaa8",
+          "title": "First-ever drug to repair DNA and regenerate damaged tissue is here",
+          "preview": "First ever drug to repair DNA and regenerate damaged tissue is here",
+          "score": 0.9812
+        },
+        {
+          "id": "1oo8t1s",
+          "title": "Designer drug targets both heart disease and diabetes",
+          "preview": "Designer drug targets both heart disease and diabetes",
+          "score": 0.9723
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 23,
+      "avg_intra_similarity": 0.8786,
+      "samples": [
+        {
+          "id": "1qdkdz6",
+          "title": "Could glowing green skin be an alternative to blood sampling?",
+          "preview": "Could glowing green skin be an alternative to blood sampling",
+          "score": 0.988
+        },
+        {
+          "id": "1qavcqn",
+          "title": "These paper batteries made from plants want to replace AA and AAA cells",
+          "preview": "These paper batteries made from plants want to replace AA and AAA cells",
+          "score": 0.9843
+        },
+        {
+          "id": "1pvdysj",
+          "title": "World's smallest autonomous robots could one day save your life",
+          "preview": "World s smallest autonomous robots could one day save your life",
+          "score": 0.9842
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 32,
+      "avg_intra_similarity": 0.9198,
+      "samples": [
+        {
+          "id": "1qnk0ut",
+          "title": "China reveals 200-strong AI drone swarm that can be controlled by a single soldier — ‘intelligent algorithm’ allows individual units to cooperate autonomously even after losing communication with operator",
+          "preview": "China reveals 200 strong AI drone swarm that can be controlled by a single soldier intelligent algorithm allows individual units to cooperate autonomously even after losing communication with operator",
+          "score": 0.9914
+        },
+        {
+          "id": "1qlo9ok",
+          "title": "Scientists print human liver tissue in breakthrough that could save lives",
+          "preview": "Scientists print human liver tissue in breakthrough that could save lives",
+          "score": 0.9903
+        },
+        {
+          "id": "1ow04l6",
+          "title": "Interstellar-inspired TARS3D may be first such robot that both walks and rolls | Scientists have created a real-life functional version of the TARS robot from the movie Interstellar",
+          "preview": "Interstellar inspired TARS3D may be first such robot that both walks and rolls Scientists have created a real life functional version of the TARS robot from the movie Interstellar",
+          "score": 0.987
+        }
+      ]
+    }
+  ]
+}

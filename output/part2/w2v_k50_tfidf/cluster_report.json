@@ -1,0 +1,272 @@
+{
+  "bin_config": "w2v_k50",
+  "k_word_bins": 50,
+  "weighting": "tfidf",
+  "doc_clusters_k": 10,
+  "num_docs": 200,
+  "silhouette_cosine": 0.0942,
+  "davies_bouldin": 3.0554,
+  "k_scores": {
+    "2": 0.0589,
+    "3": 0.0558,
+    "4": 0.0589,
+    "5": 0.0773,
+    "6": 0.0752,
+    "7": 0.0794,
+    "8": 0.0902,
+    "9": 0.0832,
+    "10": 0.0942
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 19,
+      "avg_intra_similarity": 0.2639,
+      "samples": [
+        {
+          "id": "1qpok5x",
+          "title": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "preview": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "score": 0.765
+        },
+        {
+          "id": "1qr22va",
+          "title": "Days numbered for 'risky' lithium-ion batteries, scientists say, after fast-charging breakthrough in sodium-ion alternative",
+          "preview": "Days numbered for risky lithium ion batteries scientists say after fast charging breakthrough in sodium ion alternative",
+          "score": 0.7524
+        },
+        {
+          "id": "1q14jnt",
+          "title": "How battery charging led to a breakthrough in lithium recycling",
+          "preview": "How battery charging led to a breakthrough in lithium recycling",
+          "score": 0.6522
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 21,
+      "avg_intra_similarity": 0.1799,
+      "samples": [
+        {
+          "id": "1qyf0di",
+          "title": "This fusion energy startup thinks it can cut lasers out of the equation",
+          "preview": "This fusion energy startup thinks it can cut lasers out of the equation",
+          "score": 0.6919
+        },
+        {
+          "id": "1qavcqn",
+          "title": "These paper batteries made from plants want to replace AA and AAA cells",
+          "preview": "These paper batteries made from plants want to replace AA and AAA cells",
+          "score": 0.64
+        },
+        {
+          "id": "1nvzkbv",
+          "title": "Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.",
+          "preview": "Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...",
+          "score": 0.5925
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 19,
+      "avg_intra_similarity": 0.2585,
+      "samples": [
+        {
+          "id": "1pfqaa8",
+          "title": "First-ever drug to repair DNA and regenerate damaged tissue is here",
+          "preview": "First ever drug to repair DNA and regenerate damaged tissue is here",
+          "score": 0.7463
+        },
+        {
+          "id": "1nw5nqm",
+          "title": "MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.",
+          "preview": "MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times",
+          "score": 0.7166
+        },
+        {
+          "id": "1p0da7j",
+          "title": "Small, inexpensive hydrophone boosts undersea signals",
+          "preview": "Small inexpensive hydrophone boosts undersea signals",
+          "score": 0.7086
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 31,
+      "avg_intra_similarity": 0.2956,
+      "samples": [
+        {
+          "id": "1ofezo6",
+          "title": "Miami Has a New Cop on the Beat: A Drone-Launching Police Car That Can Drive Itself",
+          "preview": "Miami Has a New Cop on the Beat A Drone Launching Police Car That Can Drive Itself",
+          "score": 0.7835
+        },
+        {
+          "id": "1ow04l6",
+          "title": "Interstellar-inspired TARS3D may be first such robot that both walks and rolls | Scientists have created a real-life functional version of the TARS robot from the movie Interstellar",
+          "preview": "Interstellar inspired TARS3D may be first such robot that both walks and rolls Scientists have created a real life functional version of the TARS robot from the movie Interstellar",
+          "score": 0.7776
+        },
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.7062
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 25,
+      "avg_intra_similarity": 0.2578,
+      "samples": [
+        {
+          "id": "1ov3lkv",
+          "title": "MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders",
+          "preview": "MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...",
+          "score": 0.8121
+        },
+        {
+          "id": "1nzfgso",
+          "title": "Chemists create red fluorescent dyes that may enable clearer biomedical imaging | The new dyes are based on boron-containing molecules that were previously too unstable for practical use.",
+          "preview": "Chemists create red fluorescent dyes that may enable clearer biomedical imaging The new dyes are based on boron containing molecules that were previously too unstable for practical use",
+          "score": 0.6342
+        },
+        {
+          "id": "1osl0gs",
+          "title": "New therapeutic brain implants could defy the need for surgery",
+          "preview": "New therapeutic brain implants could defy the need for surgery",
+          "score": 0.6319
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 16,
+      "avg_intra_similarity": 0.3382,
+      "samples": [
+        {
+          "id": "1osjysu",
+          "title": "Giving buildings an “MRI” to make them more energy-efficient and resilient | Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.",
+          "preview": "Giving buildings an MRI to make them more energy efficient and resilient Lamarr AI uses drones thermal imaging and AI to help property owners make targeted investments in their buildings",
+          "score": 0.796
+        },
+        {
+          "id": "1qszrap",
+          "title": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "preview": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "score": 0.7851
+        },
+        {
+          "id": "1q6g4an",
+          "title": "AI co-pilot uses machine learning to reduce deadly sea collisions",
+          "preview": "AI co pilot uses machine learning to reduce deadly sea collisions",
+          "score": 0.7251
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 16,
+      "avg_intra_similarity": 0.4024,
+      "samples": [
+        {
+          "id": "1qsf709",
+          "title": "48 hours without lungs: artificial organ kept man alive until transplant",
+          "preview": "48 hours without lungs artificial organ kept man alive until transplant",
+          "score": 0.8032
+        },
+        {
+          "id": "1nsnjy0",
+          "title": "UV light is a fast, effective way to deactivate indoor airborne allergens | UV222 light is a passive, quick way to inactivate indoor airborne allergens like cat dander",
+          "preview": "UV light is a fast effective way to deactivate indoor airborne allergens UV222 light is a passive quick way to inactivate indoor airborne allergens like cat dander",
+          "score": 0.7522
+        },
+        {
+          "id": "1p4nev6",
+          "title": "AI trained on bacterial genomes produces never-before-seen proteins",
+          "preview": "AI trained on bacterial genomes produces never before seen proteins",
+          "score": 0.7267
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 18,
+      "avg_intra_similarity": 0.325,
+      "samples": [
+        {
+          "id": "1ptvjpf",
+          "title": "AI-powered 'glasses' help the blind go places – safely",
+          "preview": "AI powered glasses help the blind go places safely",
+          "score": 0.8246
+        },
+        {
+          "id": "1p78c7n",
+          "title": "3D-printable concrete alternative hardens in three days, not four weeks",
+          "preview": "3D printable concrete alternative hardens in three days not four weeks",
+          "score": 0.682
+        },
+        {
+          "id": "1po31w8",
+          "title": "Futuristic pixel-raising display lets you feel what’s onscreen",
+          "preview": "Futuristic pixel raising display lets you feel what s onscreen",
+          "score": 0.6792
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 14,
+      "avg_intra_similarity": 0.3959,
+      "samples": [
+        {
+          "id": "1pqmdwz",
+          "title": "Scientists find a way to 'reboot' vision in adults with lazy eye",
+          "preview": "Scientists find a way to reboot vision in adults with lazy eye",
+          "score": 0.8857
+        },
+        {
+          "id": "1nxv83p",
+          "title": "Parachutes with hundreds of holes could enable safer drone deliveries",
+          "preview": "Parachutes with hundreds of holes could enable safer drone deliveries",
+          "score": 0.8185
+        },
+        {
+          "id": "1oex8bb",
+          "title": "Pioneering eye implant restores reading vision to the blind",
+          "preview": "Pioneering eye implant restores reading vision to the blind",
+          "score": 0.7452
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "size": 21,
+      "avg_intra_similarity": 0.3145,
+      "samples": [
+        {
+          "id": "1p22lah",
+          "title": "World first: Breath-saving exoskeleton turbocharges diver's kicks",
+          "preview": "World first Breath saving exoskeleton turbocharges diver s kicks",
+          "score": 0.803
+        },
+        {
+          "id": "1ql87uu",
+          "title": "New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’",
+          "preview": "New filtration technology could be gamechanger in removal of Pfas forever chemicals",
+          "score": 0.7886
+        },
+        {
+          "id": "1qwz2os",
+          "title": "People Could Be ‘Resurrected’ in Robotic Bodies One Day, Futurist Believes. Now He’s Taken the First Step.",
+          "preview": "People Could Be Resurrected in Robotic Bodies One Day Futurist Believes Now He s Taken the First Step",
+          "score": 0.7501
+        }
+      ]
+    }
+  ]
+}

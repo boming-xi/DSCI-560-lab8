@@ -1,0 +1,98 @@
+Config       : w2v_k3
+Word Bins K  : 3
+Weighting    : freq
+Doc Clusters : 10
+Documents    : 200
+Silhouette   : 0.5338
+Davies-Bouldin: 0.7268
+
+Word Bin Samples (top 5 bins shown):
+  Bin   0: the, human, in, like, autonomous, to, processing, have
+  Bin   1: after, aging, home, create, batteries, supercharge, cancer, fuels
+  Bin   2: just, see, ion, this, help, scientists, deliver, underwater
+
+Cluster 0 (size=40, avg_sim=0.9741)
+Samples:
+  - 1ps7gcz: No DNA evidence at crime scene? Protein analysis comes to the rescue
+    No DNA evidence at crime scene Protein analysis comes to the rescue
+  - 1oxrrdk: Nuclear waste may hold the key to greener hydrogen production
+    Nuclear waste may hold the key to greener hydrogen production
+  - 1osjwmp: Smart dressings and stem cells: The future of wound healing | Researchers have compared newer wound-healing tech to conventional therapies and dressings
+    Smart dressings and stem cells The future of wound healing Researchers have compared newer wound healing tech to conventional therapies and dressings
+
+Cluster 1 (size=13, avg_sim=0.9534)
+Samples:
+  - 1qo12gu: Using amino acids as fuels to make conductive graphene
+    Using amino acids as fuels to make conductive graphene
+  - 1qi5qap: Magnets produced at room temperature using lasers could produce faster non-silicon processors
+    Magnets produced at room temperature using lasers could produce faster non silicon processors
+  - 1qdkdz6: Could glowing green skin be an alternative to blood sampling?
+    Could glowing green skin be an alternative to blood sampling
+
+Cluster 2 (size=22, avg_sim=0.9501)
+Samples:
+  - 1phd3lf: Underwater arms race: How robot subs will outwit next-gen sonar
+    Underwater arms race How robot subs will outwit next gen sonar
+  - 1ofqd2z: Startup’s tablets deliver cancer drugs more evenly over time
+    Startup s tablets deliver cancer drugs more evenly over time
+  - 1qwmeyk: Microneedle patch uses bubbles to fight stubborn acne
+    Microneedle patch uses bubbles to fight stubborn acne
+
+Cluster 3 (size=36, avg_sim=0.9793)
+Samples:
+  - 1nzmd2l: Ocean CO2 becomes sustainable plastic, thanks to modified microbes | Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean
+    Ocean CO2 becomes sustainable plastic thanks to modified microbes Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean
+  - 1nw0fgn: Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.
+    Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures
+  - 1r12llt: A quick stretch switches this polymer’s capacity to transport heat
+    A quick stretch switches this polymer s capacity to transport heat
+
+Cluster 4 (size=10, avg_sim=0.9756)
+Samples:
+  - 1qi1ui1: Researchers build a stretchable OLED that can double in size without dimming
+    Researchers build a stretchable OLED that can double in size without dimming
+  - 1nzfaht: 'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.
+    Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...
+  - 1qsf709: 48 hours without lungs: artificial organ kept man alive until transplant
+    48 hours without lungs artificial organ kept man alive until transplant
+
+Cluster 5 (size=21, avg_sim=0.981)
+Samples:
+  - 1orqtni: MIT study finds targets for a new tuberculosis vaccine
+    MIT study finds targets for a new tuberculosis vaccine
+  - 1okucbg: New nanoparticles stimulate the immune system to attack ovarian tumors
+    New nanoparticles stimulate the immune system to attack ovarian tumors
+  - 1r1y4dy: Sugar molecules used to destroy antibiotic-resistant bacteria
+    Sugar molecules used to destroy antibiotic resistant bacteria
+
+Cluster 6 (size=10, avg_sim=0.9505)
+Samples:
+  - 1ql87uu: New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’
+    New filtration technology could be gamechanger in removal of Pfas forever chemicals
+  - 1pzikee: Tiny under-scalp implant could restore lost senses through prostheses
+    Tiny under scalp implant could restore lost senses through prostheses
+  - 1qz3n1m: Breakthrough: Scientists Created a 'Universal' Kidney To Match Any Blood Type
+    Breakthrough Scientists Created a Universal Kidney To Match Any Blood Type
+
+Cluster 7 (size=19, avg_sim=0.9625)
+Samples:
+  - 1p78c7n: 3D-printable concrete alternative hardens in three days, not four weeks
+    3D printable concrete alternative hardens in three days not four weeks
+  - 1o1ahsj: 'Breakthrough' blood test detects chronic fatigue in 92% of cases
+    Breakthrough blood test detects chronic fatigue in 92 of cases
+  - 1q14jnt: How battery charging led to a breakthrough in lithium recycling
+    How battery charging led to a breakthrough in lithium recycling
+
+Cluster 8 (size=28, avg_sim=0.9803)
+Samples:
+  - 1qoi3w1: Models that improve on their own are AI's next big thing
+    Models that improve on their own are AI s next big thing
+  - 1qa1gn0: Spray-on armor for plants offers a new tool for global food security
+    Spray on armor for plants offers a new tool for global food security
+  - 1poa0sn: ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30%
+    ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30
+
+Cluster 9 (size=1, avg_sim=1.0)
+Samples:
+  - 1ond2wz: Designing better, longer-lasting medicines
+    Designing better longer lasting medicines

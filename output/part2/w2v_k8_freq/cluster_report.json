@@ -1,0 +1,197 @@
+{
+  "bin_config": "w2v_k8",
+  "k_word_bins": 8,
+  "weighting": "freq",
+  "doc_clusters_k": 7,
+  "num_docs": 200,
+  "silhouette_cosine": 0.2959,
+  "davies_bouldin": 1.5476,
+  "k_scores": {
+    "2": 0.2333,
+    "3": 0.2432,
+    "4": 0.263,
+    "5": 0.277,
+    "6": 0.2939,
+    "7": 0.2959,
+    "8": 0.2441,
+    "9": 0.2542,
+    "10": 0.2161
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 23,
+      "avg_intra_similarity": 0.7264,
+      "samples": [
+        {
+          "id": "1qbrxib",
+          "title": "A single inflammatory switch may help repair the liver",
+          "preview": "A single inflammatory switch may help repair the liver",
+          "score": 0.9592
+        },
+        {
+          "id": "1pd5ufz",
+          "title": "DragonFire laser weapon takes down high-speed drones",
+          "preview": "DragonFire laser weapon takes down high speed drones",
+          "score": 0.9583
+        },
+        {
+          "id": "1nwzuea",
+          "title": "NASA moon rover project pushes extreme battery tech to its limits",
+          "preview": "NASA moon rover project pushes extreme battery tech to its limits",
+          "score": 0.9522
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 26,
+      "avg_intra_similarity": 0.766,
+      "samples": [
+        {
+          "id": "1qa1gn0",
+          "title": "Spray-on armor for plants offers a new tool for global food security",
+          "preview": "Spray on armor for plants offers a new tool for global food security",
+          "score": 0.9586
+        },
+        {
+          "id": "1nuce6u",
+          "title": "Spider-like construction robot promises to build a home per day | Being autonomously capable of building a 2,150-sq-ft home in a single day – operating at roughly the speed of 100 bricklayers.",
+          "preview": "Spider like construction robot promises to build a home per day Being autonomously capable of building a 2 150 sq ft home in a single day operating at roughly the speed of 100 bricklayers",
+          "score": 0.9549
+        },
+        {
+          "id": "1ptvjpf",
+          "title": "AI-powered 'glasses' help the blind go places – safely",
+          "preview": "AI powered glasses help the blind go places safely",
+          "score": 0.9525
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 35,
+      "avg_intra_similarity": 0.7883,
+      "samples": [
+        {
+          "id": "1nzfpoi",
+          "title": "How Wi-Fi Signals Can Be Used to Detect Your Heartbeat | Contactless pulse monitoring opens up new wearable possibilities",
+          "preview": "How Wi Fi Signals Can Be Used to Detect Your Heartbeat Contactless pulse monitoring opens up new wearable possibilities",
+          "score": 0.9595
+        },
+        {
+          "id": "1q14jnt",
+          "title": "How battery charging led to a breakthrough in lithium recycling",
+          "preview": "How battery charging led to a breakthrough in lithium recycling",
+          "score": 0.943
+        },
+        {
+          "id": "1qpcts9",
+          "title": "A new chemical trick could extend lithium-ion battery life without redesigning cells",
+          "preview": "A new chemical trick could extend lithium ion battery life without redesigning cells",
+          "score": 0.9359
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 47,
+      "avg_intra_similarity": 0.7966,
+      "samples": [
+        {
+          "id": "1qfejyt",
+          "title": "Scientists create a spray-on powder that seals life-threatening wounds in seconds",
+          "preview": "Scientists create a spray on powder that seals life threatening wounds in seconds",
+          "score": 0.9765
+        },
+        {
+          "id": "1qg9dem",
+          "title": "Chemists determine the structure of the fuzzy coat that surrounds Tau proteins",
+          "preview": "Chemists determine the structure of the fuzzy coat that surrounds Tau proteins",
+          "score": 0.9569
+        },
+        {
+          "id": "1qoi3w1",
+          "title": "Models that improve on their own are AI's next big thing",
+          "preview": "Models that improve on their own are AI s next big thing",
+          "score": 0.9525
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 20,
+      "avg_intra_similarity": 0.7394,
+      "samples": [
+        {
+          "id": "1nvzkbv",
+          "title": "Notorious Alzheimer’s protein also supercharges cells against cancer | Scientists have found that a byproduct of amyloid-beta rejuvenates T cells, boosting their tumor-fighting power and dramatically reducing cancer risk.",
+          "preview": "Notorious Alzheimer s protein also supercharges cells against cancer Scientists have found that a byproduct of amyloid beta rejuvenates T cells boosting their tumor fighting power and dramatically...",
+          "score": 0.9551
+        },
+        {
+          "id": "1nvjz4n",
+          "title": "Edible sensor warns of flu by tasting like thyme | The molecular sensor contains a phenolic compound called thymol, which is found in thyme",
+          "preview": "Edible sensor warns of flu by tasting like thyme The molecular sensor contains a phenolic compound called thymol which is found in thyme",
+          "score": 0.94
+        },
+        {
+          "id": "1obhtwa",
+          "title": "Cancer drug combo slashes risk of death by more than 40%",
+          "preview": "Cancer drug combo slashes risk of death by more than 40",
+          "score": 0.9202
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 25,
+      "avg_intra_similarity": 0.742,
+      "samples": [
+        {
+          "id": "1nv6bxv",
+          "title": "Oak Ridge's new 3D printer can mix and match materials at massive scale | Scientists unveil multiplexed nozzle for next-generation 3D printing",
+          "preview": "Oak Ridge s new 3D printer can mix and match materials at massive scale Scientists unveil multiplexed nozzle for next generation 3D printing",
+          "score": 0.9639
+        },
+        {
+          "id": "1pvdysj",
+          "title": "World's smallest autonomous robots could one day save your life",
+          "preview": "World s smallest autonomous robots could one day save your life",
+          "score": 0.9592
+        },
+        {
+          "id": "1osjysu",
+          "title": "Giving buildings an “MRI” to make them more energy-efficient and resilient | Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.",
+          "preview": "Giving buildings an MRI to make them more energy efficient and resilient Lamarr AI uses drones thermal imaging and AI to help property owners make targeted investments in their buildings",
+          "score": 0.9522
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 24,
+      "avg_intra_similarity": 0.5981,
+      "samples": [
+        {
+          "id": "1r1y4dy",
+          "title": "Sugar molecules used to destroy antibiotic-resistant bacteria",
+          "preview": "Sugar molecules used to destroy antibiotic resistant bacteria",
+          "score": 0.9315
+        },
+        {
+          "id": "1ou80lz",
+          "title": "MIT physicists observe key evidence of unconventional superconductivity in magic-angle graphene",
+          "preview": "MIT physicists observe key evidence of unconventional superconductivity in magic angle graphene",
+          "score": 0.9222
+        },
+        {
+          "id": "1orqtni",
+          "title": "MIT study finds targets for a new tuberculosis vaccine",
+          "preview": "MIT study finds targets for a new tuberculosis vaccine",
+          "score": 0.9127
+        }
+      ]
+    }
+  ]
+}

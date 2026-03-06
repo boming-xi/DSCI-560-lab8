@@ -1,0 +1,260 @@
+{
+  "bin_config": "w2v_k3",
+  "k_word_bins": 3,
+  "weighting": "tfidf",
+  "doc_clusters_k": 10,
+  "num_docs": 200,
+  "silhouette_cosine": 0.5485,
+  "davies_bouldin": 0.7175,
+  "k_scores": {
+    "2": 0.4412,
+    "3": 0.506,
+    "4": 0.4724,
+    "5": 0.4798,
+    "6": 0.486,
+    "7": 0.4981,
+    "8": 0.4911,
+    "9": 0.4775,
+    "10": 0.5485
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 22,
+      "avg_intra_similarity": 0.9594,
+      "samples": [
+        {
+          "id": "1p6cm0a",
+          "title": "A newly discovered 'pain switch' in our brains could unlock safer medications",
+          "preview": "A newly discovered pain switch in our brains could unlock safer medications",
+          "score": 0.9973
+        },
+        {
+          "id": "1qwmeyk",
+          "title": "Microneedle patch uses bubbles to fight stubborn acne",
+          "preview": "Microneedle patch uses bubbles to fight stubborn acne",
+          "score": 0.9938
+        },
+        {
+          "id": "1ptvjpf",
+          "title": "AI-powered 'glasses' help the blind go places – safely",
+          "preview": "AI powered glasses help the blind go places safely",
+          "score": 0.9938
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 38,
+      "avg_intra_similarity": 0.9791,
+      "samples": [
+        {
+          "id": "1qpcts9",
+          "title": "A new chemical trick could extend lithium-ion battery life without redesigning cells",
+          "preview": "A new chemical trick could extend lithium ion battery life without redesigning cells",
+          "score": 0.9997
+        },
+        {
+          "id": "1pcaqfi",
+          "title": "3D-printed cornea restores sight in a legally blind patient for the first time",
+          "preview": "3D printed cornea restores sight in a legally blind patient for the first time",
+          "score": 0.9997
+        },
+        {
+          "id": "1oozy3b",
+          "title": "A New Light-Based Cancer Treatment Kills Tumor Cells and Spares Healthy Ones",
+          "preview": "A New Light Based Cancer Treatment Kills Tumor Cells and Spares Healthy Ones",
+          "score": 0.9997
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 19,
+      "avg_intra_similarity": 0.9612,
+      "samples": [
+        {
+          "id": "1p78c7n",
+          "title": "3D-printable concrete alternative hardens in three days, not four weeks",
+          "preview": "3D printable concrete alternative hardens in three days not four weeks",
+          "score": 0.9938
+        },
+        {
+          "id": "1o1ahsj",
+          "title": "'Breakthrough' blood test detects chronic fatigue in 92% of cases",
+          "preview": "Breakthrough blood test detects chronic fatigue in 92 of cases",
+          "score": 0.9938
+        },
+        {
+          "id": "1ox1c7t",
+          "title": "Revolutionary biofuel battery is inspired by human metabolism | Using glucose and riboflavin in the creation of a biofuel flow cell which functions similarly to a human cell.",
+          "preview": "Revolutionary biofuel battery is inspired by human metabolism Using glucose and riboflavin in the creation of a biofuel flow cell which functions similarly to a human cell",
+          "score": 0.9909
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 19,
+      "avg_intra_similarity": 0.9705,
+      "samples": [
+        {
+          "id": "1ovyj9z",
+          "title": "Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients",
+          "preview": "Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients",
+          "score": 0.9994
+        },
+        {
+          "id": "1nzfd73",
+          "title": "Smart in-asphalt fabric provides live reports from within roads | Once embedded in the asphalt, the sensor fabric’s job is to provide continuous measurements",
+          "preview": "Smart in asphalt fabric provides live reports from within roads Once embedded in the asphalt the sensor fabric s job is to provide continuous measurements",
+          "score": 0.9948
+        },
+        {
+          "id": "1nuwsa7",
+          "title": "Study finds key role for non-neural brain cells in processing vision | MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing by maintaining ambient levels of the neurotransmitter chemical GABA.",
+          "preview": "Study finds key role for non neural brain cells in processing vision MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing...",
+          "score": 0.9915
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 31,
+      "avg_intra_similarity": 0.9777,
+      "samples": [
+        {
+          "id": "1r12llt",
+          "title": "A quick stretch switches this polymer’s capacity to transport heat",
+          "preview": "A quick stretch switches this polymer s capacity to transport heat",
+          "score": 0.9977
+        },
+        {
+          "id": "1qvp4hl",
+          "title": "Underwater 3D printing is edging in to transform maritime construction",
+          "preview": "Underwater 3D printing is edging in to transform maritime construction",
+          "score": 0.9977
+        },
+        {
+          "id": "1qmkylh",
+          "title": "UCLA engineers discover the most heat-conductive metal ever measured",
+          "preview": "UCLA engineers discover the most heat conductive metal ever measured",
+          "score": 0.9977
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 10,
+      "avg_intra_similarity": 0.9698,
+      "samples": [
+        {
+          "id": "1qi1ui1",
+          "title": "Researchers build a stretchable OLED that can double in size without dimming",
+          "preview": "Researchers build a stretchable OLED that can double in size without dimming",
+          "score": 0.9924
+        },
+        {
+          "id": "1nzfaht",
+          "title": "'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.",
+          "preview": "Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...",
+          "score": 0.991
+        },
+        {
+          "id": "1qsf709",
+          "title": "48 hours without lungs: artificial organ kept man alive until transplant",
+          "preview": "48 hours without lungs artificial organ kept man alive until transplant",
+          "score": 0.9888
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 14,
+      "avg_intra_similarity": 0.9497,
+      "samples": [
+        {
+          "id": "1qrata5",
+          "title": "Chip stress-tests blood cells to see if donated blood is still good enough",
+          "preview": "Chip stress tests blood cells to see if donated blood is still good enough",
+          "score": 0.9995
+        },
+        {
+          "id": "1qo12gu",
+          "title": "Using amino acids as fuels to make conductive graphene",
+          "preview": "Using amino acids as fuels to make conductive graphene",
+          "score": 0.9987
+        },
+        {
+          "id": "1qi5qap",
+          "title": "Magnets produced at room temperature using lasers could produce faster non-silicon processors",
+          "preview": "Magnets produced at room temperature using lasers could produce faster non silicon processors",
+          "score": 0.9987
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 17,
+      "avg_intra_similarity": 0.9574,
+      "samples": [
+        {
+          "id": "1p83tf1",
+          "title": "Simple solvent makes polycotton fabric completely recyclable",
+          "preview": "Simple solvent makes polycotton fabric completely recyclable",
+          "score": 0.9997
+        },
+        {
+          "id": "1p18vm4",
+          "title": "A new take on carbon capture",
+          "preview": "A new take on carbon capture",
+          "score": 0.9997
+        },
+        {
+          "id": "1o6eogc",
+          "title": "Two-pronged approach cuts sleep apnea events by 68%",
+          "preview": "Two pronged approach cuts sleep apnea events by 68",
+          "score": 0.9997
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "samples": [
+        {
+          "id": "1ond2wz",
+          "title": "Designing better, longer-lasting medicines",
+          "preview": "Designing better longer lasting medicines",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "size": 29,
+      "avg_intra_similarity": 0.9786,
+      "samples": [
+        {
+          "id": "1qoi3w1",
+          "title": "Models that improve on their own are AI's next big thing",
+          "preview": "Models that improve on their own are AI s next big thing",
+          "score": 0.9977
+        },
+        {
+          "id": "1qa1gn0",
+          "title": "Spray-on armor for plants offers a new tool for global food security",
+          "preview": "Spray on armor for plants offers a new tool for global food security",
+          "score": 0.9977
+        },
+        {
+          "id": "1poa0sn",
+          "title": "ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30%",
+          "preview": "ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30",
+          "score": 0.9977
+        }
+      ]
+    }
+  ]
+}
