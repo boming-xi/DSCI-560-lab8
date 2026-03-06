@@ -20,14 +20,5 @@ w2v_k100_tfidf              100  tfidf     9   0.0514   3.8512    0.1826
 w2v_k200_tfidf              200  tfidf     8   0.0334   4.6786    0.1161
 ------------------------------------------------------------------------
 
-Best configuration (silhouette ↑, DB ↓):
+Best configuration:
   w2v_k3_tfidf  |  bins=3  |  sil=0.5485  |  db=0.7175
-
-Word2Vec hyperparameters:
-  vector_size=100, window=5, min_count=2, epochs=10
-  sg=1 (skip-gram), negative=10, sample=0.0001
-
-Metrics:
-  Silhouette (cosine) — higher is better  [range: -1 .. 1]
-  Davies-Bouldin Index — lower is better  [range: 0 .. ∞]
-  AvgIntra — avg pairwise cosine similarity within clusters

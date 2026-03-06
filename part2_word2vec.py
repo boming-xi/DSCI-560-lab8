@@ -399,18 +399,11 @@ def main():
     rows_txt.append("-" * len(header))
     if all_summary:
         best = all_summary[0]
-        rows_txt += ["", "Best configuration (silhouette ↑, DB ↓):",
-                     f"  {best['name']}  |  bins={best['k_word_bins']}  |  sil={best['silhouette_cosine']:.4f}  |  db={best['davies_bouldin']:.4f}",
-                     "",
-                     "Word2Vec hyperparameters:",
-                     f"  vector_size={W2V_VECTOR_SIZE}, window={W2V_WINDOW}, min_count={W2V_MIN_COUNT}, epochs={W2V_EPOCHS}",
-                     f"  sg={W2V_SG} (skip-gram), negative={W2V_NEGATIVE}, sample={W2V_SAMPLE}",
-                     "",
-                     "Metrics:",
-                     "  Silhouette (cosine) — higher is better  [range: -1 .. 1]",
-                     "  Davies-Bouldin Index — lower is better  [range: 0 .. ∞]",
-                     "  AvgIntra — avg pairwise cosine similarity within clusters",
-                     ]
+        rows_txt += [
+            "",
+            "Best configuration:",
+            f"  {best['name']}  |  bins={best['k_word_bins']}  |  sil={best['silhouette_cosine']:.4f}  |  db={best['davies_bouldin']:.4f}",
+        ]
     summary_txt = os.path.join(args.output_dir, "part2_summary.txt")
     with open(summary_txt, "w", encoding="utf-8") as fh:
         fh.write("\n".join(rows_txt))
