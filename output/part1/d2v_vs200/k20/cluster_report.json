@@ -1,0 +1,506 @@
+{
+  "config": {
+    "name": "d2v_vs200",
+    "vector_size": 200,
+    "min_count": 2,
+    "epochs": 40,
+    "window": 8,
+    "dm": 1
+  },
+  "k": 20,
+  "num_docs": 200,
+  "silhouette_score": 0.3388,
+  "k_scores": {},
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 2,
+      "avg_intra_similarity": 0.9748,
+      "keywords": [
+        "using",
+        "researchers",
+        "mit",
+        "quantum",
+        "engineers",
+        "way",
+        "just",
+        "ai"
+      ],
+      "samples": [
+        {
+          "id": "1qtwjfo",
+          "title": "Engineers just found a way to cool quantum systems using microwave noise",
+          "preview": "Engineers just found a way to cool quantum systems using microwave noise",
+          "score": 0.9937
+        },
+        {
+          "id": "1pgjktv",
+          "title": "MIT researchers “speak objects into existence” using AI and robotics",
+          "preview": "MIT researchers speak objects into existence using AI and robotics",
+          "score": 0.9937
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1oaotd7",
+          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
+          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ond2wz",
+          "title": "Designing better, longer-lasting medicines",
+          "preview": "Designing better longer lasting medicines",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "new",
+        "wound",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ql87uu",
+          "title": "New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’",
+          "preview": "New filtration technology could be gamechanger in removal of Pfas forever chemicals",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "gene",
+        "way",
+        "new",
+        "wound",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1ouafw0",
+          "title": "A new way to understand and predict gene splicing",
+          "preview": "A new way to understand and predict gene splicing",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "cells",
+        "scientists",
+        "generation",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qlvhas",
+          "title": "Scientists May Have Found a Blueprint to Revive Old Cells",
+          "preview": "Scientists May Have Found a Blueprint to Revive Old Cells",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "study",
+        "breakthrough",
+        "scientists",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1qpok5x",
+          "title": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "preview": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "ultrasound",
+        "make",
+        "new",
+        "wound",
+        "gen",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1qszrap",
+          "title": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "preview": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "speech",
+        "real",
+        "time",
+        "wound",
+        "fusion",
+        "fight",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1odbuvo",
+          "title": "App that translates speech to sign language in real-time wins top innovation prize",
+          "preview": "App that translates speech to sign language in real time wins top innovation prize",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "build",
+        "researchers",
+        "wound",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1qi1ui1",
+          "title": "Researchers build a stretchable OLED that can double in size without dimming",
+          "preview": "Researchers build a stretchable OLED that can double in size without dimming",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 10,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "carbon",
+        "new",
+        "film",
+        "fuels",
+        "function",
+        "fusion",
+        "gen",
+        "gene"
+      ],
+      "samples": [
+        {
+          "id": "1p18vm4",
+          "title": "A new take on carbon capture",
+          "preview": "A new take on carbon capture",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 11,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "material",
+        "high",
+        "new",
+        "wound",
+        "gene",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1o3vw6e",
+          "title": "Forged in disorder: High-entropy MXenes emerge as a new material",
+          "preview": "Forged in disorder High entropy MXenes emerge as a new material",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 12,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "industry",
+        "wound",
+        "healthy",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qofe50",
+          "title": "Electrifying boilers to decarbonize industry",
+          "preview": "Electrifying boilers to decarbonize industry",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 13,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "quantum",
+        "healthy",
+        "fight",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1pyngm2",
+          "title": "Anything-goes “anyons” may be at the root of surprising quantum experiments",
+          "preview": "Anything goes anyons may be at the root of surprising quantum experiments",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 14,
+      "size": 5,
+      "avg_intra_similarity": 0.9688,
+      "keywords": [
+        "ai",
+        "scientists",
+        "new",
+        "test",
+        "human",
+        "created",
+        "grown",
+        "graphene"
+      ],
+      "samples": [
+        {
+          "id": "1pt0kv0",
+          "title": "Leaf-scan tells farmers when fruit is ripe – without destroying it",
+          "preview": "Leaf scan tells farmers when fruit is ripe without destroying it",
+          "score": 0.9908
+        },
+        {
+          "id": "1oexxcb",
+          "title": "AI teaches itself and outperforms human-designed algorithms",
+          "preview": "AI teaches itself and outperforms human designed algorithms",
+          "score": 0.9893
+        },
+        {
+          "id": "1ofs1gu",
+          "title": "Forensics’ “Holy Grail”: New Test Recovers Fingerprints From Ammunition Casing",
+          "preview": "Forensics Holy Grail New Test Recovers Fingerprints From Ammunition Casing",
+          "score": 0.9883
+        }
+      ]
+    },
+    {
+      "cluster": 15,
+      "size": 176,
+      "avg_intra_similarity": 0.9941,
+      "keywords": [
+        "new",
+        "ai",
+        "cancer",
+        "cells",
+        "brain",
+        "3d",
+        "breakthrough",
+        "help"
+      ],
+      "samples": [
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.9997
+        },
+        {
+          "id": "1o0i23l",
+          "title": "New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.",
+          "preview": "New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis",
+          "score": 0.9996
+        },
+        {
+          "id": "1oym5mb",
+          "title": "Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.",
+          "preview": "Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...",
+          "score": 0.9996
+        }
+      ]
+    },
+    {
+      "cluster": 16,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "bacteria",
+        "protein",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1qh5bqq",
+          "title": "A protein found in the GI tract can neutralize many bacteria",
+          "preview": "A protein found in the GI tract can neutralize many bacteria",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 17,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "model",
+        "human",
+        "ai",
+        "wound",
+        "generation",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qvy73x",
+          "title": "AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts",
+          "preview": "AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 18,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "material",
+        "scientists",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qcnwbl",
+          "title": "Scientists develop nanophotonic material that changes color, texture, and shape on demand",
+          "preview": "Scientists develop nanophotonic material that changes color texture and shape on demand",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 19,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "world",
+        "real",
+        "gut",
+        "growth",
+        "grown",
+        "graphene",
+        "glowing",
+        "global"
+      ],
+      "samples": [
+        {
+          "id": "1pw4x86",
+          "title": "Magnetic cloaking is moving from theory to real-world engineering",
+          "preview": "Magnetic cloaking is moving from theory to real world engineering",
+          "score": 1.0
+        }
+      ]
+    }
+  ]
+}

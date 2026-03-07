@@ -2,28 +2,40 @@
   {
     "name": "d2v_vs200",
     "vector_size": 200,
-    "min_count": 2,
-    "epochs": 40,
-    "k": 2,
-    "silhouette_score": 0.9811,
-    "avg_intra_similarity": 0.9751
+    "k": 3,
+    "silhouette_score": 0.9667,
+    "davies_bouldin": 0.5257,
+    "calinski_harabasz": 178.94,
+    "avg_intra_similarity": 0.9801,
+    "min_cluster_size": 1,
+    "max_cluster_size": 197,
+    "size_ratio": 197.0,
+    "singleton_clusters": 1
   },
   {
     "name": "d2v_vs100",
     "vector_size": 100,
-    "min_count": 2,
-    "epochs": 40,
-    "k": 2,
-    "silhouette_score": 0.9688,
-    "avg_intra_similarity": 0.9666
+    "k": 3,
+    "silhouette_score": 0.959,
+    "davies_bouldin": 0.4737,
+    "calinski_harabasz": 125.28,
+    "avg_intra_similarity": 0.9736,
+    "min_cluster_size": 1,
+    "max_cluster_size": 197,
+    "size_ratio": 197.0,
+    "singleton_clusters": 1
   },
   {
     "name": "d2v_vs50",
     "vector_size": 50,
-    "min_count": 2,
-    "epochs": 40,
-    "k": 2,
-    "silhouette_score": 0.9585,
-    "avg_intra_similarity": 0.9508
+    "k": 3,
+    "silhouette_score": 0.9368,
+    "davies_bouldin": 0.7279,
+    "calinski_harabasz": 59.89,
+    "avg_intra_similarity": 0.9561,
+    "min_cluster_size": 1,
+    "max_cluster_size": 197,
+    "size_ratio": 197.0,
+    "singleton_clusters": 1
   }
 ]

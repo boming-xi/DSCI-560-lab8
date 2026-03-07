@@ -1,0 +1,161 @@
+Doc2Vec Config
+Name = d2v_vs200
+Vector Size = 200
+Min Count = 2
+Epochs = 40
+Window = 8
+DM = 1
+
+K = 20
+Documents = 200
+Silhouette Score (cosine) = 0.3388
+
+Cluster 0 (size=2)
+Keywords: using, researchers, mit, quantum, engineers, way, just, ai
+Avg Intra Similarity: 0.9748
+Samples:
+- 1qtwjfo: Engineers just found a way to cool quantum systems using microwave noise
+  Engineers just found a way to cool quantum systems using microwave noise
+- 1pgjktv: MIT researchers “speak objects into existence” using AI and robotics
+  MIT researchers speak objects into existence using AI and robotics
+
+Cluster 1 (size=1)
+Keywords: wound, drug, film, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1oaotd7: Sake to the stars: Japan’s lunar brewing experiment set for takeoff
+  Sake to the stars Japan s lunar brewing experiment set for takeoff
+
+Cluster 2 (size=1)
+Keywords: wound, drug, film, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1ond2wz: Designing better, longer-lasting medicines
+  Designing better longer lasting medicines
+
+Cluster 3 (size=1)
+Keywords: new, wound, fight, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1ql87uu: New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’
+  New filtration technology could be gamechanger in removal of Pfas forever chemicals
+
+Cluster 4 (size=1)
+Keywords: gene, way, new, wound, film, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1ouafw0: A new way to understand and predict gene splicing
+  A new way to understand and predict gene splicing
+
+Cluster 5 (size=1)
+Keywords: cells, scientists, generation, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1qlvhas: Scientists May Have Found a Blueprint to Revive Old Cells
+  Scientists May Have Found a Blueprint to Revive Old Cells
+
+Cluster 6 (size=1)
+Keywords: study, breakthrough, scientists, wound, gene, film, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1qpok5x: Scientists achieve pancreatic tumour regression in breakthrough study
+  Scientists achieve pancreatic tumour regression in breakthrough study
+
+Cluster 7 (size=1)
+Keywords: ultrasound, make, new, wound, gen, film, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1qszrap: New ultrasound pad aims to make prenatal visits less unpleasant
+  New ultrasound pad aims to make prenatal visits less unpleasant
+
+Cluster 8 (size=1)
+Keywords: speech, real, time, wound, fusion, fight, film, finds
+Avg Intra Similarity: 1.0
+Samples:
+- 1odbuvo: App that translates speech to sign language in real-time wins top innovation prize
+  App that translates speech to sign language in real time wins top innovation prize
+
+Cluster 9 (size=1)
+Keywords: build, researchers, wound, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1qi1ui1: Researchers build a stretchable OLED that can double in size without dimming
+  Researchers build a stretchable OLED that can double in size without dimming
+
+Cluster 10 (size=1)
+Keywords: carbon, new, film, fuels, function, fusion, gen, gene
+Avg Intra Similarity: 1.0
+Samples:
+- 1p18vm4: A new take on carbon capture
+  A new take on carbon capture
+
+Cluster 11 (size=1)
+Keywords: material, high, new, wound, gene, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1o3vw6e: Forged in disorder: High-entropy MXenes emerge as a new material
+  Forged in disorder High entropy MXenes emerge as a new material
+
+Cluster 12 (size=1)
+Keywords: industry, wound, healthy, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1qofe50: Electrifying boilers to decarbonize industry
+  Electrifying boilers to decarbonize industry
+
+Cluster 13 (size=1)
+Keywords: quantum, healthy, fight, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1pyngm2: Anything-goes “anyons” may be at the root of surprising quantum experiments
+  Anything goes anyons may be at the root of surprising quantum experiments
+
+Cluster 14 (size=5)
+Keywords: ai, scientists, new, test, human, created, grown, graphene
+Avg Intra Similarity: 0.9688
+Samples:
+- 1pt0kv0: Leaf-scan tells farmers when fruit is ripe – without destroying it
+  Leaf scan tells farmers when fruit is ripe without destroying it
+- 1oexxcb: AI teaches itself and outperforms human-designed algorithms
+  AI teaches itself and outperforms human designed algorithms
+- 1ofs1gu: Forensics’ “Holy Grail”: New Test Recovers Fingerprints From Ammunition Casing
+  Forensics Holy Grail New Test Recovers Fingerprints From Ammunition Casing
+
+Cluster 15 (size=176)
+Keywords: new, ai, cancer, cells, brain, 3d, breakthrough, help
+Avg Intra Similarity: 0.9941
+Samples:
+- 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+  New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+- 1o0i23l: New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.
+  New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis
+- 1oym5mb: Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.
+  Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...
+
+Cluster 16 (size=1)
+Keywords: bacteria, protein, fight, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1qh5bqq: A protein found in the GI tract can neutralize many bacteria
+  A protein found in the GI tract can neutralize many bacteria
+
+Cluster 17 (size=1)
+Keywords: model, human, ai, wound, generation, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1qvy73x: AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts
+  AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts
+
+Cluster 18 (size=1)
+Keywords: material, scientists, wound, gene, film, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1qcnwbl: Scientists develop nanophotonic material that changes color, texture, and shape on demand
+  Scientists develop nanophotonic material that changes color texture and shape on demand
+
+Cluster 19 (size=1)
+Keywords: world, real, gut, growth, grown, graphene, glowing, global
+Avg Intra Similarity: 1.0
+Samples:
+- 1pw4x86: Magnetic cloaking is moving from theory to real-world engineering
+  Magnetic cloaking is moving from theory to real world engineering

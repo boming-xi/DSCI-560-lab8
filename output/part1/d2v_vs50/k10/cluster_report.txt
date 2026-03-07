@@ -1,0 +1,89 @@
+Doc2Vec Config
+Name = d2v_vs50
+Vector Size = 50
+Min Count = 2
+Epochs = 40
+Window = 8
+DM = 1
+
+K = 10
+Documents = 200
+Silhouette Score (cosine) = 0.6831
+
+Cluster 0 (size=1)
+Keywords: quantum, healthy, fight, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1pyngm2: Anything-goes “anyons” may be at the root of surprising quantum experiments
+  Anything goes anyons may be at the root of surprising quantum experiments
+
+Cluster 1 (size=189)
+Keywords: new, ai, cancer, scientists, cells, brain, 3d, breakthrough
+Avg Intra Similarity: 0.9748
+Samples:
+- 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+  New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+- 1o0i23l: New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.
+  New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis
+- 1owvj8c: Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help
+  Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help
+
+Cluster 2 (size=1)
+Keywords: wound, drug, film, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1ond2wz: Designing better, longer-lasting medicines
+  Designing better longer lasting medicines
+
+Cluster 3 (size=1)
+Keywords: cells, scientists, generation, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1qlvhas: Scientists May Have Found a Blueprint to Revive Old Cells
+  Scientists May Have Found a Blueprint to Revive Old Cells
+
+Cluster 4 (size=1)
+Keywords: wound, drug, film, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1oaotd7: Sake to the stars: Japan’s lunar brewing experiment set for takeoff
+  Sake to the stars Japan s lunar brewing experiment set for takeoff
+
+Cluster 5 (size=1)
+Keywords: new, wound, fight, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1ql87uu: New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’
+  New filtration technology could be gamechanger in removal of Pfas forever chemicals
+
+Cluster 6 (size=1)
+Keywords: material, scientists, wound, gene, film, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1qcnwbl: Scientists develop nanophotonic material that changes color, texture, and shape on demand
+  Scientists develop nanophotonic material that changes color texture and shape on demand
+
+Cluster 7 (size=1)
+Keywords: gene, way, new, wound, film, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1ouafw0: A new way to understand and predict gene splicing
+  A new way to understand and predict gene splicing
+
+Cluster 8 (size=1)
+Keywords: study, breakthrough, scientists, wound, gene, film, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1qpok5x: Scientists achieve pancreatic tumour regression in breakthrough study
+  Scientists achieve pancreatic tumour regression in breakthrough study
+
+Cluster 9 (size=3)
+Keywords: world, model, real, material, high, human, ai, new
+Avg Intra Similarity: 0.8679
+Samples:
+- 1qvy73x: AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts
+  AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts
+- 1o3vw6e: Forged in disorder: High-entropy MXenes emerge as a new material
+  Forged in disorder High entropy MXenes emerge as a new material
+- 1pw4x86: Magnetic cloaking is moving from theory to real-world engineering
+  Magnetic cloaking is moving from theory to real world engineering

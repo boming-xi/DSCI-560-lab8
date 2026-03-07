@@ -1,0 +1,2406 @@
+{
+  "config": {
+    "name": "d2v_vs50",
+    "vector_size": 50,
+    "min_count": 2,
+    "epochs": 40,
+    "window": 8,
+    "dm": 1
+  },
+  "k": 100,
+  "num_docs": 200,
+  "silhouette_score": -0.0584,
+  "k_scores": {},
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "analysis",
+        "evidence",
+        "protein",
+        "dna",
+        "generation",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1ps7gcz",
+          "title": "No DNA evidence at crime scene? Protein analysis comes to the rescue",
+          "preview": "No DNA evidence at crime scene Protein analysis comes to the rescue",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1oaotd7",
+          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
+          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ond2wz",
+          "title": "Designing better, longer-lasting medicines",
+          "preview": "Designing better longer lasting medicines",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 2,
+      "avg_intra_similarity": 0.9921,
+      "keywords": [
+        "repair",
+        "tissue",
+        "conductive",
+        "fuels",
+        "drug",
+        "dna",
+        "graphene",
+        "make"
+      ],
+      "samples": [
+        {
+          "id": "1pfqaa8",
+          "title": "First-ever drug to repair DNA and regenerate damaged tissue is here",
+          "preview": "First ever drug to repair DNA and regenerate damaged tissue is here",
+          "score": 0.998
+        },
+        {
+          "id": "1qo12gu",
+          "title": "Using amino acids as fuels to make conductive graphene",
+          "preview": "Using amino acids as fuels to make conductive graphene",
+          "score": 0.998
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "new",
+        "wound",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ql87uu",
+          "title": "New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’",
+          "preview": "New filtration technology could be gamechanger in removal of Pfas forever chemicals",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "cells",
+        "scientists",
+        "generation",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qlvhas",
+          "title": "Scientists May Have Found a Blueprint to Revive Old Cells",
+          "preview": "Scientists May Have Found a Blueprint to Revive Old Cells",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 2,
+      "avg_intra_similarity": 0.9965,
+      "keywords": [
+        "imaging",
+        "10",
+        "powerful",
+        "times",
+        "early",
+        "sight",
+        "gen",
+        "diseases"
+      ],
+      "samples": [
+        {
+          "id": "1nwvnsp",
+          "title": "Next-gen imaging tech could catch sight-stealing diseases early | A powerful new imaging tool offers unprecedented 3D vision of the retina",
+          "preview": "Next gen imaging tech could catch sight stealing diseases early A powerful new imaging tool offers unprecedented 3D vision of the retina",
+          "score": 0.9991
+        },
+        {
+          "id": "1nw5nqm",
+          "title": "MIT's concrete battery just got 10 times more powerful | Researchers found a way to combine cement, water, and carbon black to create a 'supercapacitor', expanding the storage capacity by nearly 10 times.",
+          "preview": "MIT s concrete battery just got 10 times more powerful Researchers found a way to combine cement water and carbon black to create a supercapacitor expanding the storage capacity by nearly 10 times",
+          "score": 0.9991
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "gene",
+        "way",
+        "new",
+        "wound",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1ouafw0",
+          "title": "A new way to understand and predict gene splicing",
+          "preview": "A new way to understand and predict gene splicing",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "rover",
+        "moon",
+        "tech",
+        "battery",
+        "healthy",
+        "fight",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1nwzuea",
+          "title": "NASA moon rover project pushes extreme battery tech to its limits",
+          "preview": "NASA moon rover project pushes extreme battery tech to its limits",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "material",
+        "scientists",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qcnwbl",
+          "title": "Scientists develop nanophotonic material that changes color, texture, and shape on demand",
+          "preview": "Scientists develop nanophotonic material that changes color texture and shape on demand",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 10,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "reveals",
+        "moon",
+        "speed",
+        "wound",
+        "fusion",
+        "fight",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1orhdth",
+          "title": "SpaceX reveals simpler lander to speed up Moon return",
+          "preview": "SpaceX reveals simpler lander to speed up Moon return",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 11,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "study",
+        "breakthrough",
+        "scientists",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1qpok5x",
+          "title": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "preview": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 12,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "world",
+        "real",
+        "gut",
+        "growth",
+        "grown",
+        "graphene",
+        "glowing",
+        "global"
+      ],
+      "samples": [
+        {
+          "id": "1pw4x86",
+          "title": "Magnetic cloaking is moving from theory to real-world engineering",
+          "preview": "Magnetic cloaking is moving from theory to real world engineering",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 13,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "carbon",
+        "new",
+        "film",
+        "fuels",
+        "function",
+        "fusion",
+        "gen",
+        "gene"
+      ],
+      "samples": [
+        {
+          "id": "1p18vm4",
+          "title": "A new take on carbon capture",
+          "preview": "A new take on carbon capture",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 14,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "created",
+        "ai",
+        "new",
+        "wound",
+        "gene",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qyj2fh",
+          "title": "Sixteen Claude AI agents working together created a new C compiler",
+          "preview": "Sixteen Claude AI agents working together created a new C compiler",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 15,
+      "size": 2,
+      "avg_intra_similarity": 0.9921,
+      "keywords": [
+        "large",
+        "heat",
+        "particles",
+        "boost",
+        "plants",
+        "growth",
+        "reduce",
+        "waste"
+      ],
+      "samples": [
+        {
+          "id": "1quuj34",
+          "title": "The Large Hadron Collider will now heat homes as well as smash particles",
+          "preview": "The Large Hadron Collider will now heat homes as well as smash particles",
+          "score": 0.998
+        },
+        {
+          "id": "1q4m09m",
+          "title": "'Microneedling' of plants could boost growth and reduce fertilizer waste",
+          "preview": "Microneedling of plants could boost growth and reduce fertilizer waste",
+          "score": 0.998
+        }
+      ]
+    },
+    {
+      "cluster": 16,
+      "size": 22,
+      "avg_intra_similarity": 0.9893,
+      "keywords": [
+        "approach",
+        "smart",
+        "wound",
+        "small",
+        "ai",
+        "cells",
+        "reshape",
+        "energy"
+      ],
+      "samples": [
+        {
+          "id": "1owvj8c",
+          "title": "Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help",
+          "preview": "Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help",
+          "score": 0.9988
+        },
+        {
+          "id": "1osjwmp",
+          "title": "Smart dressings and stem cells: The future of wound healing | Researchers have compared newer wound-healing tech to conventional therapies and dressings",
+          "preview": "Smart dressings and stem cells The future of wound healing Researchers have compared newer wound healing tech to conventional therapies and dressings",
+          "score": 0.9977
+        },
+        {
+          "id": "1qz9ri2",
+          "title": "3D-printed batteries aim to reshape energy storage in small devices",
+          "preview": "3D printed batteries aim to reshape energy storage in small devices",
+          "score": 0.997
+        }
+      ]
+    },
+    {
+      "cluster": 17,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "quantum",
+        "healthy",
+        "fight",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1pyngm2",
+          "title": "Anything-goes “anyons” may be at the root of surprising quantum experiments",
+          "preview": "Anything goes anyons may be at the root of surprising quantum experiments",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 18,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "model",
+        "human",
+        "ai",
+        "wound",
+        "generation",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qvy73x",
+          "title": "AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts",
+          "preview": "AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 19,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "scientists",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1o7adwi",
+          "title": "Helping scientists run complex data analyses without writing code",
+          "preview": "Helping scientists run complex data analyses without writing code",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 20,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1pt0kv0",
+          "title": "Leaf-scan tells farmers when fruit is ripe – without destroying it",
+          "preview": "Leaf scan tells farmers when fruit is ripe without destroying it",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 21,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "test",
+        "new",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ofs1gu",
+          "title": "Forensics’ “Holy Grail”: New Test Recovers Fingerprints From Ammunition Casing",
+          "preview": "Forensics Holy Grail New Test Recovers Fingerprints From Ammunition Casing",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 22,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "10",
+        "lets",
+        "mit",
+        "new",
+        "wound",
+        "gene",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1qj3ubg",
+          "title": "MIT’s new ‘recursive’ framework lets LLMs process 10 million tokens without context rot",
+          "preview": "MIT s new recursive framework lets LLMs process 10 million tokens without context rot",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 23,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "industry",
+        "wound",
+        "healthy",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qofe50",
+          "title": "Electrifying boilers to decarbonize industry",
+          "preview": "Electrifying boilers to decarbonize industry",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 24,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "researchers",
+        "using",
+        "mit",
+        "ai",
+        "gene",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1pgjktv",
+          "title": "MIT researchers “speak objects into existence” using AI and robotics",
+          "preview": "MIT researchers speak objects into existence using AI and robotics",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 25,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "build",
+        "researchers",
+        "wound",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1qi1ui1",
+          "title": "Researchers build a stretchable OLED that can double in size without dimming",
+          "preview": "Researchers build a stretchable OLED that can double in size without dimming",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 26,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "spray",
+        "create",
+        "life",
+        "scientists",
+        "wound",
+        "fusion",
+        "fight",
+        "film"
+      ],
+      "samples": [
+        {
+          "id": "1qfejyt",
+          "title": "Scientists create a spray-on powder that seals life-threatening wounds in seconds",
+          "preview": "Scientists create a spray on powder that seals life threatening wounds in seconds",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 27,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "material",
+        "high",
+        "new",
+        "wound",
+        "gene",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1o3vw6e",
+          "title": "Forged in disorder: High-entropy MXenes emerge as a new material",
+          "preview": "Forged in disorder High entropy MXenes emerge as a new material",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 28,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "world",
+        "heart",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1p22lah",
+          "title": "World first: Breath-saving exoskeleton turbocharges diver's kicks",
+          "preview": "World first Breath saving exoskeleton turbocharges diver s kicks",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 29,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "quantum",
+        "engineers",
+        "using",
+        "just",
+        "way",
+        "fight",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1qtwjfo",
+          "title": "Engineers just found a way to cool quantum systems using microwave noise",
+          "preview": "Engineers just found a way to cool quantum systems using microwave noise",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 30,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "speech",
+        "real",
+        "time",
+        "wound",
+        "fusion",
+        "fight",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1odbuvo",
+          "title": "App that translates speech to sign language in real-time wins top innovation prize",
+          "preview": "App that translates speech to sign language in real time wins top innovation prize",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 31,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "patch",
+        "heal",
+        "heart",
+        "help",
+        "new",
+        "gene",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1ote4b3",
+          "title": "A new patch could help to heal the heart",
+          "preview": "A new patch could help to heal the heart",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 32,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "ultrasound",
+        "make",
+        "new",
+        "wound",
+        "gen",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1qszrap",
+          "title": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "preview": "New ultrasound pad aims to make prenatal visits less unpleasant",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 33,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "powered",
+        "blind",
+        "help",
+        "ai",
+        "wound",
+        "generation",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1ptvjpf",
+          "title": "AI-powered 'glasses' help the blind go places – safely",
+          "preview": "AI powered glasses help the blind go places safely",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 34,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "therapy",
+        "gene",
+        "disease",
+        "time",
+        "wound",
+        "generation",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1o90ynn",
+          "title": "95% of kids with “bubble boy” disease cured by one-time gene therapy",
+          "preview": "95 of kids with bubble boy disease cured by one time gene therapy",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 35,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "shows",
+        "treatment",
+        "breakthrough",
+        "generation",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1nynmwe",
+          "title": "Psychedelic DMT shows promise as breakthrough stroke treatment",
+          "preview": "Psychedelic DMT shows promise as breakthrough stroke treatment",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 36,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "editing",
+        "boost",
+        "wound",
+        "generation",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1nucil7",
+          "title": "A boost for the precision of genome editing",
+          "preview": "A boost for the precision of genome editing",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 37,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "large",
+        "robots",
+        "fight",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1ov6kj6",
+          "title": "Teaching robots to map large environments",
+          "preview": "Teaching robots to map large environments",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 38,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "extend",
+        "battery",
+        "life",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1poa0sn",
+          "title": "ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30%",
+          "preview": "ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 39,
+      "size": 11,
+      "avg_intra_similarity": 0.992,
+      "keywords": [
+        "molecule",
+        "alzheimer",
+        "new",
+        "daily",
+        "use",
+        "weapon",
+        "disorders",
+        "treat"
+      ],
+      "samples": [
+        {
+          "id": "1ovyj9z",
+          "title": "Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients",
+          "preview": "Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients",
+          "score": 0.9986
+        },
+        {
+          "id": "1qnhauo",
+          "title": "Gene editing takes a major step toward ending daily cholesterol pills",
+          "preview": "Gene editing takes a major step toward ending daily cholesterol pills",
+          "score": 0.9983
+        },
+        {
+          "id": "1ov3lkv",
+          "title": "MIT's injectable brain chips could treat disease without surgery | MIT's Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain, negating the need for invasive surgery to deliver treatment for neurological disorders",
+          "preview": "MIT s injectable brain chips could treat disease without surgery MIT s Circulatronics tech sees tiny chips injected into the bloodstream to reach the brain negating the need for invasive surgery to...",
+          "score": 0.9977
+        }
+      ]
+    },
+    {
+      "cluster": 40,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "pills",
+        "improve",
+        "wound",
+        "gene",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1q94q7g",
+          "title": "Pills that communicate from the stomach could improve medication adherence",
+          "preview": "Pills that communicate from the stomach could improve medication adherence",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 41,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "need",
+        "surgery",
+        "brain",
+        "new",
+        "generation",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1osl0gs",
+          "title": "New therapeutic brain implants could defy the need for surgery",
+          "preview": "New therapeutic brain implants could defy the need for surgery",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 42,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "fight",
+        "natural",
+        "help",
+        "cancer",
+        "cells",
+        "heal",
+        "gut",
+        "growth"
+      ],
+      "samples": [
+        {
+          "id": "1o4p02i",
+          "title": "Engineered “natural killer” cells could help fight cancer",
+          "preview": "Engineered natural killer cells could help fight cancer",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 43,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "underwater",
+        "construction",
+        "printing",
+        "3d",
+        "wound",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qvp4hl",
+          "title": "Underwater 3D printing is edging in to transform maritime construction",
+          "preview": "Underwater 3D printing is edging in to transform maritime construction",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 44,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "reportedly",
+        "ai",
+        "wound",
+        "generation",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1ql2wxh",
+          "title": "Why Apple and OpenAI are reportedly betting on AI hardware in 2026",
+          "preview": "Why Apple and OpenAI are reportedly betting on AI hardware in 2026",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 45,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "printable",
+        "enable",
+        "wound",
+        "generation",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1o0dk1n",
+          "title": "Printable aluminum alloy sets strength records, may enable lighter aircraft parts",
+          "preview": "Printable aluminum alloy sets strength records may enable lighter aircraft parts",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 46,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "power",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1omhwkm",
+          "title": "Biochips made from mushrooms rival power of manmade semiconductors",
+          "preview": "Biochips made from mushrooms rival power of manmade semiconductors",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 47,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "model",
+        "human",
+        "brain",
+        "global",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1p4nlj3",
+          "title": "First totally synthetic human brain model has been realized",
+          "preview": "First totally synthetic human brain model has been realized",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 48,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "human",
+        "ai",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1oexxcb",
+          "title": "AI teaches itself and outperforms human-designed algorithms",
+          "preview": "AI teaches itself and outperforms human designed algorithms",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 49,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "proteins",
+        "chemists",
+        "wound",
+        "gene",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qg9dem",
+          "title": "Chemists determine the structure of the fuzzy coat that surrounds Tau proteins",
+          "preview": "Chemists determine the structure of the fuzzy coat that surrounds Tau proteins",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 50,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "robotic",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qkrlsi",
+          "title": "This robotic hand can crawl away from its arm to grab things",
+          "preview": "This robotic hand can crawl away from its arm to grab things",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 51,
+      "size": 11,
+      "avg_intra_similarity": 0.9902,
+      "keywords": [
+        "magnets",
+        "just",
+        "cancer",
+        "startup",
+        "ai",
+        "natural",
+        "know",
+        "production"
+      ],
+      "samples": [
+        {
+          "id": "1oym5mb",
+          "title": "Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.",
+          "preview": "Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...",
+          "score": 0.9987
+        },
+        {
+          "id": "1plmu7w",
+          "title": "ADHD 'audio shield' turns sounds from daily tasks into powerful focus tool",
+          "preview": "ADHD audio shield turns sounds from daily tasks into powerful focus tool",
+          "score": 0.9967
+        },
+        {
+          "id": "1op363o",
+          "title": "Simple saliva test catches heart failure before you know you have it",
+          "preview": "Simple saliva test catches heart failure before you know you have it",
+          "score": 0.9965
+        }
+      ]
+    },
+    {
+      "cluster": 52,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "mrna",
+        "reduce",
+        "particles",
+        "vaccine",
+        "fight",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1orpz0n",
+          "title": "Particles that enhance mRNA delivery could reduce vaccine dosage and costs",
+          "preview": "Particles that enhance mRNA delivery could reduce vaccine dosage and costs",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 53,
+      "size": 33,
+      "avg_intra_similarity": 0.9896,
+      "keywords": [
+        "3d",
+        "hybrid",
+        "new",
+        "mice",
+        "patients",
+        "therapy",
+        "heat",
+        "big"
+      ],
+      "samples": [
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.9992
+        },
+        {
+          "id": "1p6cm0a",
+          "title": "A newly discovered 'pain switch' in our brains could unlock safer medications",
+          "preview": "A newly discovered pain switch in our brains could unlock safer medications",
+          "score": 0.9979
+        },
+        {
+          "id": "1nzfaht",
+          "title": "'Sugar switch' in the brain offers new path to treating depression | Removing the St3gal1 enzyme in healthy mice caused depressive symptoms, increasing St3gal1 in stressed mice had the opposite effect, easing those behaviors.",
+          "preview": "Sugar switch in the brain offers new path to treating depression Removing the St3gal1 enzyme in healthy mice caused depressive symptoms increasing St3gal1 in stressed mice had the opposite effect...",
+          "score": 0.9978
+        }
+      ]
+    },
+    {
+      "cluster": 54,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "000",
+        "withstand",
+        "robot",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1or1vt6",
+          "title": "Students built a robot that can withstand more than 1,000 degrees Fahrenheit",
+          "preview": "Students built a robot that can withstand more than 1 000 degrees Fahrenheit",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 55,
+      "size": 23,
+      "avg_intra_similarity": 0.9911,
+      "keywords": [
+        "day",
+        "robot",
+        "light",
+        "lab",
+        "grown",
+        "cells",
+        "tiny",
+        "clean"
+      ],
+      "samples": [
+        {
+          "id": "1o0i23l",
+          "title": "New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.",
+          "preview": "New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis",
+          "score": 0.9991
+        },
+        {
+          "id": "1nzmd2l",
+          "title": "Ocean CO2 becomes sustainable plastic, thanks to modified microbes | Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean",
+          "preview": "Ocean CO2 becomes sustainable plastic thanks to modified microbes Turning dissolved carbon dioxide from seawater to biodegradable plastic is an especially powerful way to clean up the ocean",
+          "score": 0.9981
+        },
+        {
+          "id": "1nsnjy0",
+          "title": "UV light is a fast, effective way to deactivate indoor airborne allergens | UV222 light is a passive, quick way to inactivate indoor airborne allergens like cat dander",
+          "preview": "UV light is a fast effective way to deactivate indoor airborne allergens UV222 light is a passive quick way to inactivate indoor airborne allergens like cat dander",
+          "score": 0.9981
+        }
+      ]
+    },
+    {
+      "cluster": 56,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "chronic",
+        "test",
+        "blood",
+        "breakthrough",
+        "global",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1o1ahsj",
+          "title": "'Breakthrough' blood test detects chronic fatigue in 92% of cases",
+          "preview": "Breakthrough blood test detects chronic fatigue in 92 of cases",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 57,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "polymer",
+        "film",
+        "new",
+        "heal",
+        "gut",
+        "growth",
+        "grown",
+        "graphene"
+      ],
+      "samples": [
+        {
+          "id": "1ow30qa",
+          "title": "New lightweight polymer film can prevent corrosion",
+          "preview": "New lightweight polymer film can prevent corrosion",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 58,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "starting",
+        "models",
+        "ai",
+        "wound",
+        "gen",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1q7f4wz",
+          "title": "AI Models Are Starting to Learn by Asking Themselves Questions",
+          "preview": "AI Models Are Starting to Learn by Asking Themselves Questions",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 59,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "bacteria",
+        "protein",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1qh5bqq",
+          "title": "A protein found in the GI tract can neutralize many bacteria",
+          "preview": "A protein found in the GI tract can neutralize many bacteria",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 60,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "plants",
+        "batteries",
+        "replace",
+        "cells",
+        "growth",
+        "grown",
+        "graphene",
+        "glowing"
+      ],
+      "samples": [
+        {
+          "id": "1qavcqn",
+          "title": "These paper batteries made from plants want to replace AA and AAA cells",
+          "preview": "These paper batteries made from plants want to replace AA and AAA cells",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 61,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "eye",
+        "vision",
+        "way",
+        "scientists",
+        "gen",
+        "fight",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1pqmdwz",
+          "title": "Scientists find a way to 'reboot' vision in adults with lazy eye",
+          "preview": "Scientists find a way to reboot vision in adults with lazy eye",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 62,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "drone",
+        "new",
+        "wound",
+        "generation",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1ofezo6",
+          "title": "Miami Has a New Cop on the Beat: A Drone-Launching Police Car That Can Drive Itself",
+          "preview": "Miami Has a New Cop on the Beat A Drone Launching Police Car That Can Drive Itself",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 63,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "electronics",
+        "graphene",
+        "wound",
+        "generation",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qq4imf",
+          "title": "Unlocking defect-free graphene electrodes for transparent electronics",
+          "preview": "Unlocking defect free graphene electrodes for transparent electronics",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 64,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "artificial",
+        "protein",
+        "use",
+        "wound",
+        "fiber",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1p3tb7w",
+          "title": "Milk protein put to use in spiciness-gauging \"artificial tongue\"",
+          "preview": "Milk protein put to use in spiciness gauging artificial tongue",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 65,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "gen",
+        "vaccine",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1o2zyym",
+          "title": "Next-gen vaccine prevents up to 88% of multiple aggressive cancers",
+          "preview": "Next gen vaccine prevents up to 88 of multiple aggressive cancers",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 66,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "big",
+        "particles",
+        "deliver",
+        "cells",
+        "cancer",
+        "global",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1nsnyq5",
+          "title": "“Bottlebrush” particles deliver big chemotherapy payloads directly to cancer cells",
+          "preview": "Bottlebrush particles deliver big chemotherapy payloads directly to cancer cells",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 67,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "controlled",
+        "ultrasound",
+        "uses",
+        "fiber",
+        "fight",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1puo9sj",
+          "title": "'Stingraybot' uses microbubble muscles controlled by ultrasound",
+          "preview": "Stingraybot uses microbubble muscles controlled by ultrasound",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 68,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "liver",
+        "repair",
+        "switch",
+        "single",
+        "help",
+        "fusion",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1qbrxib",
+          "title": "A single inflammatory switch may help repair the liver",
+          "preview": "A single inflammatory switch may help repair the liver",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 69,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "treating",
+        "like",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1o9xy5p",
+          "title": "Ulcer-treating device is like a little pen that you swallow",
+          "preview": "Ulcer treating device is like a little pen that you swallow",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 70,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "pull",
+        "used",
+        "waste",
+        "wound",
+        "gen",
+        "fight",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1qjwq10",
+          "title": "Forestry-waste pine bark could be used to pull antibiotics out of wastewater",
+          "preview": "Forestry waste pine bark could be used to pull antibiotics out of wastewater",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 71,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "artificial",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qsf709",
+          "title": "48 hours without lungs: artificial organ kept man alive until transplant",
+          "preview": "48 hours without lungs artificial organ kept man alive until transplant",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 72,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "material",
+        "engineers",
+        "just",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1r2k67c",
+          "title": "Engineers Just Developed a Perfect Material for a Truly Unsinkable Ship",
+          "preview": "Engineers Just Developed a Perfect Material for a Truly Unsinkable Ship",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 73,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "signals",
+        "used",
+        "new",
+        "wound",
+        "fiber",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1nzfpoi",
+          "title": "How Wi-Fi Signals Can Be Used to Detect Your Heartbeat | Contactless pulse monitoring opens up new wearable possibilities",
+          "preview": "How Wi Fi Signals Can Be Used to Detect Your Heartbeat Contactless pulse monitoring opens up new wearable possibilities",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 74,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "000",
+        "hour",
+        "robot",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1pi9cns",
+          "title": "Pneumatic-suction robot clears 75,000 lb of cargo an hour",
+          "preview": "Pneumatic suction robot clears 75 000 lb of cargo an hour",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 75,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "charging",
+        "lithium",
+        "battery",
+        "breakthrough",
+        "generation",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1q14jnt",
+          "title": "How battery charging led to a breakthrough in lithium recycling",
+          "preview": "How battery charging led to a breakthrough in lithium recycling",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 76,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "solar",
+        "method",
+        "makes",
+        "cells",
+        "new",
+        "growth",
+        "gen",
+        "film"
+      ],
+      "samples": [
+        {
+          "id": "1qpferj",
+          "title": "Goodbye to fragile solar cells: New method makes them almost eternal",
+          "preview": "Goodbye to fragile solar cells New method makes them almost eternal",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 77,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "match",
+        "blood",
+        "created",
+        "breakthrough",
+        "scientists",
+        "gene",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1qz3n1m",
+          "title": "Breakthrough: Scientists Created a 'Universal' Kidney To Match Any Blood Type",
+          "preview": "Breakthrough Scientists Created a Universal Kidney To Match Any Blood Type",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 78,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "targets",
+        "finds",
+        "vaccine",
+        "study",
+        "mit",
+        "new",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1orqtni",
+          "title": "MIT study finds targets for a new tuberculosis vaccine",
+          "preview": "MIT study finds targets for a new tuberculosis vaccine",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 79,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "fiber",
+        "used",
+        "bacteria",
+        "make",
+        "fusion",
+        "fight",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1pd57e5",
+          "title": "Bacteria used to make and dye fiber for clothing in the same vat",
+          "preview": "Bacteria used to make and dye fiber for clothing in the same vat",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 80,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "water",
+        "startup",
+        "uses",
+        "new",
+        "wound",
+        "fusion",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1pktgse",
+          "title": "California startup's new fire-suppression system uses sound instead of water",
+          "preview": "California startup s new fire suppression system uses sound instead of water",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 81,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "proteins",
+        "seen",
+        "ai",
+        "wound",
+        "gen",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1p4nev6",
+          "title": "AI trained on bacterial genomes produces never-before-seen proteins",
+          "preview": "AI trained on bacterial genomes produces never before seen proteins",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 82,
+      "size": 2,
+      "avg_intra_similarity": 0.9896,
+      "keywords": [
+        "turn",
+        "concrete",
+        "molecules",
+        "sugar",
+        "bacteria",
+        "used",
+        "function",
+        "fight"
+      ],
+      "samples": [
+        {
+          "id": "1qxil2p",
+          "title": "Wood scraps turn 'useless' desert sand into concrete",
+          "preview": "Wood scraps turn useless desert sand into concrete",
+          "score": 0.9974
+        },
+        {
+          "id": "1r1y4dy",
+          "title": "Sugar molecules used to destroy antibiotic-resistant bacteria",
+          "preview": "Sugar molecules used to destroy antibiotic resistant bacteria",
+          "score": 0.9974
+        }
+      ]
+    },
+    {
+      "cluster": 83,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "risk",
+        "drug",
+        "cancer",
+        "generation",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1obhtwa",
+          "title": "Cancer drug combo slashes risk of death by more than 40%",
+          "preview": "Cancer drug combo slashes risk of death by more than 40",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 84,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "high",
+        "use",
+        "3d",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1pxrv0j",
+          "title": "Mosquitoes' stabby suckers may find use in high-res 3D printers",
+          "preview": "Mosquitoes stabby suckers may find use in high res 3D printers",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 85,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "rover",
+        "healthy",
+        "fight",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1ppre9i",
+          "title": "Helical rover wheel balloons from 9 to 20 inches &amp; survives fire",
+          "preview": "Helical rover wheel balloons from 9 to 20 inches survives fire",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 86,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "turn",
+        "thoughts",
+        "brain",
+        "ai",
+        "growth",
+        "gene",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1opviil",
+          "title": "‘Mind-captioning’ AI decodes brain activity to turn thoughts into text",
+          "preview": "Mind captioning AI decodes brain activity to turn thoughts into text",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 87,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "restores",
+        "blind",
+        "eye",
+        "vision",
+        "implant",
+        "gen",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1oex8bb",
+          "title": "Pioneering eye implant restores reading vision to the blind",
+          "preview": "Pioneering eye implant restores reading vision to the blind",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 88,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "feel",
+        "lets",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1po31w8",
+          "title": "Futuristic pixel-raising display lets you feel what’s onscreen",
+          "preview": "Futuristic pixel raising display lets you feel what s onscreen",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 89,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "improves",
+        "cell",
+        "inspired",
+        "life",
+        "battery",
+        "wound",
+        "gen",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1pajpr5",
+          "title": "Stretchy battery inspired by lemons improves voltage and cell life",
+          "preview": "Stretchy battery inspired by lemons improves voltage and cell life",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 90,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "patient",
+        "implant",
+        "using",
+        "brain",
+        "wound",
+        "gene",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1oqupu3",
+          "title": "A Neuralink patient with ALS is using his brain implant to control a camera and look around again",
+          "preview": "A Neuralink patient with ALS is using his brain implant to control a camera and look around again",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 91,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "diabetes",
+        "people",
+        "replace",
+        "imaging",
+        "gene",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1pe22mw",
+          "title": "Noninvasive imaging could replace finger pricks for people with diabetes",
+          "preview": "Noninvasive imaging could replace finger pricks for people with diabetes",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 92,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "fuels",
+        "growth",
+        "fat",
+        "study",
+        "breakthrough",
+        "new",
+        "wound",
+        "gene"
+      ],
+      "samples": [
+        {
+          "id": "1oj4pzt",
+          "title": "Fat breakdown fuels new hair growth in breakthrough study",
+          "preview": "Fat breakdown fuels new hair growth in breakthrough study",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 93,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "safer",
+        "drone",
+        "enable",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1nxv83p",
+          "title": "Parachutes with hundreds of holes could enable safer drone deliveries",
+          "preview": "Parachutes with hundreds of holes could enable safer drone deliveries",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 94,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "fabric",
+        "makes",
+        "simple",
+        "wound",
+        "gen",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1p83tf1",
+          "title": "Simple solvent makes polycotton fabric completely recyclable",
+          "preview": "Simple solvent makes polycotton fabric completely recyclable",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 95,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "weight",
+        "cholesterol",
+        "stops",
+        "drug",
+        "new",
+        "wound",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1qsqfpv",
+          "title": "New Drug Stops Weight Gain and Lowers Cholesterol by Targeting Nitric Oxide",
+          "preview": "New Drug Stops Weight Gain and Lowers Cholesterol by Targeting Nitric Oxide",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 96,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "glowing",
+        "blood",
+        "alternative",
+        "wound",
+        "gene",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qdkdz6",
+          "title": "Could glowing green skin be an alternative to blood sampling?",
+          "preview": "Could glowing green skin be an alternative to blood sampling",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 97,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "evidence",
+        "graphene",
+        "key",
+        "mit",
+        "wound",
+        "gen",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1ou80lz",
+          "title": "MIT physicists observe key evidence of unconventional superconductivity in magic-angle graphene",
+          "preview": "MIT physicists observe key evidence of unconventional superconductivity in magic angle graphene",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 98,
+      "size": 2,
+      "avg_intra_similarity": 0.9936,
+      "keywords": [
+        "bowel",
+        "shield",
+        "sugar",
+        "immune",
+        "save",
+        "print",
+        "liver",
+        "tissue"
+      ],
+      "samples": [
+        {
+          "id": "1qlo9ok",
+          "title": "Scientists print human liver tissue in breakthrough that could save lives",
+          "preview": "Scientists print human liver tissue in breakthrough that could save lives",
+          "score": 0.9984
+        },
+        {
+          "id": "1oe2ib9",
+          "title": "Bowel cancer’s “sugar shield” removed to reawaken immune defenses",
+          "preview": "Bowel cancer s sugar shield removed to reawaken immune defenses",
+          "score": 0.9984
+        }
+      ]
+    },
+    {
+      "cluster": 99,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "early",
+        "open",
+        "cancer",
+        "ai",
+        "new",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1q89i6h",
+          "title": "AI-generated sensors open new paths for early cancer detection",
+          "preview": "AI generated sensors open new paths for early cancer detection",
+          "score": 1.0
+        }
+      ]
+    }
+  ]
+}

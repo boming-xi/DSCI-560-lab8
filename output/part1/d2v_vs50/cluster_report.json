@@ -7,54 +7,23 @@
     "window": 8,
     "dm": 1
   },
-  "k": 2,
+  "k": 3,
   "num_docs": 200,
-  "silhouette_score": 0.9585,
+  "silhouette_score": 0.9368,
   "k_scores": {
-    "2": 0.9585,
     "3": 0.9368,
-    "4": 0.9178,
     "5": 0.8614,
-    "6": 0.7669,
-    "7": 0.5009,
     "8": 0.7884,
-    "9": 0.5953,
-    "10": 0.6831
+    "10": 0.6831,
+    "20": 0.0068,
+    "50": 0.0109,
+    "100": -0.0584
   },
   "clusters": [
     {
       "cluster": 0,
-      "size": 2,
-      "avg_intra_similarity": 0.0424,
-      "keywords": [
-        "wound",
-        "world",
-        "work",
-        "withstand",
-        "weight",
-        "weeks",
-        "weapon",
-        "way"
-      ],
-      "samples": [
-        {
-          "id": "1oaotd7",
-          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
-          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
-          "score": 0.7219
-        },
-        {
-          "id": "1ond2wz",
-          "title": "Designing better, longer-lasting medicines",
-          "preview": "Designing better longer lasting medicines",
-          "score": 0.7219
-        }
-      ]
-    },
-    {
-      "cluster": 1,
-      "size": 198,
-      "avg_intra_similarity": 0.96,
+      "size": 197,
+      "avg_intra_similarity": 0.9647,
       "keywords": [
         "new",
         "ai",
@@ -76,13 +45,65 @@
           "id": "1oy5ob7",
           "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
           "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
-          "score": 0.9987
+          "score": 0.9986
         },
         {
           "id": "1owvj8c",
           "title": "Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help",
           "preview": "Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help",
           "score": 0.9983
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 2,
+      "avg_intra_similarity": 0.0858,
+      "keywords": [
+        "new",
+        "wound",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ql87uu",
+          "title": "New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’",
+          "preview": "New filtration technology could be gamechanger in removal of Pfas forever chemicals",
+          "score": 0.7368
+        },
+        {
+          "id": "1ond2wz",
+          "title": "Designing better, longer-lasting medicines",
+          "preview": "Designing better longer lasting medicines",
+          "score": 0.7368
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1oaotd7",
+          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
+          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
+          "score": 1.0
         }
       ]
     }

@@ -1,0 +1,393 @@
+Doc2Vec Config
+Name = d2v_vs50
+Vector Size = 50
+Min Count = 2
+Epochs = 40
+Window = 8
+DM = 1
+
+K = 50
+Documents = 200
+Silhouette Score (cosine) = 0.0109
+
+Cluster 0 (size=1)
+Keywords: wound, drug, film, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1ond2wz: Designing better, longer-lasting medicines
+  Designing better longer lasting medicines
+
+Cluster 1 (size=69)
+Keywords: new, cells, ai, day, used, real, 3d, bacteria
+Avg Intra Similarity: 0.9864
+Samples:
+- 1o0i23l: New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.
+  New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis
+- 1oy5ob7: New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent
+  New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...
+- 1owvj8c: Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help
+  Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help
+
+Cluster 2 (size=1)
+Keywords: new, wound, fight, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1ql87uu: New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’
+  New filtration technology could be gamechanger in removal of Pfas forever chemicals
+
+Cluster 3 (size=1)
+Keywords: material, scientists, wound, gene, film, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1qcnwbl: Scientists develop nanophotonic material that changes color, texture, and shape on demand
+  Scientists develop nanophotonic material that changes color texture and shape on demand
+
+Cluster 4 (size=1)
+Keywords: wound, drug, film, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1oaotd7: Sake to the stars: Japan’s lunar brewing experiment set for takeoff
+  Sake to the stars Japan s lunar brewing experiment set for takeoff
+
+Cluster 5 (size=1)
+Keywords: cells, scientists, generation, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1qlvhas: Scientists May Have Found a Blueprint to Revive Old Cells
+  Scientists May Have Found a Blueprint to Revive Old Cells
+
+Cluster 6 (size=1)
+Keywords: created, ai, new, wound, gene, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1qyj2fh: Sixteen Claude AI agents working together created a new C compiler
+  Sixteen Claude AI agents working together created a new C compiler
+
+Cluster 7 (size=1)
+Keywords: study, breakthrough, scientists, wound, gene, film, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1qpok5x: Scientists achieve pancreatic tumour regression in breakthrough study
+  Scientists achieve pancreatic tumour regression in breakthrough study
+
+Cluster 8 (size=1)
+Keywords: gene, way, new, wound, film, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1ouafw0: A new way to understand and predict gene splicing
+  A new way to understand and predict gene splicing
+
+Cluster 9 (size=1)
+Keywords: researchers, using, mit, ai, gene, film, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1pgjktv: MIT researchers “speak objects into existence” using AI and robotics
+  MIT researchers speak objects into existence using AI and robotics
+
+Cluster 10 (size=1)
+Keywords: carbon, new, film, fuels, function, fusion, gen, gene
+Avg Intra Similarity: 1.0
+Samples:
+- 1p18vm4: A new take on carbon capture
+  A new take on carbon capture
+
+Cluster 11 (size=1)
+Keywords: build, researchers, wound, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1qi1ui1: Researchers build a stretchable OLED that can double in size without dimming
+  Researchers build a stretchable OLED that can double in size without dimming
+
+Cluster 12 (size=1)
+Keywords: ultrasound, make, new, wound, gen, film, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1qszrap: New ultrasound pad aims to make prenatal visits less unpleasant
+  New ultrasound pad aims to make prenatal visits less unpleasant
+
+Cluster 13 (size=1)
+Keywords: test, new, fight, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1ofs1gu: Forensics’ “Holy Grail”: New Test Recovers Fingerprints From Ammunition Casing
+  Forensics Holy Grail New Test Recovers Fingerprints From Ammunition Casing
+
+Cluster 14 (size=1)
+Keywords: quantum, healthy, fight, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1pyngm2: Anything-goes “anyons” may be at the root of surprising quantum experiments
+  Anything goes anyons may be at the root of surprising quantum experiments
+
+Cluster 15 (size=1)
+Keywords: reportedly, ai, wound, generation, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1ql2wxh: Why Apple and OpenAI are reportedly betting on AI hardware in 2026
+  Why Apple and OpenAI are reportedly betting on AI hardware in 2026
+
+Cluster 16 (size=2)
+Keywords: create, spray, repair, tissue, dna, drug, life, scientists
+Avg Intra Similarity: 0.9787
+Samples:
+- 1pfqaa8: First-ever drug to repair DNA and regenerate damaged tissue is here
+  First ever drug to repair DNA and regenerate damaged tissue is here
+- 1qfejyt: Scientists create a spray-on powder that seals life-threatening wounds in seconds
+  Scientists create a spray on powder that seals life threatening wounds in seconds
+
+Cluster 17 (size=1)
+Keywords: artificial, wound, gene, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1qsf709: 48 hours without lungs: artificial organ kept man alive until transplant
+  48 hours without lungs artificial organ kept man alive until transplant
+
+Cluster 18 (size=1)
+Keywords: artificial, protein, use, wound, fiber, film, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1p3tb7w: Milk protein put to use in spiciness-gauging "artificial tongue"
+  Milk protein put to use in spiciness gauging artificial tongue
+
+Cluster 19 (size=1)
+Keywords: world, real, gut, growth, grown, graphene, glowing, global
+Avg Intra Similarity: 1.0
+Samples:
+- 1pw4x86: Magnetic cloaking is moving from theory to real-world engineering
+  Magnetic cloaking is moving from theory to real world engineering
+
+Cluster 20 (size=1)
+Keywords: material, high, new, wound, gene, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1o3vw6e: Forged in disorder: High-entropy MXenes emerge as a new material
+  Forged in disorder High entropy MXenes emerge as a new material
+
+Cluster 21 (size=1)
+Keywords: wound, drug, film, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1pt0kv0: Leaf-scan tells farmers when fruit is ripe – without destroying it
+  Leaf scan tells farmers when fruit is ripe without destroying it
+
+Cluster 22 (size=1)
+Keywords: therapy, gene, disease, time, wound, generation, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1o90ynn: 95% of kids with “bubble boy” disease cured by one-time gene therapy
+  95 of kids with bubble boy disease cured by one time gene therapy
+
+Cluster 23 (size=1)
+Keywords: patch, heal, heart, help, new, gene, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1ote4b3: A new patch could help to heal the heart
+  A new patch could help to heal the heart
+
+Cluster 24 (size=1)
+Keywords: model, human, ai, wound, generation, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1qvy73x: AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts
+  AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts
+
+Cluster 25 (size=2)
+Keywords: charging, early, open, lithium, battery, breakthrough, cancer, ai
+Avg Intra Similarity: 0.9822
+Samples:
+- 1q89i6h: AI-generated sensors open new paths for early cancer detection
+  AI generated sensors open new paths for early cancer detection
+- 1q14jnt: How battery charging led to a breakthrough in lithium recycling
+  How battery charging led to a breakthrough in lithium recycling
+
+Cluster 26 (size=1)
+Keywords: quantum, engineers, using, just, way, fight, film, finds
+Avg Intra Similarity: 1.0
+Samples:
+- 1qtwjfo: Engineers just found a way to cool quantum systems using microwave noise
+  Engineers just found a way to cool quantum systems using microwave noise
+
+Cluster 27 (size=1)
+Keywords: material, engineers, just, wound, gene, film, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1r2k67c: Engineers Just Developed a Perfect Material for a Truly Unsinkable Ship
+  Engineers Just Developed a Perfect Material for a Truly Unsinkable Ship
+
+Cluster 28 (size=1)
+Keywords: fight, natural, help, cancer, cells, heal, gut, growth
+Avg Intra Similarity: 1.0
+Samples:
+- 1o4p02i: Engineered “natural killer” cells could help fight cancer
+  Engineered natural killer cells could help fight cancer
+
+Cluster 29 (size=1)
+Keywords: industry, wound, healthy, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1qofe50: Electrifying boilers to decarbonize industry
+  Electrifying boilers to decarbonize industry
+
+Cluster 30 (size=4)
+Keywords: treatment, human, treating, like, shows, ai, breakthrough, antibodies
+Avg Intra Similarity: 0.9719
+Samples:
+- 1pn89ot: A new way to deliver antibodies could make treatment much easier for patients
+  A new way to deliver antibodies could make treatment much easier for patients
+- 1nynmwe: Psychedelic DMT shows promise as breakthrough stroke treatment
+  Psychedelic DMT shows promise as breakthrough stroke treatment
+- 1o9xy5p: Ulcer-treating device is like a little pen that you swallow
+  Ulcer treating device is like a little pen that you swallow
+
+Cluster 31 (size=5)
+Keywords: new, turn, concrete, shields, armor, 3d, molecules, sugar
+Avg Intra Similarity: 0.987
+Samples:
+- 1ogkg1j: New Space Armor shields satellites from hypersonic space debris
+  New Space Armor shields satellites from hypersonic space debris
+- 1r1y4dy: Sugar molecules used to destroy antibiotic-resistant bacteria
+  Sugar molecules used to destroy antibiotic resistant bacteria
+- 1orqtni: MIT study finds targets for a new tuberculosis vaccine
+  MIT study finds targets for a new tuberculosis vaccine
+
+Cluster 32 (size=1)
+Keywords: scientists, wound, gene, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1o7adwi: Helping scientists run complex data analyses without writing code
+  Helping scientists run complex data analyses without writing code
+
+Cluster 33 (size=6)
+Keywords: cancer, power, risk, drug, shields, memory, approach, conductive
+Avg Intra Similarity: 0.9814
+Samples:
+- 1plmu7w: ADHD 'audio shield' turns sounds from daily tasks into powerful focus tool
+  ADHD audio shield turns sounds from daily tasks into powerful focus tool
+- 1qo12gu: Using amino acids as fuels to make conductive graphene
+  Using amino acids as fuels to make conductive graphene
+- 1poxptt: Frog gut bacterium eliminates cancer tumors in mice with a single dose
+  Frog gut bacterium eliminates cancer tumors in mice with a single dose
+
+Cluster 34 (size=1)
+Keywords: speech, real, time, wound, fusion, fight, film, finds
+Avg Intra Similarity: 1.0
+Samples:
+- 1odbuvo: App that translates speech to sign language in real-time wins top innovation prize
+  App that translates speech to sign language in real time wins top innovation prize
+
+Cluster 35 (size=1)
+Keywords: world, heart, film, finds, fuels, function, fusion, gen
+Avg Intra Similarity: 1.0
+Samples:
+- 1p22lah: World first: Breath-saving exoskeleton turbocharges diver's kicks
+  World first Breath saving exoskeleton turbocharges diver s kicks
+
+Cluster 36 (size=1)
+Keywords: printable, enable, wound, generation, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1o0dk1n: Printable aluminum alloy sets strength records, may enable lighter aircraft parts
+  Printable aluminum alloy sets strength records may enable lighter aircraft parts
+
+Cluster 37 (size=1)
+Keywords: large, robots, fight, film, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1ov6kj6: Teaching robots to map large environments
+  Teaching robots to map large environments
+
+Cluster 38 (size=1)
+Keywords: need, surgery, brain, new, generation, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1osl0gs: New therapeutic brain implants could defy the need for surgery
+  New therapeutic brain implants could defy the need for surgery
+
+Cluster 39 (size=1)
+Keywords: 10, lets, mit, new, wound, gene, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1qj3ubg: MIT’s new ‘recursive’ framework lets LLMs process 10 million tokens without context rot
+  MIT s new recursive framework lets LLMs process 10 million tokens without context rot
+
+Cluster 40 (size=1)
+Keywords: 000, hour, robot, gene, film, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1pi9cns: Pneumatic-suction robot clears 75,000 lb of cargo an hour
+  Pneumatic suction robot clears 75 000 lb of cargo an hour
+
+Cluster 41 (size=1)
+Keywords: match, blood, created, breakthrough, scientists, gene, finds, fuels
+Avg Intra Similarity: 1.0
+Samples:
+- 1qz3n1m: Breakthrough: Scientists Created a 'Universal' Kidney To Match Any Blood Type
+  Breakthrough Scientists Created a Universal Kidney To Match Any Blood Type
+
+Cluster 42 (size=1)
+Keywords: extend, battery, life, gene, film, finds, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1poa0sn: ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30%
+  ExxonMobil Unveils Graphite Invention To Extend EV Battery Life By 30
+
+Cluster 43 (size=1)
+Keywords: pills, improve, wound, gene, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1q94q7g: Pills that communicate from the stomach could improve medication adherence
+  Pills that communicate from the stomach could improve medication adherence
+
+Cluster 44 (size=1)
+Keywords: editing, boost, wound, generation, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1nucil7: A boost for the precision of genome editing
+  A boost for the precision of genome editing
+
+Cluster 45 (size=26)
+Keywords: stops, cell, battery, use, replace, robotic, approach, cancer
+Avg Intra Similarity: 0.9858
+Samples:
+- 1qnk0ut: China reveals 200-strong AI drone swarm that can be controlled by a single soldier — ‘intelligent algorithm’ allows individual units to cooperate autonomously even after losing communication with operator
+  China reveals 200 strong AI drone swarm that can be controlled by a single soldier intelligent algorithm allows individual units to cooperate autonomously even after losing communication with operator
+- 1nzfgso: Chemists create red fluorescent dyes that may enable clearer biomedical imaging | The new dyes are based on boron-containing molecules that were previously too unstable for practical use.
+  Chemists create red fluorescent dyes that may enable clearer biomedical imaging The new dyes are based on boron containing molecules that were previously too unstable for practical use
+- 1nxscj6: A groundbreaking study has revealed that your mom and dad’s DNA don’t just pass on telomere length, they actively reshape it in the first days of life, influencing how we age and our risk of developing diseases such as cancer.
+  A groundbreaking study has revealed that your mom and dad s DNA don t just pass on telomere length they actively reshape it in the first days of life influencing how we age and our risk of...
+
+Cluster 46 (size=6)
+Keywords: cells, chronic, discover, conductive, test, blood, particles, big
+Avg Intra Similarity: 0.9878
+Samples:
+- 1p5jzqg: Turning fat cells into bone heals fractures and reverses frailty
+  Turning fat cells into bone heals fractures and reverses frailty
+- 1p2zi7q: Speech-restoring brain chip gets FDA approval for human trial
+  Speech restoring brain chip gets FDA approval for human trial
+- 1qmkylh: UCLA engineers discover the most heat-conductive metal ever measured
+  UCLA engineers discover the most heat conductive metal ever measured
+
+Cluster 47 (size=1)
+Keywords: proteins, chemists, wound, gene, finds, fuels, function, fusion
+Avg Intra Similarity: 1.0
+Samples:
+- 1qg9dem: Chemists determine the structure of the fuzzy coat that surrounds Tau proteins
+  Chemists determine the structure of the fuzzy coat that surrounds Tau proteins
+
+Cluster 48 (size=39)
+Keywords: ai, low, new, help, vaccine, molecule, brain, enable
+Avg Intra Similarity: 0.9852
+Samples:
+- 1nw0fgn: Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.
+  Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures
+- 1qnhauo: Gene editing takes a major step toward ending daily cholesterol pills
+  Gene editing takes a major step toward ending daily cholesterol pills
+- 1ovyj9z: Natural molecule reverses memory loss seen in Alzheimer's disease | Scientists identify a new weapon in restoring memory to Alzheimer's disease patients
+  Natural molecule reverses memory loss seen in Alzheimer s disease Scientists identify a new weapon in restoring memory to Alzheimer s disease patients
+
+Cluster 49 (size=1)
+Keywords: powered, blind, help, ai, wound, generation, fuels, function
+Avg Intra Similarity: 1.0
+Samples:
+- 1ptvjpf: AI-powered 'glasses' help the blind go places – safely
+  AI powered glasses help the blind go places safely

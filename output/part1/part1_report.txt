@@ -1,26 +1,23 @@
-Lab 8 Part 1 Report
+Lab 8 Part 1 Report (based on k_sweep_summary)
 
 Data Source:
 - Input: data/clean.json
 - Documents: 200
 
-Doc2Vec Configurations:
-- d2v_vs50: vector_size=50, min_count=2, epochs=40, window=8, dm=1
-- d2v_vs100: vector_size=100, min_count=2, epochs=40, window=8, dm=1
-- d2v_vs200: vector_size=200, min_count=2, epochs=40, window=8, dm=1
+K Sweep:
+- K values: 3, 5, 8, 10, 20, 50, 100
+- Skipped (invalid for n_docs): 200
 
-Clustering:
-- KMeans on L2-normalized vectors (equivalent to cosine distance).
-- K selected by silhouette score (cosine) within the configured range.
+Summary (best silhouette per vector size):
+- d2v_vs200: K=3 | sil=0.9667 | db=0.5257 | ch=178.94 | avg_intra=0.9801 | ratio=197.0
+- d2v_vs100: K=3 | sil=0.9590 | db=0.4737 | ch=125.28 | avg_intra=0.9736 | ratio=197.0
+- d2v_vs50: K=3 | sil=0.9368 | db=0.7279 | ch=59.89 | avg_intra=0.9561 | ratio=197.0
 
-Quantitative Comparison:
-d2v_vs200 | vector_size=200 | k=2 | silhouette=0.9811 | avg_intra=0.9751
-d2v_vs100 | vector_size=100 | k=2 | silhouette=0.9688 | avg_intra=0.9666
-d2v_vs50 | vector_size=50 | k=2 | silhouette=0.9585 | avg_intra=0.9508
-
-Best Config (quantitative):
-d2v_vs200 with vector_size=200 (silhouette=0.9811, avg_intra=0.9751)
+Observations:
+- Best silhouette occurs at K=3 for all vector sizes in this sweep.
+- Cluster size ratios remain large, indicating a dominant cluster and many small clusters.
+- Larger K increases singleton clusters, reducing interpretability.
 
 Conclusion:
-- Best quantitative config: d2v_vs200 (vector_size=200).
-- Review the cluster reports for qualitative coherence and note representative topics.
+- Best quantitative config in this sweep: d2v_vs200 (K=3).
+- Consider using mid K (e.g., 5 or 8) and reviewing cluster samples for qualitative assessment.

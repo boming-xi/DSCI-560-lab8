@@ -1,0 +1,512 @@
+{
+  "config": {
+    "name": "d2v_vs100",
+    "vector_size": 100,
+    "min_count": 2,
+    "epochs": 40,
+    "window": 8,
+    "dm": 1
+  },
+  "k": 20,
+  "num_docs": 200,
+  "silhouette_score": 0.022,
+  "k_scores": {},
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "world",
+        "heart",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1p22lah",
+          "title": "World first: Breath-saving exoskeleton turbocharges diver's kicks",
+          "preview": "World first Breath saving exoskeleton turbocharges diver s kicks",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ond2wz",
+          "title": "Designing better, longer-lasting medicines",
+          "preview": "Designing better longer lasting medicines",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 7,
+      "avg_intra_similarity": 0.957,
+      "keywords": [
+        "new",
+        "industry",
+        "scientists",
+        "power",
+        "carbon",
+        "cancer",
+        "material",
+        "high"
+      ],
+      "samples": [
+        {
+          "id": "1q89i6h",
+          "title": "AI-generated sensors open new paths for early cancer detection",
+          "preview": "AI generated sensors open new paths for early cancer detection",
+          "score": 0.9915
+        },
+        {
+          "id": "1omhwkm",
+          "title": "Biochips made from mushrooms rival power of manmade semiconductors",
+          "preview": "Biochips made from mushrooms rival power of manmade semiconductors",
+          "score": 0.9892
+        },
+        {
+          "id": "1o4p02i",
+          "title": "Engineered “natural killer” cells could help fight cancer",
+          "preview": "Engineered natural killer cells could help fight cancer",
+          "score": 0.9886
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "cells",
+        "scientists",
+        "generation",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qlvhas",
+          "title": "Scientists May Have Found a Blueprint to Revive Old Cells",
+          "preview": "Scientists May Have Found a Blueprint to Revive Old Cells",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1oaotd7",
+          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
+          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 82,
+      "avg_intra_similarity": 0.9867,
+      "keywords": [
+        "new",
+        "ai",
+        "3d",
+        "life",
+        "brain",
+        "breakthrough",
+        "just",
+        "eye"
+      ],
+      "samples": [
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.9994
+        },
+        {
+          "id": "1o0i23l",
+          "title": "New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.",
+          "preview": "New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis",
+          "score": 0.9992
+        },
+        {
+          "id": "1owvj8c",
+          "title": "Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help",
+          "preview": "Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help",
+          "score": 0.9991
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "new",
+        "wound",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ql87uu",
+          "title": "New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’",
+          "preview": "New filtration technology could be gamechanger in removal of Pfas forever chemicals",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 94,
+      "avg_intra_similarity": 0.9912,
+      "keywords": [
+        "cancer",
+        "new",
+        "cells",
+        "uses",
+        "human",
+        "ai",
+        "enable",
+        "artificial"
+      ],
+      "samples": [
+        {
+          "id": "1oym5mb",
+          "title": "Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.",
+          "preview": "Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...",
+          "score": 0.9991
+        },
+        {
+          "id": "1nw0fgn",
+          "title": "Palladium filters could enable cheaper, more efficient generation of hydrogen fuel | The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures.",
+          "preview": "Palladium filters could enable cheaper more efficient generation of hydrogen fuel The novel design allows the membranes to withstand high temperatures when separating hydrogen from gas mixtures",
+          "score": 0.9991
+        },
+        {
+          "id": "1nuwsa7",
+          "title": "Study finds key role for non-neural brain cells in processing vision | MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing by maintaining ambient levels of the neurotransmitter chemical GABA.",
+          "preview": "Study finds key role for non neural brain cells in processing vision MIT researchers employed a novel application of tools and analysis to show that astrocytes ensure neural information processing...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "model",
+        "human",
+        "ai",
+        "wound",
+        "generation",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qvy73x",
+          "title": "AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts",
+          "preview": "AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "study",
+        "breakthrough",
+        "scientists",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1qpok5x",
+          "title": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "preview": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 10,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "gene",
+        "way",
+        "new",
+        "wound",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1ouafw0",
+          "title": "A new way to understand and predict gene splicing",
+          "preview": "A new way to understand and predict gene splicing",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 11,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "quantum",
+        "healthy",
+        "fight",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1pyngm2",
+          "title": "Anything-goes “anyons” may be at the root of surprising quantum experiments",
+          "preview": "Anything goes anyons may be at the root of surprising quantum experiments",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 12,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "material",
+        "scientists",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qcnwbl",
+          "title": "Scientists develop nanophotonic material that changes color, texture, and shape on demand",
+          "preview": "Scientists develop nanophotonic material that changes color texture and shape on demand",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 13,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "researchers",
+        "using",
+        "mit",
+        "ai",
+        "gene",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1pgjktv",
+          "title": "MIT researchers “speak objects into existence” using AI and robotics",
+          "preview": "MIT researchers speak objects into existence using AI and robotics",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 14,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "world",
+        "real",
+        "gut",
+        "growth",
+        "grown",
+        "graphene",
+        "glowing",
+        "global"
+      ],
+      "samples": [
+        {
+          "id": "1pw4x86",
+          "title": "Magnetic cloaking is moving from theory to real-world engineering",
+          "preview": "Magnetic cloaking is moving from theory to real world engineering",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 15,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "pills",
+        "improve",
+        "wound",
+        "gene",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1q94q7g",
+          "title": "Pills that communicate from the stomach could improve medication adherence",
+          "preview": "Pills that communicate from the stomach could improve medication adherence",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 16,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "speech",
+        "real",
+        "time",
+        "wound",
+        "fusion",
+        "fight",
+        "film",
+        "finds"
+      ],
+      "samples": [
+        {
+          "id": "1odbuvo",
+          "title": "App that translates speech to sign language in real-time wins top innovation prize",
+          "preview": "App that translates speech to sign language in real time wins top innovation prize",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 17,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "human",
+        "ai",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1oexxcb",
+          "title": "AI teaches itself and outperforms human-designed algorithms",
+          "preview": "AI teaches itself and outperforms human designed algorithms",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 18,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "created",
+        "ai",
+        "new",
+        "wound",
+        "gene",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qyj2fh",
+          "title": "Sixteen Claude AI agents working together created a new C compiler",
+          "preview": "Sixteen Claude AI agents working together created a new C compiler",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 19,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "test",
+        "new",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ofs1gu",
+          "title": "Forensics’ “Holy Grail”: New Test Recovers Fingerprints From Ammunition Casing",
+          "preview": "Forensics Holy Grail New Test Recovers Fingerprints From Ammunition Casing",
+          "score": 1.0
+        }
+      ]
+    }
+  ]
+}

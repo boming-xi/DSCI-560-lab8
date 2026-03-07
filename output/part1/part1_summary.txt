@@ -1,8 +1,10 @@
-Doc2Vec Config Comparison (higher is better)
+Doc2Vec Config Summary (based on k_sweep_summary)
+K values: 3, 5, 8, 10, 20, 50, 100
+Skipped (invalid for n_docs): 200
 
-d2v_vs200 | vector_size=200 | k=2 | silhouette=0.9811 | avg_intra=0.9751
-d2v_vs100 | vector_size=100 | k=2 | silhouette=0.9688 | avg_intra=0.9666
-d2v_vs50 | vector_size=50 | k=2 | silhouette=0.9585 | avg_intra=0.9508
+d2v_vs200 | vector_size=200 | k=3 | silhouette=0.9667 | avg_intra=0.9801 | db=0.5257 | ch=178.94
+d2v_vs100 | vector_size=100 | k=3 | silhouette=0.9590 | avg_intra=0.9736 | db=0.4737 | ch=125.28
+d2v_vs50 | vector_size=50 | k=3 | silhouette=0.9368 | avg_intra=0.9561 | db=0.7279 | ch=59.89
 
-Best Config (quantitative):
-d2v_vs200 with vector_size=200 (silhouette=0.9811, avg_intra=0.9751)
+Best Config (by silhouette):
+d2v_vs200 with vector_size=200 (k=3, silhouette=0.9667)

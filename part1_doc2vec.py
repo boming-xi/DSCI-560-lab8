@@ -19,7 +19,7 @@ except Exception as exc:  # pragma: no cover - dependency check
     ) from exc
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import silhouette_score
+from sklearn.metrics import calinski_harabasz_score, davies_bouldin_score, silhouette_score
 from sklearn.metrics.pairwise import cosine_similarity
 
 
@@ -68,18 +68,153 @@ def l2_normalize(vectors: np.ndarray) -> np.ndarray:
     return vectors / norms
 
 
+def parse_k_values(raw: str) -> List[int]:
+    if not raw:
+        return []
+    values: List[int] = []
+    for part in raw.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        try:
+            values.append(int(part))
+        except ValueError as exc:
+            raise SystemExit(f"Invalid K value: {part}") from exc
+    return sorted(set(values))
+
+
+def resolve_k_values(args: argparse.Namespace, num_docs: int) -> Tuple[List[int], List[int]]:
+    if args.k_values:
+        requested = parse_k_values(args.k_values)
+    else:
+        requested = list(range(args.k_min, args.k_max + 1))
+    max_k = max(2, num_docs - 1)
+    valid = [k for k in requested if 2 <= k <= max_k]
+    skipped = [k for k in requested if k not in valid]
+    return valid, skipped
+
+
+def compute_avg_intra_similarity(vectors: np.ndarray, labels: np.ndarray) -> float:
+    total = 0.0
+    total_docs = len(vectors)
+    for lab in np.unique(labels):
+        idx = np.where(labels == lab)[0]
+        if len(idx) <= 1:
+            total += 1.0 * len(idx)
+            continue
+        sub = vectors[idx]
+        sim_mat = cosine_similarity(sub)
+        upper = sim_mat[np.triu_indices(len(idx), k=1)]
+        avg = float(np.mean(upper)) if upper.size > 0 else 1.0
+        total += avg * len(idx)
+    return float(total / total_docs) if total_docs else 0.0
+
+
+def evaluate_k_sweep(
+    config: Doc2VecConfig,
+    vectors_norm: np.ndarray,
+    k_values: List[int],
+    seed: int,
+) -> List[Dict]:
+    rows: List[Dict] = []
+    for k in k_values:
+        kmeans = KMeans(n_clusters=k, random_state=seed, n_init=10)
+        labels = kmeans.fit_predict(vectors_norm)
+        if len(set(labels)) < 2:
+            continue
+        sil = float(silhouette_score(vectors_norm, labels, metric="cosine"))
+        db = float(davies_bouldin_score(vectors_norm, labels))
+        ch = float(calinski_harabasz_score(vectors_norm, labels))
+        avg_intra = compute_avg_intra_similarity(vectors_norm, labels)
+        sizes = [int(np.sum(labels == i)) for i in range(k)]
+        min_size = min(sizes) if sizes else 0
+        max_size = max(sizes) if sizes else 0
+        ratio = (max_size / min_size) if min_size else float("inf")
+        singletons = sum(1 for s in sizes if s == 1)
+        rows.append(
+            {
+                "config": config.name,
+                "vector_size": config.vector_size,
+                "k": k,
+                "silhouette_cosine": round(sil, 4),
+                "davies_bouldin": round(db, 4),
+                "calinski_harabasz": round(ch, 2),
+                "avg_intra_similarity": round(avg_intra, 4),
+                "min_cluster_size": min_size,
+                "max_cluster_size": max_size,
+                "size_ratio": round(ratio, 2) if ratio != float("inf") else ratio,
+                "singleton_clusters": singletons,
+            }
+        )
+    return rows
+
+
+def write_k_sweep_outputs(
+    out_dir: str,
+    rows: List[Dict],
+    k_values: List[int],
+    skipped: List[int],
+) -> None:
+    if not rows:
+        return
+    ensure_dir(out_dir)
+    csv_path = os.path.join(out_dir, "k_sweep_summary.csv")
+    header = [
+        "config",
+        "vector_size",
+        "k",
+        "silhouette_cosine",
+        "davies_bouldin",
+        "calinski_harabasz",
+        "avg_intra_similarity",
+        "min_cluster_size",
+        "max_cluster_size",
+        "size_ratio",
+        "singleton_clusters",
+    ]
+    with open(csv_path, "w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(header)
+        for row in rows:
+            writer.writerow([row.get(col) for col in header])
+
+    lines = [
+        "Doc2Vec K Sweep Summary",
+        f"K values: {', '.join(str(k) for k in k_values)}",
+    ]
+    if skipped:
+        lines.append(f"Skipped (invalid for n_docs): {', '.join(str(k) for k in skipped)}")
+    lines += [
+        "",
+        f"{'Config':<10} {'Vec':>4} {'K':>3} {'Sil':>7} {'DB':>7} {'CH':>9} "
+        f"{'AvgIntra':>9} {'Min':>4} {'Max':>4} {'Ratio':>6} {'Singles':>7}",
+        "-" * 90,
+    ]
+    for row in rows:
+        ratio = row["size_ratio"]
+        ratio_str = "inf" if ratio == float("inf") else f"{ratio:>6.2f}"
+        lines.append(
+            f"{row['config']:<10} {row['vector_size']:>4} {row['k']:>3} "
+            f"{row['silhouette_cosine']:>7.4f} {row['davies_bouldin']:>7.4f} "
+            f"{row['calinski_harabasz']:>9.2f} {row['avg_intra_similarity']:>9.4f} "
+            f"{row['min_cluster_size']:>4} {row['max_cluster_size']:>4} "
+            f"{ratio_str:>6} {row['singleton_clusters']:>7}"
+        )
+    txt_path = os.path.join(out_dir, "k_sweep_summary.txt")
+    with open(txt_path, "w", encoding="utf-8") as handle:
+        handle.write("\n".join(lines))
+
+
 def find_best_k(
     vectors: np.ndarray,
-    k_min: int,
-    k_max: int,
+    k_values: List[int],
     seed: int,
 ) -> Tuple[int, float, Dict[int, float]]:
-    best_k = k_min
+    best_k = k_values[0]
     best_score = -1.0
     scores: Dict[int, float] = {}
 
-    max_possible = min(k_max, max(2, vectors.shape[0] - 1))
-    for k in range(k_min, max_possible + 1):
+    for k in k_values:
         kmeans = KMeans(n_clusters=k, random_state=seed, n_init=10)
         labels = kmeans.fit_predict(vectors)
         if len(set(labels)) < 2:
@@ -128,40 +263,39 @@ def write_report_txt(path: str, report: Dict) -> None:
         handle.write("\n".join(lines))
 
 
-def build_reports(
+def cluster_and_report(
     config: Doc2VecConfig,
     texts: List[str],
     meta: List[Dict],
-    vectors: np.ndarray,
+    vectors_norm: np.ndarray,
+    X_tfidf,
+    feature_names: np.ndarray,
+    k: int,
     args: argparse.Namespace,
     out_dir: str,
     seed: int,
+    k_scores: Dict[int, float] | None = None,
+    silhouette_override: float | None = None,
 ) -> Dict:
-    vectors_norm = l2_normalize(vectors)
-    best_k, best_score, k_scores = find_best_k(vectors_norm, args.k_min, args.k_max, seed)
-
-    kmeans = KMeans(n_clusters=best_k, random_state=seed, n_init=10)
+    kmeans = KMeans(n_clusters=k, random_state=seed, n_init=10)
     labels = kmeans.fit_predict(vectors_norm)
 
-    tfidf_vectorizer = TfidfVectorizer(
-        stop_words="english",
-        max_features=args.max_features,
-        min_df=args.min_df,
-        max_df=args.max_df,
+    silhouette = (
+        float(silhouette_override)
+        if silhouette_override is not None
+        else float(silhouette_score(vectors_norm, labels, metric="cosine"))
     )
-    X_tfidf = tfidf_vectorizer.fit_transform(texts)
-    feature_names = tfidf_vectorizer.get_feature_names_out()
 
     report = {
         "config": asdict(config),
-        "k": int(best_k),
+        "k": int(k),
         "num_docs": len(texts),
-        "silhouette_score": round(float(best_score), 4),
-        "k_scores": {str(k): round(float(v), 4) for k, v in k_scores.items()},
+        "silhouette_score": round(float(silhouette), 4),
+        "k_scores": {str(kk): round(float(vv), 4) for kk, vv in (k_scores or {}).items()},
         "clusters": [],
     }
 
-    for cluster_id in range(best_k):
+    for cluster_id in range(k):
         indices = [i for i, label in enumerate(labels) if label == cluster_id]
         if not indices:
             continue
@@ -224,12 +358,41 @@ def build_reports(
                 [
                     post.get("id"),
                     post.get("title"),
-                    label,
+                    int(label),
                     post.get(args.text_field) or get_text(post, args.text_field),
                 ]
             )
 
     return report
+
+
+def build_reports(
+    config: Doc2VecConfig,
+    texts: List[str],
+    meta: List[Dict],
+    vectors_norm: np.ndarray,
+    X_tfidf,
+    feature_names: np.ndarray,
+    k_values: List[int],
+    args: argparse.Namespace,
+    out_dir: str,
+    seed: int,
+) -> Dict:
+    best_k, best_score, k_scores = find_best_k(vectors_norm, k_values, seed)
+    return cluster_and_report(
+        config=config,
+        texts=texts,
+        meta=meta,
+        vectors_norm=vectors_norm,
+        X_tfidf=X_tfidf,
+        feature_names=feature_names,
+        k=best_k,
+        args=args,
+        out_dir=out_dir,
+        seed=seed,
+        k_scores=k_scores,
+        silhouette_override=best_score,
+    )
 
 
 def parse_args() -> argparse.Namespace:
@@ -239,12 +402,27 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--text-field", default="clean_text")
     parser.add_argument("--k-min", type=int, default=2)
     parser.add_argument("--k-max", type=int, default=10)
+    parser.add_argument(
+        "--k-values",
+        default="",
+        help="Comma-separated list of K values (overrides k-min/k-max).",
+    )
     parser.add_argument("--max-features", type=int, default=5000)
     parser.add_argument("--min-df", type=int, default=2)
     parser.add_argument("--max-df", type=float, default=0.8)
     parser.add_argument("--top-terms", type=int, default=8)
     parser.add_argument("--samples-per-cluster", type=int, default=3)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument(
+        "--k-sweep",
+        action="store_true",
+        help="Evaluate all K in range and write k_sweep_summary outputs.",
+    )
+    parser.add_argument(
+        "--emit-k-reports",
+        action="store_true",
+        help="Write cluster_report/assignments for each K into per-K subfolders.",
+    )
     return parser.parse_args()
 
 
@@ -265,10 +443,24 @@ def main() -> int:
     if len(texts) < 3:
         raise SystemExit("Not enough documents.")
 
+    k_values, skipped_k = resolve_k_values(args, len(texts))
+    if not k_values:
+        raise SystemExit("No valid K values after filtering. Adjust --k-values or k-min/k-max.")
+
+    tfidf_vectorizer = TfidfVectorizer(
+        stop_words="english",
+        max_features=args.max_features,
+        min_df=args.min_df,
+        max_df=args.max_df,
+    )
+    X_tfidf = tfidf_vectorizer.fit_transform(texts)
+    feature_names = tfidf_vectorizer.get_feature_names_out()
+
     token_lists = tokenize(texts)
     tagged_docs = [TaggedDocument(words=tokens, tags=[str(i)]) for i, tokens in enumerate(token_lists)]
 
     summary = []
+    k_sweep_rows: List[Dict] = []
     for config in DOC2VEC_CONFIGS:
         model = Doc2Vec(
             vector_size=config.vector_size,
@@ -283,8 +475,39 @@ def main() -> int:
         model.train(tagged_docs, total_examples=model.corpus_count, epochs=model.epochs)
 
         vectors = np.vstack([model.dv[str(i)] for i in range(len(tagged_docs))])
+        vectors_norm = l2_normalize(vectors)
         out_dir = os.path.join(args.output_dir, config.name)
-        report = build_reports(config, texts, meta, vectors, args, out_dir, args.seed)
+        report = build_reports(
+            config=config,
+            texts=texts,
+            meta=meta,
+            vectors_norm=vectors_norm,
+            X_tfidf=X_tfidf,
+            feature_names=feature_names,
+            k_values=k_values,
+            args=args,
+            out_dir=out_dir,
+            seed=args.seed,
+        )
+        if args.emit_k_reports:
+            for k in k_values:
+                k_dir = os.path.join(out_dir, f"k{k}")
+                cluster_and_report(
+                    config=config,
+                    texts=texts,
+                    meta=meta,
+                    vectors_norm=vectors_norm,
+                    X_tfidf=X_tfidf,
+                    feature_names=feature_names,
+                    k=k,
+                    args=args,
+                    out_dir=k_dir,
+                    seed=args.seed,
+                )
+        if args.k_sweep:
+            sweep_rows = evaluate_k_sweep(config, vectors_norm, k_values, args.seed)
+            k_sweep_rows.extend(sweep_rows)
+            write_k_sweep_outputs(out_dir, sweep_rows, k_values, skipped_k)
 
         weighted_intra = 0.0
         total_docs = 0
@@ -310,6 +533,9 @@ def main() -> int:
         key=lambda item: (item["silhouette_score"], item["avg_intra_similarity"]),
         reverse=True,
     )
+
+    if args.k_sweep and k_sweep_rows:
+        write_k_sweep_outputs(args.output_dir, k_sweep_rows, k_values, skipped_k)
 
     summary_path = os.path.join(args.output_dir, "part1_summary.json")
     with open(summary_path, "w", encoding="utf-8") as handle:
@@ -349,7 +575,8 @@ def main() -> int:
         "",
         "Clustering:",
         "- KMeans on L2-normalized vectors (equivalent to cosine distance).",
-        "- K selected by silhouette score (cosine) within the configured range.",
+        f"- K candidates: {', '.join(str(k) for k in k_values)}.",
+        "- K selected by silhouette score (cosine) from the candidates above.",
         "",
         "Quantitative Comparison:",
         *summary_lines[2:],

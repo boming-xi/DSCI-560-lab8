@@ -7,25 +7,75 @@
     "window": 8,
     "dm": 1
   },
-  "k": 2,
+  "k": 3,
   "num_docs": 200,
-  "silhouette_score": 0.9811,
+  "silhouette_score": 0.9667,
   "k_scores": {
-    "2": 0.9811,
     "3": 0.9667,
-    "4": 0.9654,
     "5": 0.8798,
-    "6": 0.826,
-    "7": 0.673,
     "8": 0.6581,
-    "9": 0.609,
-    "10": 0.3047
+    "10": 0.3047,
+    "20": 0.3388,
+    "50": 0.1592,
+    "100": -0.0481
   },
   "clusters": [
     {
       "cluster": 0,
-      "size": 198,
-      "avg_intra_similarity": 0.9849,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "new",
+        "wound",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ql87uu",
+          "title": "New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’",
+          "preview": "New filtration technology could be gamechanger in removal of Pfas forever chemicals",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 2,
+      "avg_intra_similarity": 0.009,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ond2wz",
+          "title": "Designing better, longer-lasting medicines",
+          "preview": "Designing better longer lasting medicines",
+          "score": 0.7103
+        },
+        {
+          "id": "1oaotd7",
+          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
+          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
+          "score": 0.7103
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 197,
+      "avg_intra_similarity": 0.9899,
       "keywords": [
         "new",
         "ai",
@@ -54,35 +104,6 @@
           "title": "Natural compound rejuvenates aging cells in just 28 days | Researchers have demonstrated how consuming pomegranate and walnuts, can rejuvenate the immune system while shielding us from cell damage, inflammation and chronic diseases including cancer.",
           "preview": "Natural compound rejuvenates aging cells in just 28 days Researchers have demonstrated how consuming pomegranate and walnuts can rejuvenate the immune system while shielding us from cell damage...",
           "score": 0.9996
-        }
-      ]
-    },
-    {
-      "cluster": 1,
-      "size": 2,
-      "avg_intra_similarity": 0.009,
-      "keywords": [
-        "wound",
-        "world",
-        "work",
-        "withstand",
-        "weight",
-        "weeks",
-        "weapon",
-        "way"
-      ],
-      "samples": [
-        {
-          "id": "1oaotd7",
-          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
-          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
-          "score": 0.7103
-        },
-        {
-          "id": "1ond2wz",
-          "title": "Designing better, longer-lasting medicines",
-          "preview": "Designing better longer lasting medicines",
-          "score": 0.7103
         }
       ]
     }

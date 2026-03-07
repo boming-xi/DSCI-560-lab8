@@ -1,0 +1,270 @@
+{
+  "config": {
+    "name": "d2v_vs50",
+    "vector_size": 50,
+    "min_count": 2,
+    "epochs": 40,
+    "window": 8,
+    "dm": 1
+  },
+  "k": 10,
+  "num_docs": 200,
+  "silhouette_score": 0.6831,
+  "k_scores": {},
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "quantum",
+        "healthy",
+        "fight",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1pyngm2",
+          "title": "Anything-goes “anyons” may be at the root of surprising quantum experiments",
+          "preview": "Anything goes anyons may be at the root of surprising quantum experiments",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 189,
+      "avg_intra_similarity": 0.9748,
+      "keywords": [
+        "new",
+        "ai",
+        "cancer",
+        "scientists",
+        "cells",
+        "brain",
+        "3d",
+        "breakthrough"
+      ],
+      "samples": [
+        {
+          "id": "1oy5ob7",
+          "title": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful | Unit-per-unit, the experimental nanoparticle-enhanced mRNA vaccine reportedly does the work of a hundred times as much of its FDA-approved equivalent",
+          "preview": "New nanoparticle mRNA vaccine may be cheaper and 100 times more powerful Unit per unit the experimental nanoparticle enhanced mRNA vaccine reportedly does the work of a hundred times as much of its...",
+          "score": 0.9987
+        },
+        {
+          "id": "1o0i23l",
+          "title": "New sunlight-powered film kills 99.995% bacteria to provide safe drinking water | It offers a simple, affordable, and robust solution to the global safe drinking water crisis.",
+          "preview": "New sunlight powered film kills 99 995 bacteria to provide safe drinking water It offers a simple affordable and robust solution to the global safe drinking water crisis",
+          "score": 0.9986
+        },
+        {
+          "id": "1owvj8c",
+          "title": "Injectable weight-loss drug helps shift stubborn pounds post-surgery | When post-surgery weight loss is suboptimal, introducing one of the newer weight loss drugs can help",
+          "preview": "Injectable weight loss drug helps shift stubborn pounds post surgery When post surgery weight loss is suboptimal introducing one of the newer weight loss drugs can help",
+          "score": 0.9984
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ond2wz",
+          "title": "Designing better, longer-lasting medicines",
+          "preview": "Designing better longer lasting medicines",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "cells",
+        "scientists",
+        "generation",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion"
+      ],
+      "samples": [
+        {
+          "id": "1qlvhas",
+          "title": "Scientists May Have Found a Blueprint to Revive Old Cells",
+          "preview": "Scientists May Have Found a Blueprint to Revive Old Cells",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "wound",
+        "drug",
+        "film",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1oaotd7",
+          "title": "Sake to the stars: Japan’s lunar brewing experiment set for takeoff",
+          "preview": "Sake to the stars Japan s lunar brewing experiment set for takeoff",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "new",
+        "wound",
+        "fight",
+        "finds",
+        "fuels",
+        "function",
+        "fusion",
+        "gen"
+      ],
+      "samples": [
+        {
+          "id": "1ql87uu",
+          "title": "New filtration technology could be gamechanger in removal of Pfas ‘forever chemicals’",
+          "preview": "New filtration technology could be gamechanger in removal of Pfas forever chemicals",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "material",
+        "scientists",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1qcnwbl",
+          "title": "Scientists develop nanophotonic material that changes color, texture, and shape on demand",
+          "preview": "Scientists develop nanophotonic material that changes color texture and shape on demand",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "gene",
+        "way",
+        "new",
+        "wound",
+        "film",
+        "finds",
+        "fuels",
+        "function"
+      ],
+      "samples": [
+        {
+          "id": "1ouafw0",
+          "title": "A new way to understand and predict gene splicing",
+          "preview": "A new way to understand and predict gene splicing",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 1,
+      "avg_intra_similarity": 1.0,
+      "keywords": [
+        "study",
+        "breakthrough",
+        "scientists",
+        "wound",
+        "gene",
+        "film",
+        "finds",
+        "fuels"
+      ],
+      "samples": [
+        {
+          "id": "1qpok5x",
+          "title": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "preview": "Scientists achieve pancreatic tumour regression in breakthrough study",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "size": 3,
+      "avg_intra_similarity": 0.8679,
+      "keywords": [
+        "world",
+        "model",
+        "real",
+        "material",
+        "high",
+        "human",
+        "ai",
+        "new"
+      ],
+      "samples": [
+        {
+          "id": "1qvy73x",
+          "title": "AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts",
+          "preview": "AI model OpenScholar synthesizes scientific research and cites sources as accurately as human experts",
+          "score": 0.9645
+        },
+        {
+          "id": "1o3vw6e",
+          "title": "Forged in disorder: High-entropy MXenes emerge as a new material",
+          "preview": "Forged in disorder High entropy MXenes emerge as a new material",
+          "score": 0.9622
+        },
+        {
+          "id": "1pw4x86",
+          "title": "Magnetic cloaking is moving from theory to real-world engineering",
+          "preview": "Magnetic cloaking is moving from theory to real world engineering",
+          "score": 0.9382
+        }
+      ]
+    }
+  ]
+}
