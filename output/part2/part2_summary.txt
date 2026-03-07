@@ -1,24 +1,31 @@
 Lab 8 Part 2 — Word2Vec + Bag-of-Bins Summary
-========================================================================
-Config                     Bins Weight  DocK      Sil       DB  AvgIntra
-------------------------------------------------------------------------
-w2v_k3_tfidf                  3  tfidf    10   0.5485   0.7175    0.9699
-w2v_k3_freq                   3   freq    10   0.5338   0.7268    0.9706
-w2v_k5_freq                   5   freq     9   0.3400   1.1887    0.8801
-w2v_k5_tfidf                  5  tfidf     7   0.3361   1.2806    0.8533
-w2v_k8_freq                   8   freq     7   0.2959   1.5476    0.7467
-w2v_k8_tfidf                  8  tfidf     7   0.2937   1.4913    0.7271
-w2v_k10_freq                 10   freq     7   0.2465   1.6447    0.6980
-w2v_k10_tfidf                10  tfidf     9   0.2436   1.6344    0.6969
-w2v_k20_freq                 20   freq     2   0.1973   2.7345    0.4342
-w2v_k20_tfidf                20  tfidf     9   0.1605   2.1943    0.4881
-w2v_k50_freq                 50   freq     4   0.1088   3.3969    0.2828
-w2v_k50_tfidf                50  tfidf    10   0.0942   3.0554    0.2958
-w2v_k100_freq               100   freq     2   0.0926   3.9810    0.1908
-w2v_k200_freq               200   freq     4   0.0827   3.7964    0.1838
-w2v_k100_tfidf              100  tfidf     9   0.0514   3.8512    0.1826
-w2v_k200_tfidf              200  tfidf     8   0.0334   4.6786    0.1161
-------------------------------------------------------------------------
+===============================================================================================================
+Config                     Bins Weight  DocK      Sil       DB         CH  AvgIntra  MinSz  MaxSz   Ratio  Sing
+---------------------------------------------------------------------------------------------------------------
+w2v_k3_tfidf                  3  tfidf    10   0.5485   0.7175     127.99    0.9699      1     38   38.00     1
+w2v_k3_freq                   3   freq    10   0.5338   0.7268     126.85    0.9706      1     40   40.00     1
+w2v_k5_freq                   5   freq     9   0.3400   1.1887      44.36    0.8801      8     34    4.25     0
+w2v_k5_tfidf                  5  tfidf     7   0.3361   1.2806      47.01    0.8533     23     33    1.43     0
+w2v_k8_freq                   8   freq     7   0.2959   1.5476      28.62    0.7467     20     47    2.35     0
+w2v_k8_tfidf                  8  tfidf     7   0.2937   1.4913      28.34    0.7271     16     40    2.50     0
+w2v_k10_freq                 10   freq     7   0.2465   1.6447      23.65    0.6980     19     43    2.26     0
+w2v_k10_tfidf                10  tfidf     9   0.2436   1.6344      20.73    0.6969     18     26    1.44     0
+w2v_k20_freq                 20   freq     2   0.1973   2.7345      25.81    0.4342     96    104    1.08     0
+w2v_k20_tfidf                20  tfidf     9   0.1605   2.1943      10.40    0.4881     14     33    2.36     0
+w2v_k50_freq                 50   freq     4   0.1088   3.3969       9.65    0.2828     38     65    1.71     0
+w2v_k50_tfidf                50  tfidf    10   0.0942   3.0554       5.48    0.2958     14     31    2.21     0
+w2v_k100_freq               100   freq     2   0.0926   3.9810      12.15    0.1908     89    111    1.25     0
+w2v_k200_freq               200   freq     4   0.0827   3.7964       7.79    0.1838     28     68    2.43     0
+w2v_k100_tfidf              100  tfidf     9   0.0514   3.8512       3.54    0.1826      8     39    4.88     0
+w2v_k200_tfidf              200  tfidf     8   0.0334   4.6786       2.76    0.1161     10     48    4.80     0
+---------------------------------------------------------------------------------------------------------------
 
-Best configuration:
-  w2v_k3_tfidf  |  bins=3  |  sil=0.5485  |  db=0.7175
+Best configuration (silhouette ↑, DB ↓, CH ↑):
+  w2v_k3_tfidf  |  bins=3  |  sil=0.5485  |  db=0.7175  |  ch=127.99
+
+Metrics:
+  silhouette_cosine  — higher is better  [-1, 1]
+  davies_bouldin     — lower is better   [0, ∞)
+  calinski_harabasz  — higher is better  [0, ∞)
+  size_ratio         — max/min cluster size; closer to 1 = more balanced
+  singleton_clusters — clusters with only 1 document

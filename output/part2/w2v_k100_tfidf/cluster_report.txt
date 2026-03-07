@@ -1,9 +1,9 @@
-Config       : w2v_k100
-Word Bins K  : 100
-Weighting    : tfidf
-Doc Clusters : 9
-Documents    : 200
-Silhouette   : 0.0514
+Config        : w2v_k100
+Word Bins K   : 100
+Weighting     : tfidf
+Doc Clusters  : 9
+Documents     : 200
+Silhouette    : 0.0514
 Davies-Bouldin: 3.8512
 
 Word Bin Samples (top 5 bins shown):

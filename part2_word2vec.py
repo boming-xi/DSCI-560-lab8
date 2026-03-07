@@ -13,7 +13,7 @@ from gensim.models import Word2Vec
 from gensim.utils import simple_preprocess
 
 from sklearn.cluster import KMeans
-from sklearn.metrics import davies_bouldin_score, silhouette_score
+from sklearn.metrics import davies_bouldin_score, silhouette_score, calinski_harabasz_score
 from sklearn.metrics.pairwise import cosine_similarity
 
 
@@ -185,43 +185,33 @@ def find_best_k(vectors, k_min, k_max, seed):
 
 
 def evaluate_clustering(vectors, labels):
+    """Returns silhouette (cosine), davies-bouldin, calinski-harabasz."""
     if len(set(labels)) < 2:
-        return 0.0, float("inf")
+        return 0.0, float("inf"), 0.0
     sil = float(silhouette_score(vectors, labels, metric="cosine"))
-    db = float(davies_bouldin_score(vectors, labels))
-    return sil, db
+    db  = float(davies_bouldin_score(vectors, labels))
+    ch  = float(calinski_harabasz_score(vectors, labels))
+    return sil, db, ch
 
 
-def compute_avg_intra_similarity(vectors, labels):
-    total = 0.0
-    total_docs = len(vectors)
-    for lab in np.unique(labels):
-        idx = np.where(labels == lab)[0]
-        m = len(idx)
-        if m <= 1:
-            total += 1.0 * m
-            continue
-        sub = vectors[idx]
-        sim_mat = cosine_similarity(sub)
-        iu = np.triu_indices(m, k=1)
-        upper = sim_mat[iu]
-        avg = float(np.mean(upper)) if upper.size > 0 else 1.0
-        total += avg * m
-    return float(total / total_docs) if total_docs > 0 else 0.0
+def cluster_balance_stats(labels: np.ndarray) -> Dict:
+    """Compute cluster size distribution metrics."""
+    counts = np.bincount(labels)
+    min_size   = int(counts.min())
+    max_size   = int(counts.max())
+    size_ratio = round(float(max_size / min_size), 4) if min_size > 0 else float("inf")
+    singletons = int(np.sum(counts == 1))
+    return {
+        "min_cluster_size":   min_size,
+        "max_cluster_size":   max_size,
+        "size_ratio":         size_ratio,
+        "singleton_clusters": singletons,
+    }
 
 
 def build_cluster_report(
-    vectors_norm: np.ndarray,
-    labels: np.ndarray,
-    texts: List[str],
-    meta: List[Dict],
-    bins: WordBins,
-    weighting: str,
-    bin_config: BinConfig,
-    silhouette: float,
-    db_index: float,
-    k_scores: Dict[int, float],
-    args: argparse.Namespace,
+    vectors_norm, labels, texts, meta, bins,
+    weighting, bin_config, silhouette, db_index, k_scores, args,
 ) -> Dict:
     k = int(labels.max()) + 1
     report: Dict = {
@@ -270,12 +260,12 @@ def build_cluster_report(
 
 def write_cluster_txt(path: str, report: Dict, bins: WordBins) -> None:
     lines = [
-        f"Config       : {report['bin_config']}",
-        f"Word Bins K  : {report['k_word_bins']}",
-        f"Weighting    : {report['weighting']}",
-        f"Doc Clusters : {report['doc_clusters_k']}",
-        f"Documents    : {report['num_docs']}",
-        f"Silhouette   : {report['silhouette_cosine']}",
+        f"Config        : {report['bin_config']}",
+        f"Word Bins K   : {report['k_word_bins']}",
+        f"Weighting     : {report['weighting']}",
+        f"Doc Clusters  : {report['doc_clusters_k']}",
+        f"Documents     : {report['num_docs']}",
+        f"Silhouette    : {report['silhouette_cosine']}",
         f"Davies-Bouldin: {report['davies_bouldin']}",
         "",
         "Word Bin Samples (top 5 bins shown):",
@@ -308,6 +298,20 @@ def save_assignments(path: str, meta: List[Dict], labels: np.ndarray, args: argp
             ])
 
 
+def write_results_csv(path: str, summary: List[Dict]) -> None:
+    """Unified comparison CSV with all metrics — use this for Part 3 cross-method comparison."""
+    fieldnames = [
+        "name", "k_word_bins", "weighting", "doc_clusters_k",
+        "silhouette_cosine", "davies_bouldin", "calinski_harabasz",
+        "avg_intra_similarity",
+        "min_cluster_size", "max_cluster_size", "size_ratio", "singleton_clusters",
+    ]
+    with open(path, "w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(summary)
+
+
 def run_config(bin_config, w2v_model, token_lists, texts, meta, args):
     bins = cluster_words(w2v_model, bin_config.k, args.seed)
     summary_rows = []
@@ -320,42 +324,58 @@ def run_config(bin_config, w2v_model, token_lists, texts, meta, args):
         best_k, best_sil, k_scores = find_best_k(vectors_norm, args.k_min, args.k_max, args.seed)
         km = KMeans(n_clusters=best_k, random_state=args.seed, n_init=10)
         labels = km.fit_predict(vectors_norm)
-        sil, db = evaluate_clustering(vectors_norm, labels)
-        report = build_cluster_report(vectors_norm, labels, texts, meta, bins, weighting, bin_config, sil, db, k_scores, args)
+
+        sil, db, ch = evaluate_clustering(vectors_norm, labels)
+        balance = cluster_balance_stats(labels)
+
+        report = build_cluster_report(
+            vectors_norm, labels, texts, meta, bins,
+            weighting, bin_config, sil, db, k_scores, args,
+        )
         weighted = sum(cl["avg_intra_similarity"] * cl["size"] for cl in report["clusters"])
         avg_intra = weighted / len(texts) if texts else 0.0
+
         out_dir = os.path.join(args.output_dir, f"{bin_config.name}_{weighting}")
         ensure_dir(out_dir)
         with open(os.path.join(out_dir, "cluster_report.json"), "w", encoding="utf-8") as fh:
             json.dump(report, fh, ensure_ascii=False, indent=2)
         write_cluster_txt(os.path.join(out_dir, "cluster_report.txt"), report, bins)
         save_assignments(os.path.join(out_dir, "cluster_assignments.csv"), meta, labels, args)
-        word_bins_path = os.path.join(out_dir, "word_bins.json")
         word_bin_data = {str(bid): bins.bin_top_words.get(bid, []) for bid in range(bins.k)}
-        with open(word_bins_path, "w", encoding="utf-8") as fh:
+        with open(os.path.join(out_dir, "word_bins.json"), "w", encoding="utf-8") as fh:
             json.dump(word_bin_data, fh, ensure_ascii=False, indent=2)
+
         summary_rows.append({
-            "name": f"{bin_config.name}_{weighting}",
-            "k_word_bins": bin_config.k,
-            "weighting": weighting,
-            "doc_clusters_k": best_k,
-            "silhouette_cosine": round(sil, 4),
-            "davies_bouldin": round(db, 4),
+            "name":                 f"{bin_config.name}_{weighting}",
+            "k_word_bins":          bin_config.k,
+            "weighting":            weighting,
+            "doc_clusters_k":       best_k,
+            "silhouette_cosine":    round(sil, 4),
+            "davies_bouldin":       round(db, 4),
+            "calinski_harabasz":    round(ch, 4),
             "avg_intra_similarity": round(avg_intra, 4),
+            "min_cluster_size":     balance["min_cluster_size"],
+            "max_cluster_size":     balance["max_cluster_size"],
+            "size_ratio":           balance["size_ratio"],
+            "singleton_clusters":   balance["singleton_clusters"],
         })
-        print(f"  [{bin_config.name} | {weighting:5s}] k={best_k} sil={sil:.4f} db={db:.4f}")
+        print(
+            f"  [{bin_config.name} | {weighting:5s}] "
+            f"k={best_k} sil={sil:.4f} db={db:.4f} ch={ch:.1f} "
+            f"ratio={balance['size_ratio']}"
+        )
     return summary_rows
 
 
 def parse_args():
     p = argparse.ArgumentParser(description="Lab 8 Part 2: Word2Vec + Bag-of-Bins document embeddings.")
-    p.add_argument("--input",       default="data/clean.json")
-    p.add_argument("--output-dir",  default="output/part2")
-    p.add_argument("--text-field",  default="clean_text")
-    p.add_argument("--k-min",       type=int,   default=2)
-    p.add_argument("--k-max",       type=int,   default=10)
+    p.add_argument("--input",               default="data/clean.json")
+    p.add_argument("--output-dir",          default="output/part2")
+    p.add_argument("--text-field",          default="clean_text")
+    p.add_argument("--k-min",               type=int, default=2)
+    p.add_argument("--k-max",               type=int, default=10)
     p.add_argument("--samples-per-cluster", type=int, default=3)
-    p.add_argument("--seed",        type=int,   default=42)
+    p.add_argument("--seed",                type=int, default=42)
     return p.parse_args()
 
 
@@ -376,39 +396,61 @@ def main():
     token_lists = tokenize(texts)
     print("Training Word2Vec (skip-gram, negative sampling) …")
     w2v_model = train_word2vec(token_lists, args.seed)
-    vocab_size = len(w2v_model.wv)
-    print(f"  Vocab size: {vocab_size}")
+    print(f"  Vocab size: {len(w2v_model.wv)}")
     ensure_dir(args.output_dir)
+
     all_summary: List[Dict] = []
     for bin_config in BIN_CONFIGS:
         print(f"\nBin config: {bin_config.name} (K={bin_config.k})")
         rows = run_config(bin_config, w2v_model, token_lists, texts, meta, args)
         all_summary.extend(rows)
+
     all_summary.sort(key=lambda r: (r["silhouette_cosine"], -r["davies_bouldin"]), reverse=True)
-    summary_json = os.path.join(args.output_dir, "part2_summary.json")
-    with open(summary_json, "w", encoding="utf-8") as fh:
+
+    with open(os.path.join(args.output_dir, "part2_summary.json"), "w", encoding="utf-8") as fh:
         json.dump(all_summary, fh, ensure_ascii=False, indent=2)
-    header = (f"{'Config':<25} {'Bins':>5} {'Weight':>6} " f"{'DocK':>5} {'Sil':>8} {'DB':>8} {'AvgIntra':>9}")
-    rows_txt = ["Lab 8 Part 2 — Word2Vec + Bag-of-Bins Summary", "=" * len(header), header, "-" * len(header)]
+
+    write_results_csv(os.path.join(args.output_dir, "part2_results.csv"), all_summary)
+
+    header = (
+        f"{'Config':<25} {'Bins':>5} {'Weight':>6} {'DocK':>5} "
+        f"{'Sil':>8} {'DB':>8} {'CH':>10} {'AvgIntra':>9} "
+        f"{'MinSz':>6} {'MaxSz':>6} {'Ratio':>7} {'Sing':>5}"
+    )
+    rows_txt = [
+        "Lab 8 Part 2 — Word2Vec + Bag-of-Bins Summary",
+        "=" * len(header), header, "-" * len(header),
+    ]
     for r in all_summary:
         rows_txt.append(
-            f"{r['name']:<25} {r['k_word_bins']:>5} {r['weighting']:>6} "
-            f"{r['doc_clusters_k']:>5} {r['silhouette_cosine']:>8.4f} "
-            f"{r['davies_bouldin']:>8.4f} {r['avg_intra_similarity']:>9.4f}"
+            f"{r['name']:<25} {r['k_word_bins']:>5} {r['weighting']:>6} {r['doc_clusters_k']:>5} "
+            f"{r['silhouette_cosine']:>8.4f} {r['davies_bouldin']:>8.4f} {r['calinski_harabasz']:>10.2f} "
+            f"{r['avg_intra_similarity']:>9.4f} "
+            f"{r['min_cluster_size']:>6} {r['max_cluster_size']:>6} {r['size_ratio']:>7.2f} "
+            f"{r['singleton_clusters']:>5}"
         )
     rows_txt.append("-" * len(header))
-    if all_summary:
-        best = all_summary[0]
-        rows_txt += [
-            "",
-            "Best configuration:",
-            f"  {best['name']}  |  bins={best['k_word_bins']}  |  sil={best['silhouette_cosine']:.4f}  |  db={best['davies_bouldin']:.4f}",
-        ]
-    summary_txt = os.path.join(args.output_dir, "part2_summary.txt")
-    with open(summary_txt, "w", encoding="utf-8") as fh:
+    best = all_summary[0]
+    rows_txt += [
+        "",
+        "Best configuration (silhouette ↑, DB ↓, CH ↑):",
+        f"  {best['name']}  |  bins={best['k_word_bins']}  "
+        f"|  sil={best['silhouette_cosine']:.4f}  "
+        f"|  db={best['davies_bouldin']:.4f}  "
+        f"|  ch={best['calinski_harabasz']:.2f}",
+        "",
+        "Metrics:",
+        "  silhouette_cosine  — higher is better  [-1, 1]",
+        "  davies_bouldin     — lower is better   [0, ∞)",
+        "  calinski_harabasz  — higher is better  [0, ∞)",
+        "  size_ratio         — max/min cluster size; closer to 1 = more balanced",
+        "  singleton_clusters — clusters with only 1 document",
+    ]
+    with open(os.path.join(args.output_dir, "part2_summary.txt"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(rows_txt))
+
     print(f"\nDone. Results in: {args.output_dir}")
-    print(f"Best config: {best['name']}  sil={best['silhouette_cosine']:.4f}  db={best['davies_bouldin']:.4f}")
+    print(f"Best config: {best['name']}  sil={best['silhouette_cosine']:.4f}  db={best['davies_bouldin']:.4f}  ch={best['calinski_harabasz']:.2f}")
     return 0
 
 

@@ -1,9 +1,9 @@
-Config       : w2v_k20
-Word Bins K  : 20
-Weighting    : freq
-Doc Clusters : 2
-Documents    : 200
-Silhouette   : 0.1973
+Config        : w2v_k20
+Word Bins K   : 20
+Weighting     : freq
+Doc Clusters  : 2
+Documents     : 200
+Silhouette    : 0.1973
 Davies-Bouldin: 2.7345
 
 Word Bin Samples (top 5 bins shown):
