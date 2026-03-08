@@ -81,6 +81,7 @@ Each config folder (e.g. `output/part2/w2v_k50_freq/`) contains:
 
 ```bash
 python part3_analysis.py
+```
 
 3.Optional arguments.
 (No optional arguments required for Part 3)
