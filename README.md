@@ -63,3 +63,28 @@ Each config folder (e.g. `output/part2/w2v_k50_freq/`) contains:
 - `word_bins.json` — top representative words for each semantic bin
 
 **Word bin configurations tested:** K = 3, 5, 8, 10, 20, 50, 100, 200 (both frequency and TF-IDF weighted for each).
+
+
+## Part 3: Comparative Analysis
+
+1. `part3_analysis.py` compares the clustering performance of Doc2Vec (Part 1) and Word2Vec + Bag-of-Bins (Part 2).  
+   The script reads the summary outputs from both methods and generates a silhouette score comparison plot.
+
+### Run Part 3
+
+1. Make sure Part 1 and Part 2 have already been executed and the following files exist:
+
+   - `output/part1/part1_summary.json`
+   - `output/part2/part2_summary.json`
+
+2. Run the script from this folder.
+
+```bash
+python part3_analysis.py
+
+3.Optional arguments.
+(No optional arguments required for Part 3)
+
+4.Check the outputs.
+- part3_comparison.png — silhouette score comparison between Doc2Vec and Word2Vec embeddings
+- Terminal output — best configuration from each method and their silhouette scores
